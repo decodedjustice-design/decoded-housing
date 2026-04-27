@@ -35,9 +35,13 @@ export const Route = createRootRoute({
       { name: "description", content: "Find affordable housing, get help with food, utilities, furniture, and rent, and understand your tenant rights in King County." },
       { name: "author", content: "Decoded Housing" },
       { property: "og:title", content: "Decoded Housing — Housing stability for King County" },
-      { property: "og:description", content: "Calm, supportive guidance for housing, basic needs, and tenant rights." },
+      { property: "og:description", content: "Find affordable housing, get help with food, utilities, furniture, and rent, and understand your tenant rights in King County." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { name: "twitter:title", content: "Decoded Housing — Housing stability for King County" },
+      { name: "twitter:description", content: "Find affordable housing, get help with food, utilities, furniture, and rent, and understand your tenant rights in King County." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e415d407-e306-42d8-bb36-3d351a49b68f/id-preview-502ec7af--a88c4118-917c-4ab6-ad62-dadd7e615949.lovable.app-1777262413541.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e415d407-e306-42d8-bb36-3d351a49b68f/id-preview-502ec7af--a88c4118-917c-4ab6-ad62-dadd7e615949.lovable.app-1777262413541.png" },
     ],
     links: [
       {
