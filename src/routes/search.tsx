@@ -1,25 +1,25 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { MapPin, BedDouble, Users, BadgeCheck, Map as MapIcon } from "lucide-react";
+import { MapPin, BedDouble, Users, Map as MapIcon } from "lucide-react";
 
 export const Route = createFileRoute("/search")({
   head: () => ({
     meta: [
       { title: "Search Housing — Decoded Housing" },
-      { name: "description", content: "Browse affordable housing across King County. Filter by city, AMI, vouchers, and unit size." },
+      { name: "description", content: "Browse affordable housing across King County. Filter by city, AMI, and unit size." },
       { property: "og:title", content: "Search Housing — Decoded Housing" },
-      { property: "og:description", content: "Affordable units in King County with filters for vouchers and AMI." },
+      { property: "og:description", content: "Affordable units in King County with filters for AMI and unit size." },
     ],
   }),
   component: SearchPage,
 });
 
 const listings = [
-  { id: 1, name: "Othello Square Apartments", city: "Seattle", ami: "30–60% AMI", beds: "1–3 BR", vouchers: true },
-  { id: 2, name: "Patricia Apartments", city: "Renton", ami: "50–80% AMI", beds: "Studio–2 BR", vouchers: true },
-  { id: 3, name: "Greenbridge Family Homes", city: "White Center", ami: "30–50% AMI", beds: "2–4 BR", vouchers: true },
-  { id: 4, name: "Madrona Ridge", city: "Kent", ami: "60% AMI", beds: "1–2 BR", vouchers: false },
-  { id: 5, name: "Cedar River Court", city: "Tukwila", ami: "40–60% AMI", beds: "Studio–3 BR", vouchers: true },
-  { id: 6, name: "Plaza Roberto Maestas", city: "Seattle", ami: "30–60% AMI", beds: "1–3 BR", vouchers: true },
+  { id: 1, name: "Othello Square Apartments", city: "Seattle", ami: "30–60% AMI", beds: "1–3 BR" },
+  { id: 2, name: "Patricia Apartments", city: "Renton", ami: "50–80% AMI", beds: "Studio–2 BR" },
+  { id: 3, name: "Greenbridge Family Homes", city: "White Center", ami: "30–50% AMI", beds: "2–4 BR" },
+  { id: 4, name: "Madrona Ridge", city: "Kent", ami: "60% AMI", beds: "1–2 BR" },
+  { id: 5, name: "Cedar River Court", city: "Tukwila", ami: "40–60% AMI", beds: "Studio–3 BR" },
+  { id: 6, name: "Plaza Roberto Maestas", city: "Seattle", ami: "30–60% AMI", beds: "1–3 BR" },
 ];
 
 function SearchPage() {
@@ -30,11 +30,10 @@ function SearchPage() {
         <p className="mt-1 text-sm text-muted-foreground">King County listings — filter by what fits your situation.</p>
       </header>
 
-      <div className="mb-6 grid gap-3 rounded-2xl border border-border bg-card p-4 sm:grid-cols-4">
+      <div className="mb-6 grid gap-3 rounded-2xl border border-border bg-card p-4 sm:grid-cols-3">
         {[
           { label: "City", value: "All King County" },
           { label: "AMI", value: "Up to 60%" },
-          { label: "Vouchers", value: "Accepted" },
           { label: "Unit size", value: "Any" },
         ].map((f) => (
           <label key={f.label} className="text-xs font-medium text-muted-foreground">
@@ -62,11 +61,6 @@ function SearchPage() {
                 <span className="inline-flex items-center gap-1 rounded-full bg-accent px-2 py-1 text-accent-foreground">
                   <BedDouble className="h-3 w-3" /> {l.beds}
                 </span>
-                {l.vouchers && (
-                  <span className="inline-flex items-center gap-1 rounded-full bg-secondary px-2 py-1 text-secondary-foreground">
-                    <BadgeCheck className="h-3 w-3" /> Vouchers OK
-                  </span>
-                )}
               </div>
               <button className="mt-4 w-full rounded-xl bg-primary px-3 py-2 text-sm font-medium text-primary-foreground hover:bg-primary-glow">
                 View details
