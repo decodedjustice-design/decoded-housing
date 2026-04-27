@@ -14,7 +14,60 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      resources: {
+        Row: {
+          address: string | null
+          category: string
+          city: string | null
+          created_at: string
+          description: string | null
+          eligibility: string | null
+          hours: string | null
+          id: string
+          name: string
+          phone: string | null
+          priority_level: number
+          subcategory: string | null
+          verified: boolean
+          website: string | null
+          zip: string | null
+        }
+        Insert: {
+          address?: string | null
+          category: string
+          city?: string | null
+          created_at?: string
+          description?: string | null
+          eligibility?: string | null
+          hours?: string | null
+          id?: string
+          name: string
+          phone?: string | null
+          priority_level?: number
+          subcategory?: string | null
+          verified?: boolean
+          website?: string | null
+          zip?: string | null
+        }
+        Update: {
+          address?: string | null
+          category?: string
+          city?: string | null
+          created_at?: string
+          description?: string | null
+          eligibility?: string | null
+          hours?: string | null
+          id?: string
+          name?: string
+          phone?: string | null
+          priority_level?: number
+          subcategory?: string | null
+          verified?: boolean
+          website?: string | null
+          zip?: string | null
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
