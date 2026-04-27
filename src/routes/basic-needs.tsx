@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Apple, Zap, Sofa, Scale, AlertTriangle } from "lucide-react";
-import { useResources, CATEGORY_LABEL, DEFAULT_CITY, type ResourceCategory } from "@/lib/resources";
+import { useResources, CATEGORY_LABEL, DEFAULT_CITY, cityFromCoordinates, type ResourceCategory } from "@/lib/resources";
 import { ResourceCard } from "@/components/resources/ResourceCard";
 
 export const Route = createFileRoute("/basic-needs")({
@@ -26,12 +26,34 @@ const TABS: { key: "all" | ResourceCategory; label: string; icon: React.Componen
 
 function BasicNeedsPage() {
   const [activeTab, setActiveTab] = useState<"all" | ResourceCategory>("all");
-  const [city, setCity] = useState<string>(DEFAULT_CITY);
+  const [userCity, setUserCity] = useState<string>(DEFAULT_CITY);
+  const [showCityPicker, setShowCityPicker] = useState(false);
   const [urgentOnly, setUrgentOnly] = useState(false);
+
+  useEffect(() => {
+    if (!navigator.geolocation) {
+      setUserCity(DEFAULT_CITY);
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const mappedCity = cityFromCoordinates(position.coords.latitude, position.coords.longitude);
+        setUserCity(mappedCity);
+      },
+      () => {
+        setUserCity(DEFAULT_CITY);
+      },
+      {
+        timeout: 8000,
+        maximumAge: 1000 * 60 * 30,
+      },
+    );
+  }, []);
 
   const { data, loading, error } = useResources({
     category: activeTab === "all" ? undefined : activeTab,
-    city,
+    city: userCity,
     urgentOnly,
   });
 
@@ -65,16 +87,27 @@ function BasicNeedsPage() {
         </div>
 
         <div className="flex flex-wrap items-center gap-2">
-          <label className="text-xs text-muted-foreground">City</label>
-          <select
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
-            className="rounded-lg border border-border bg-background px-2 py-1.5 text-xs text-foreground"
+          <p className="text-xs text-muted-foreground">
+            Showing results near: <span className="font-medium text-foreground">{userCity}</span>
+          </p>
+          <button
+            onClick={() => setShowCityPicker((v) => !v)}
+            className="rounded-md px-2 py-1 text-xs text-primary hover:bg-muted"
           >
-            {CITIES.map((c) => (
-              <option key={c} value={c}>{c}</option>
-            ))}
-          </select>
+            {showCityPicker ? "Done" : "Change"}
+          </button>
+
+          {showCityPicker && (
+            <select
+              value={userCity}
+              onChange={(e) => setUserCity(e.target.value)}
+              className="rounded-lg border border-border bg-background px-2 py-1.5 text-xs text-foreground"
+            >
+              {CITIES.map((c) => (
+                <option key={c} value={c}>{c}</option>
+              ))}
+            </select>
+          )}
 
           <button
             onClick={() => setUrgentOnly((v) => !v)}
