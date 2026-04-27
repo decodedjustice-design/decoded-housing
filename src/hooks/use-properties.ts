@@ -13,6 +13,10 @@ export interface UsePropertiesFilters {
   verified?: boolean;
   transit?: boolean;
   sort?: PropertySort;
+  /** Maximum AMI percentage band to include (e.g. 60 means only show ≤60% AMI bands) */
+  maxAmi?: number;
+  /** Bedroom size labels to match against units[] (e.g. "Studio", "1BR", "2BR", "3BR", "4BR+") */
+  bedrooms?: string[];
 }
 
 function getMinimumAmi(ami: string[] | null): number {
@@ -100,12 +104,35 @@ export function useProperties(filters: UsePropertiesFilters = {}) {
         if ((property.transit_distance ?? Number.POSITIVE_INFINITY) > 0.5) return false;
       }
 
+      if (typeof filters.maxAmi === "number") {
+        const minAmi = getMinimumAmi(property.ami);
+        if (!Number.isFinite(minAmi)) return false;
+        if (minAmi > filters.maxAmi) return false;
+      }
+
+      if (filters.bedrooms && filters.bedrooms.length > 0) {
+        const unitLabels = (property.units ?? []).join(" ");
+        const matched = filters.bedrooms.some((bed) => unitLabels.includes(bed));
+        if (!matched) return false;
+      }
+
       return true;
     });
 
     filtered = sortProperties(filtered, filters.sort);
     return filtered;
-  }, [rows, filters.search, filters.types, filters.cities, filters.voucher, filters.verified, filters.transit, filters.sort]);
+  }, [
+    rows,
+    filters.search,
+    filters.types,
+    filters.cities,
+    filters.voucher,
+    filters.verified,
+    filters.transit,
+    filters.sort,
+    filters.maxAmi,
+    filters.bedrooms,
+  ]);
 
   return { data, loading, error };
 }

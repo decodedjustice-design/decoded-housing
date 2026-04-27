@@ -1,6 +1,32 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { MapPin, BedDouble, Users, Map as MapIcon } from "lucide-react";
+import { useMemo, useState } from "react";
 import { useProperties } from "@/hooks/use-properties";
+
+const KING_COUNTY_CITIES = [
+  "Auburn","Bellevue","Bothell","Burien","Covington","Des Moines","Enumclaw",
+  "Federal Way","Issaquah","Kenmore","Kent","Kirkland","Lake Forest Park",
+  "Maple Valley","Mercer Island","Newcastle","Pacific","Redmond","Renton",
+  "Sammamish","Seatac","Seattle","Shoreline","Snoqualmie","Tukwila","Vashon",
+  "Woodinville",
+];
+
+const AMI_OPTIONS: Array<{ label: string; value: number | "" }> = [
+  { label: "Any AMI", value: "" },
+  { label: "Up to 30%", value: 30 },
+  { label: "Up to 50%", value: 50 },
+  { label: "Up to 60%", value: 60 },
+  { label: "Up to 80%", value: 80 },
+];
+
+const BEDROOM_OPTIONS = [
+  { label: "Any size", value: "" },
+  { label: "Studio", value: "Studio" },
+  { label: "1 bedroom", value: "1BR" },
+  { label: "2 bedrooms", value: "2BR" },
+  { label: "3 bedrooms", value: "3BR" },
+  { label: "4+ bedrooms", value: "4BR+" },
+];
 
 export const Route = createFileRoute("/search")({
   head: () => ({
@@ -15,15 +41,19 @@ export const Route = createFileRoute("/search")({
 });
 
 function SearchPage() {
-  const filters = {
-    search: "",
-    types: [] as string[],
-    cities: [] as string[],
-    voucher: false,
-    verified: false,
-    transit: false,
-    sort: "recent" as const,
-  };
+  const [city, setCity] = useState<string>("");
+  const [maxAmi, setMaxAmi] = useState<number | "">("");
+  const [bedroom, setBedroom] = useState<string>("");
+
+  const filters = useMemo(
+    () => ({
+      cities: city ? [city] : [],
+      maxAmi: maxAmi === "" ? undefined : maxAmi,
+      bedrooms: bedroom ? [bedroom] : [],
+      sort: "recent" as const,
+    }),
+    [city, maxAmi, bedroom],
+  );
 
   const { data, loading, error } = useProperties(filters);
 
@@ -35,18 +65,47 @@ function SearchPage() {
       </header>
 
       <div className="mb-6 grid gap-3 rounded-2xl border border-border bg-card p-4 sm:grid-cols-3">
-        {[
-          { label: "City", value: "All King County" },
-          { label: "AMI", value: "Up to 60%" },
-          { label: "Unit size", value: "Any" },
-        ].map((f) => (
-          <label key={f.label} className="text-xs font-medium text-muted-foreground">
-            {f.label}
-            <select className="mt-1 block w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground">
-              <option>{f.value}</option>
-            </select>
-          </label>
-        ))}
+        <label className="text-xs font-medium text-muted-foreground">
+          City
+          <select
+            className="mt-1 block w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground"
+            value={city}
+            onChange={(e) => setCity(e.target.value)}
+          >
+            <option value="">All King County</option>
+            {KING_COUNTY_CITIES.map((c) => (
+              <option key={c} value={c}>{c}</option>
+            ))}
+          </select>
+        </label>
+
+        <label className="text-xs font-medium text-muted-foreground">
+          AMI
+          <select
+            className="mt-1 block w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground"
+            value={maxAmi === "" ? "" : String(maxAmi)}
+            onChange={(e) => setMaxAmi(e.target.value === "" ? "" : Number(e.target.value))}
+          >
+            {AMI_OPTIONS.map((opt) => (
+              <option key={opt.label} value={opt.value === "" ? "" : String(opt.value)}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="text-xs font-medium text-muted-foreground">
+          Unit size
+          <select
+            className="mt-1 block w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground"
+            value={bedroom}
+            onChange={(e) => setBedroom(e.target.value)}
+          >
+            {BEDROOM_OPTIONS.map((opt) => (
+              <option key={opt.label} value={opt.value}>{opt.label}</option>
+            ))}
+          </select>
+        </label>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-[1fr_360px]">
