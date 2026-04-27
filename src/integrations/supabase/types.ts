@@ -14,6 +14,78 @@ export type Database = {
   }
   public: {
     Tables: {
+      properties: {
+        Row: {
+          address: string | null
+          affordable_units: number | null
+          ami: string[]
+          city: string | null
+          created_at: string
+          id: string
+          image_url: string | null
+          insider: string | null
+          name: string
+          program_type: string | null
+          source: string | null
+          status: string | null
+          total_units: number | null
+          transit_distance: number | null
+          types: string[]
+          units: string[]
+          updated_days: number | null
+          verified: boolean
+          voucher: boolean
+          year: number | null
+          zip: string | null
+        }
+        Insert: {
+          address?: string | null
+          affordable_units?: number | null
+          ami?: string[]
+          city?: string | null
+          created_at?: string
+          id?: string
+          image_url?: string | null
+          insider?: string | null
+          name: string
+          program_type?: string | null
+          source?: string | null
+          status?: string | null
+          total_units?: number | null
+          transit_distance?: number | null
+          types?: string[]
+          units?: string[]
+          updated_days?: number | null
+          verified?: boolean
+          voucher?: boolean
+          year?: number | null
+          zip?: string | null
+        }
+        Update: {
+          address?: string | null
+          affordable_units?: number | null
+          ami?: string[]
+          city?: string | null
+          created_at?: string
+          id?: string
+          image_url?: string | null
+          insider?: string | null
+          name?: string
+          program_type?: string | null
+          source?: string | null
+          status?: string | null
+          total_units?: number | null
+          transit_distance?: number | null
+          types?: string[]
+          units?: string[]
+          updated_days?: number | null
+          verified?: boolean
+          voucher?: boolean
+          year?: number | null
+          zip?: string | null
+        }
+        Relationships: []
+      }
       resources: {
         Row: {
           address: string | null
