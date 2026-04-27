@@ -68,6 +68,72 @@ export type Database = {
         }
         Relationships: []
       }
+      properties: {
+        Row: {
+          address: string
+          affordable: number
+          ami: string[]
+          city: string
+          created_at: string
+          id: string
+          image_url: string | null
+          insider: string | null
+          likely: boolean
+          name: string
+          transit_distance: number | null
+          transit_label: string | null
+          transit_station: string | null
+          types: string[]
+          units: string[]
+          updated_days: number
+          verified: boolean
+          voucher: boolean
+          waitlist: boolean
+        }
+        Insert: {
+          address: string
+          affordable?: number
+          ami?: string[]
+          city: string
+          created_at?: string
+          id?: string
+          image_url?: string | null
+          insider?: string | null
+          likely?: boolean
+          name: string
+          transit_distance?: number | null
+          transit_label?: string | null
+          transit_station?: string | null
+          types?: string[]
+          units?: string[]
+          updated_days?: number
+          verified?: boolean
+          voucher?: boolean
+          waitlist?: boolean
+        }
+        Update: {
+          address?: string
+          affordable?: number
+          ami?: string[]
+          city?: string
+          created_at?: string
+          id?: string
+          image_url?: string | null
+          insider?: string | null
+          likely?: boolean
+          name?: string
+          transit_distance?: number | null
+          transit_label?: string | null
+          transit_station?: string | null
+          types?: string[]
+          units?: string[]
+          updated_days?: number
+          verified?: boolean
+          voucher?: boolean
+          waitlist?: boolean
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
