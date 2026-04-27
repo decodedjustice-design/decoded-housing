@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { MapPin, BedDouble, Users, Map as MapIcon } from "lucide-react";
+import { useProperties } from "@/hooks/use-properties";
 
 export const Route = createFileRoute("/search")({
   head: () => ({
@@ -13,16 +14,19 @@ export const Route = createFileRoute("/search")({
   component: SearchPage,
 });
 
-const listings = [
-  { id: 1, name: "Othello Square Apartments", city: "Seattle", ami: "30–60% AMI", beds: "1–3 BR" },
-  { id: 2, name: "Patricia Apartments", city: "Renton", ami: "50–80% AMI", beds: "Studio–2 BR" },
-  { id: 3, name: "Greenbridge Family Homes", city: "White Center", ami: "30–50% AMI", beds: "2–4 BR" },
-  { id: 4, name: "Madrona Ridge", city: "Kent", ami: "60% AMI", beds: "1–2 BR" },
-  { id: 5, name: "Cedar River Court", city: "Tukwila", ami: "40–60% AMI", beds: "Studio–3 BR" },
-  { id: 6, name: "Plaza Roberto Maestas", city: "Seattle", ami: "30–60% AMI", beds: "1–3 BR" },
-];
-
 function SearchPage() {
+  const filters = {
+    search: "",
+    types: [] as string[],
+    cities: [] as string[],
+    voucher: false,
+    verified: false,
+    transit: false,
+    sort: "recent" as const,
+  };
+
+  const { data, loading, error } = useProperties(filters);
+
   return (
     <main className="mx-auto max-w-7xl px-4 pb-24 pt-10 sm:px-6">
       <header className="mb-6">
@@ -47,7 +51,18 @@ function SearchPage() {
 
       <div className="grid gap-6 lg:grid-cols-[1fr_360px]">
         <div className="grid gap-4 sm:grid-cols-2">
-          {listings.map((l) => (
+          {loading &&
+            Array.from({ length: 6 }).map((_, i) => (
+              <article key={`skeleton-${i}`} className="rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-card)]">
+                <div className="mb-3 h-32 animate-pulse rounded-xl border border-border bg-muted/40" />
+                <div className="h-4 w-2/3 animate-pulse rounded bg-muted/40" />
+                <div className="mt-2 h-3 w-1/3 animate-pulse rounded bg-muted/40" />
+                <div className="mt-3 h-6 w-1/2 animate-pulse rounded bg-muted/40" />
+                <div className="mt-4 h-9 w-full animate-pulse rounded-xl bg-muted/40" />
+              </article>
+            ))}
+
+          {!loading && !error && data.map((l) => (
             <article key={l.id} className="rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-card)]">
               <div className="mb-3 h-32 rounded-xl bg-[var(--gradient-soft)] border border-border" />
               <h3 className="text-base font-semibold text-foreground">{l.name}</h3>
@@ -56,10 +71,10 @@ function SearchPage() {
               </div>
               <div className="mt-3 flex flex-wrap gap-2 text-xs">
                 <span className="inline-flex items-center gap-1 rounded-full bg-accent px-2 py-1 text-accent-foreground">
-                  <Users className="h-3 w-3" /> {l.ami}
+                  <Users className="h-3 w-3" /> {(l.ami ?? []).join(" • ") || "AMI not listed"}
                 </span>
                 <span className="inline-flex items-center gap-1 rounded-full bg-accent px-2 py-1 text-accent-foreground">
-                  <BedDouble className="h-3 w-3" /> {l.beds}
+                  <BedDouble className="h-3 w-3" /> {(l.units ?? []).join(" • ") || "Units vary"}
                 </span>
               </div>
               <button className="mt-4 w-full rounded-xl bg-primary px-3 py-2 text-sm font-medium text-primary-foreground hover:bg-primary-glow">
@@ -67,6 +82,18 @@ function SearchPage() {
               </button>
             </article>
           ))}
+
+          {!loading && !error && data.length === 0 && (
+            <article className="rounded-2xl border border-border bg-card p-6 text-center text-sm text-muted-foreground sm:col-span-2">
+              No results found. Try different filters.
+            </article>
+          )}
+
+          {!loading && error && (
+            <article className="rounded-2xl border border-destructive/40 bg-destructive/5 p-6 text-sm text-destructive sm:col-span-2">
+              Couldn’t load properties: {error}
+            </article>
+          )}
         </div>
 
         <aside className="hidden h-[600px] rounded-2xl border border-border bg-[var(--gradient-soft)] lg:flex lg:flex-col lg:items-center lg:justify-center">
