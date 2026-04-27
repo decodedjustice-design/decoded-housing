@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { MapPin, BedDouble, Users } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useProperties } from "@/hooks/use-properties";
+import { useProperties } from "@/lib/useProperties";
 import { PropertiesMap } from "@/components/PropertiesMap";
 
 const KING_COUNTY_CITIES = [
