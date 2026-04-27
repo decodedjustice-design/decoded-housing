@@ -1,138 +1,106 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import type { Tables } from "@/integrations/supabase/types";
 
 export type Property = Tables<"properties">;
-export type PropertySort = "ami_asc" | "transit" | "verified" | "recent";
 
-export interface UsePropertiesFilters {
+export interface PropertyFilters {
   search?: string;
   types?: string[];
   cities?: string[];
   voucher?: boolean;
   verified?: boolean;
   transit?: boolean;
-  sort?: PropertySort;
-  /** Maximum AMI percentage band to include (e.g. 60 means only show ≤60% AMI bands) */
-  maxAmi?: number;
-  /** Bedroom size labels to match against units[] (e.g. "Studio", "1BR", "2BR", "3BR", "4BR+") */
-  bedrooms?: string[];
+  sort?: string;
 }
 
-function getMinimumAmi(ami: string[] | null): number {
-  if (!ami || ami.length === 0) return Number.POSITIVE_INFINITY;
-
-  const matches = ami
-    .flatMap((value) => value.match(/\d+/g) ?? [])
-    .map((value) => Number.parseInt(value, 10))
-    .filter((value) => Number.isFinite(value));
-
-  return matches.length ? Math.min(...matches) : Number.POSITIVE_INFINITY;
-}
-
-function sortProperties(rows: Property[], sort: PropertySort = "recent") {
-  const sorted = [...rows];
-
-  if (sort === "ami_asc") {
-    return sorted.sort((a, b) => getMinimumAmi(a.ami) - getMinimumAmi(b.ami));
-  }
-
-  if (sort === "transit") {
-    return sorted.sort((a, b) => (a.transit_distance ?? Number.POSITIVE_INFINITY) - (b.transit_distance ?? Number.POSITIVE_INFINITY));
-  }
-
-  if (sort === "verified") {
-    return sorted.sort((a, b) => Number(b.verified) - Number(a.verified));
-  }
-
-  return sorted.sort((a, b) => (a.updated_days ?? Number.POSITIVE_INFINITY) - (b.updated_days ?? Number.POSITIVE_INFINITY));
-}
-
-export function useProperties(filters: UsePropertiesFilters = {}) {
-  const [rows, setRows] = useState<Property[]>([]);
+export function useProperties(filters: PropertyFilters) {
+  const [data, setData] = useState<Property[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     let cancelled = false;
-    setLoading(true);
-    setError(null);
 
-    supabase
-      .from("properties")
-      .select("*")
-      .then(({ data, error: fetchError }) => {
-        if (cancelled) return;
+    async function fetchProperties() {
+      setLoading(true);
+      setError(null);
 
-        if (fetchError) {
-          setError(fetchError.message);
-          setRows([]);
-        } else {
-          setRows(data ?? []);
-        }
+      const { data: rows, error } = await supabase.from("properties").select("*");
 
+      if (cancelled) return;
+
+      if (error) {
+        setError(error.message);
+        setData([]);
         setLoading(false);
-      });
+        return;
+      }
+
+      let result = (rows ?? []) as Property[];
+
+      if (filters.search) {
+        const q = filters.search.toLowerCase();
+        result = result.filter(
+          (p) =>
+            p.name?.toLowerCase().includes(q) ||
+            p.city?.toLowerCase().includes(q) ||
+            p.address?.toLowerCase().includes(q),
+        );
+      }
+
+      if (filters.types?.length) {
+        result = result.filter((p) => p.types?.some((t) => filters.types?.includes(t)));
+      }
+
+      if (filters.cities?.length) {
+        result = result.filter((p) => filters.cities?.includes(p.city ?? ""));
+      }
+
+      if (filters.voucher) {
+        result = result.filter((p) => p.voucher);
+      }
+
+      if (filters.verified) {
+        result = result.filter((p) => p.verified);
+      }
+
+      if (filters.transit) {
+        result = result.filter((p) => (p.transit_distance ?? Number.POSITIVE_INFINITY) <= 0.5);
+      }
+
+      if (filters.sort === "ami_asc") {
+        result.sort((a, b) => {
+          const aVal = Number.parseInt(a.ami?.[0] ?? "999", 10);
+          const bVal = Number.parseInt(b.ami?.[0] ?? "999", 10);
+          return aVal - bVal;
+        });
+      }
+
+      if (filters.sort === "transit") {
+        result.sort((a, b) => (a.transit_distance ?? Number.POSITIVE_INFINITY) - (b.transit_distance ?? Number.POSITIVE_INFINITY));
+      }
+
+      if (filters.sort === "verified") {
+        result.sort((a, b) => Number(b.verified) - Number(a.verified));
+      }
+
+      if (filters.sort === "recent") {
+        result.sort((a, b) => (a.updated_days ?? Number.POSITIVE_INFINITY) - (b.updated_days ?? Number.POSITIVE_INFINITY));
+      }
+
+      if (!cancelled) {
+        setData(result);
+        setLoading(false);
+      }
+    }
+
+    void fetchProperties();
 
     return () => {
       cancelled = true;
     };
-  }, []);
-
-  const data = useMemo(() => {
-    const search = filters.search?.trim().toLowerCase();
-
-    let filtered = rows.filter((property) => {
-      if (search) {
-        const haystack = `${property.name ?? ""} ${property.city ?? ""} ${property.address ?? ""}`.toLowerCase();
-        if (!haystack.includes(search)) return false;
-      }
-
-      if (filters.types && filters.types.length > 0) {
-        const rowTypes = property.types ?? [];
-        if (!filters.types.some((type) => rowTypes.includes(type))) return false;
-      }
-
-      if (filters.cities && filters.cities.length > 0) {
-        if (!filters.cities.includes(property.city ?? "")) return false;
-      }
-
-      if (filters.voucher === true && !property.voucher) return false;
-      if (filters.verified === true && !property.verified) return false;
-
-      if (filters.transit === true) {
-        if ((property.transit_distance ?? Number.POSITIVE_INFINITY) > 0.5) return false;
-      }
-
-      if (typeof filters.maxAmi === "number") {
-        const minAmi = getMinimumAmi(property.ami);
-        if (!Number.isFinite(minAmi)) return false;
-        if (minAmi > filters.maxAmi) return false;
-      }
-
-      if (filters.bedrooms && filters.bedrooms.length > 0) {
-        const unitLabels = (property.units ?? []).join(" ");
-        const matched = filters.bedrooms.some((bed) => unitLabels.includes(bed));
-        if (!matched) return false;
-      }
-
-      return true;
-    });
-
-    filtered = sortProperties(filtered, filters.sort);
-    return filtered;
-  }, [
-    rows,
-    filters.search,
-    filters.types,
-    filters.cities,
-    filters.voucher,
-    filters.verified,
-    filters.transit,
-    filters.sort,
-    filters.maxAmi,
-    filters.bedrooms,
-  ]);
+  }, [JSON.stringify(filters)]);
 
   return { data, loading, error };
 }
