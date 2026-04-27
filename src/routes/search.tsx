@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { MapPin, BedDouble, Users, Map as MapIcon } from "lucide-react";
-import { useMemo, useState } from "react";
+import { MapPin, BedDouble, Users } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useProperties } from "@/hooks/use-properties";
+import { PropertiesMap } from "@/components/PropertiesMap";
 
 const KING_COUNTY_CITIES = [
   "Auburn","Bellevue","Bothell","Burien","Covington","Des Moines","Enumclaw",
@@ -44,6 +45,8 @@ function SearchPage() {
   const [city, setCity] = useState<string>("");
   const [maxAmi, setMaxAmi] = useState<number | "">("");
   const [bedroom, setBedroom] = useState<string>("");
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const cardRefs = useRef<Map<string, HTMLElement>>(new Map());
 
   const filters = useMemo(
     () => ({
@@ -56,6 +59,20 @@ function SearchPage() {
   );
 
   const { data, loading, error } = useProperties(filters);
+
+  // Reset selection if it disappears from filtered results
+  useEffect(() => {
+    if (selectedId && !data.some((p) => p.id === selectedId)) {
+      setSelectedId(null);
+    }
+  }, [data, selectedId]);
+
+  // Scroll selected card into view
+  useEffect(() => {
+    if (!selectedId) return;
+    const el = cardRefs.current.get(selectedId);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }, [selectedId]);
 
   return (
     <main className="mx-auto max-w-7xl px-4 pb-24 pt-10 sm:px-6">
@@ -122,7 +139,19 @@ function SearchPage() {
             ))}
 
           {!loading && !error && data.map((l) => (
-            <article key={l.id} className="rounded-2xl border border-border bg-card p-5 shadow-[var(--shadow-card)]">
+            <article
+              key={l.id}
+              ref={(node) => {
+                if (node) cardRefs.current.set(l.id, node);
+                else cardRefs.current.delete(l.id);
+              }}
+              onClick={() => setSelectedId(l.id)}
+              className={`cursor-pointer rounded-2xl border bg-card p-5 shadow-[var(--shadow-card)] transition ${
+                selectedId === l.id
+                  ? "border-primary ring-2 ring-primary/40"
+                  : "border-border hover:border-primary/40"
+              }`}
+            >
               <div className="mb-3 h-32 rounded-xl bg-[var(--gradient-soft)] border border-border" />
               <h3 className="text-base font-semibold text-foreground">{l.name}</h3>
               <div className="mt-1 flex items-center gap-1 text-xs text-muted-foreground">
@@ -136,7 +165,13 @@ function SearchPage() {
                   <BedDouble className="h-3 w-3" /> {(l.units ?? []).join(" • ") || "Units vary"}
                 </span>
               </div>
-              <button className="mt-4 w-full rounded-xl bg-primary px-3 py-2 text-sm font-medium text-primary-foreground hover:bg-primary-glow">
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setSelectedId(l.id);
+                }}
+                className="mt-4 w-full rounded-xl bg-primary px-3 py-2 text-sm font-medium text-primary-foreground hover:bg-primary-glow"
+              >
                 View details
               </button>
             </article>
@@ -155,9 +190,12 @@ function SearchPage() {
           )}
         </div>
 
-        <aside className="hidden h-[600px] rounded-2xl border border-border bg-[var(--gradient-soft)] lg:flex lg:flex-col lg:items-center lg:justify-center">
-          <MapIcon className="h-10 w-10 text-muted-foreground" />
-          <p className="mt-2 text-sm text-muted-foreground">Map view coming soon</p>
+        <aside className="hidden h-[600px] lg:block lg:sticky lg:top-6">
+          <PropertiesMap
+            properties={data}
+            selectedId={selectedId}
+            onSelect={setSelectedId}
+          />
         </aside>
       </div>
     </main>
