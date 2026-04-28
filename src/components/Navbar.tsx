@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Home, Search, ClipboardList, HeartHandshake, Scale, AlertTriangle, Bookmark, Menu, X } from "lucide-react";
+import { Home, Search, ClipboardList, HeartHandshake, Scale, AlertTriangle, Bookmark, BookOpen, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const links = [
@@ -10,6 +10,7 @@ const links = [
   { to: "/tenant-rights", label: "Tenant Rights", icon: Scale },
   { to: "/shelter", label: "Shelter", icon: AlertTriangle },
   { to: "/saved-shelters", label: "Saved", icon: Bookmark },
+  { to: "/our-story", label: "Our Story", icon: BookOpen },
 ] as const;
 
 export function Navbar() {
