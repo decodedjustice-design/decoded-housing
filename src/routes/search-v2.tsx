@@ -432,16 +432,27 @@ function PropCard({
   horizontal,
   highlighted,
   onHover,
+  onSelect,
 }: {
   p: Property;
   horizontal: boolean;
   highlighted: boolean;
   onHover: () => void;
+  onSelect: () => void;
 }) {
   const tags = (p.types ?? []).slice(0, 4);
   return (
     <div
       onMouseEnter={onHover}
+      onClick={onSelect}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          onSelect();
+        }
+      }}
       className={`group flex cursor-pointer overflow-hidden rounded-xl border-[1.5px] bg-white transition-all ${
         horizontal ? "flex-row" : "flex-col"
       } ${highlighted ? "border-[var(--forest)] shadow-[0_0_0_3px_rgba(27,67,50,0.1)]" : "border-[var(--warm-border)] hover:-translate-y-px hover:border-[var(--sage)] hover:shadow-[0_6px_24px_rgba(27,67,50,0.09)]"}`}
