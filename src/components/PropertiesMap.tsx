@@ -2,13 +2,18 @@ import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import { Map as MapIcon } from "lucide-react";
-import type { Property } from "@/hooks/use-properties";
 import { getCityCoords, KING_COUNTY_CENTER } from "@/lib/king-county-cities";
 
 const TOKEN_KEY = "decoded_housing_mapbox_token";
 
+interface MapProperty {
+  id: string;
+  name: string;
+  city: string | null;
+}
+
 interface PropertiesMapProps {
-  properties: Property[];
+  properties: MapProperty[];
   selectedId: string | null;
   onSelect: (id: string | null) => void;
 }
