@@ -140,6 +140,72 @@ export type Database = {
         }
         Relationships: []
       }
+      shelters: {
+        Row: {
+          access_notes: string | null
+          access_speed: string | null
+          address: string | null
+          backup_option: string | null
+          barrier_level: string | null
+          city: string | null
+          created_at: string
+          external_id: string | null
+          id: string
+          intake: string | null
+          name: string
+          organization: string | null
+          phone: string | null
+          population: string[]
+          realistic_availability: string | null
+          source: string[]
+          type: string
+          updated_at: string
+          verified: boolean
+        }
+        Insert: {
+          access_notes?: string | null
+          access_speed?: string | null
+          address?: string | null
+          backup_option?: string | null
+          barrier_level?: string | null
+          city?: string | null
+          created_at?: string
+          external_id?: string | null
+          id?: string
+          intake?: string | null
+          name: string
+          organization?: string | null
+          phone?: string | null
+          population?: string[]
+          realistic_availability?: string | null
+          source?: string[]
+          type?: string
+          updated_at?: string
+          verified?: boolean
+        }
+        Update: {
+          access_notes?: string | null
+          access_speed?: string | null
+          address?: string | null
+          backup_option?: string | null
+          barrier_level?: string | null
+          city?: string | null
+          created_at?: string
+          external_id?: string | null
+          id?: string
+          intake?: string | null
+          name?: string
+          organization?: string | null
+          phone?: string | null
+          population?: string[]
+          realistic_availability?: string | null
+          source?: string[]
+          type?: string
+          updated_at?: string
+          verified?: boolean
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
