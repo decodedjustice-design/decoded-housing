@@ -12,8 +12,21 @@ import {
   List as ListIcon,
   Clock,
   CheckCircle2,
+  Phone,
+  Globe,
+  Users,
+  BedDouble,
+  Tag,
+  ExternalLink,
 } from "lucide-react";
 import { useProperties, type Property } from "@/lib/useProperties";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetDescription,
+} from "@/components/ui/sheet";
 
 export const Route = createFileRoute("/search-v2")({
   head: () => ({
@@ -76,6 +89,7 @@ function SearchV2Page() {
   const [view, setView] = useState<"grid" | "list">("list");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [highlightId, setHighlightId] = useState<string | null>(null);
+  const [selected, setSelected] = useState<Property | null>(null);
 
   // advanced filters
   const [maxAmi, setMaxAmi] = useState<number | undefined>(undefined);
@@ -249,6 +263,7 @@ function SearchV2Page() {
                 horizontal={view === "list"}
                 highlighted={highlightId === p.id}
                 onHover={() => setHighlightId(p.id)}
+                onSelect={() => setSelected(p)}
               />
             ))}
           </div>
@@ -347,6 +362,8 @@ function SearchV2Page() {
           </div>
         </div>
       )}
+
+      <PropertyDrawer property={selected} onClose={() => setSelected(null)} />
     </div>
   );
 }
@@ -415,16 +432,27 @@ function PropCard({
   horizontal,
   highlighted,
   onHover,
+  onSelect,
 }: {
   p: Property;
   horizontal: boolean;
   highlighted: boolean;
   onHover: () => void;
+  onSelect: () => void;
 }) {
   const tags = (p.types ?? []).slice(0, 4);
   return (
     <div
       onMouseEnter={onHover}
+      onClick={onSelect}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          onSelect();
+        }
+      }}
       className={`group flex cursor-pointer overflow-hidden rounded-xl border-[1.5px] bg-white transition-all ${
         horizontal ? "flex-row" : "flex-col"
       } ${highlighted ? "border-[var(--forest)] shadow-[0_0_0_3px_rgba(27,67,50,0.1)]" : "border-[var(--warm-border)] hover:-translate-y-px hover:border-[var(--sage)] hover:shadow-[0_6px_24px_rgba(27,67,50,0.09)]"}`}
@@ -612,6 +640,187 @@ function FakeMap({
         <button className="flex h-9 w-9 items-center justify-center rounded-md border border-[var(--warm-border)] bg-white text-lg font-bold shadow hover:bg-[var(--sage-pale)]">
           −
         </button>
+      </div>
+    </div>
+  );
+}
+function PropertyDrawer({
+  property,
+  onClose,
+}: {
+  property: Property | null;
+  onClose: () => void;
+}) {
+  const open = property !== null;
+  const p = property;
+
+  return (
+    <Sheet open={open} onOpenChange={(o) => !o && onClose()}>
+      <SheetContent className="w-full overflow-y-auto sm:max-w-lg">
+        {p && (
+          <>
+            <SheetHeader className="text-left">
+              <div className="mb-2 flex flex-wrap gap-1">
+                {(p.types ?? []).slice(0, 4).map((t) => (
+                  <span
+                    key={t}
+                    className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${programTagClass(t)}`}
+                  >
+                    {t}
+                  </span>
+                ))}
+              </div>
+              <SheetTitle className="font-serif text-2xl">{p.name}</SheetTitle>
+              <SheetDescription className="flex items-center gap-1 text-sm">
+                <MapPin className="h-3.5 w-3.5 flex-shrink-0" />
+                <span>{p.address ?? p.city ?? "Address not listed"}</span>
+              </SheetDescription>
+            </SheetHeader>
+
+            {p.image_url && (
+              <img
+                src={p.image_url}
+                alt={p.name}
+                className="mt-4 h-44 w-full rounded-lg object-cover"
+              />
+            )}
+
+            {/* Contact */}
+            <Section title="Contact">
+              {p.phone || p.website ? (
+                <div className="space-y-2">
+                  {p.phone && (
+                    <a
+                      href={`tel:${p.phone}`}
+                      className="flex items-center gap-2 rounded-lg border border-[var(--warm-border)] bg-white px-3 py-2.5 text-sm font-semibold text-[var(--forest)] hover:bg-[var(--sage-softer)]"
+                    >
+                      <Phone className="h-4 w-4" />
+                      {p.phone}
+                    </a>
+                  )}
+                  {p.website && (
+                    <a
+                      href={p.website}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex items-center gap-2 rounded-lg border border-[var(--warm-border)] bg-white px-3 py-2.5 text-sm font-semibold text-[var(--forest)] hover:bg-[var(--sage-softer)]"
+                    >
+                      <Globe className="h-4 w-4" />
+                      <span className="flex-1 truncate">{p.website}</span>
+                      <ExternalLink className="h-3.5 w-3.5" />
+                    </a>
+                  )}
+                </div>
+              ) : (
+                <p className="text-sm text-muted-foreground">
+                  No direct contact info on file. Try the property's website or call 211.
+                </p>
+              )}
+            </Section>
+
+            {/* Eligibility */}
+            <Section title="Eligibility">
+              <div className="space-y-2 rounded-lg border border-[var(--warm-border)] bg-white p-3">
+                <EligRow
+                  icon={<Tag className="h-4 w-4" />}
+                  label="AMI levels"
+                  value={p.ami?.length ? p.ami.join(", ") : "Not listed"}
+                />
+                <EligRow
+                  icon={<BedDouble className="h-4 w-4" />}
+                  label="Unit sizes"
+                  value={p.units?.length ? p.units.join(", ") : "Not listed"}
+                />
+                <EligRow
+                  icon={<Ticket className="h-4 w-4" />}
+                  label="Vouchers"
+                  value={p.voucher ? "Accepts Section 8 / housing vouchers" : "Voucher policy not confirmed"}
+                />
+                <EligRow
+                  icon={<Users className="h-4 w-4" />}
+                  label="Affordable units"
+                  value={p.affordable != null ? `${p.affordable} affordable units` : "Not listed"}
+                />
+                {p.waitlist && (
+                  <EligRow
+                    icon={<Clock className="h-4 w-4" />}
+                    label="Waitlist"
+                    value={p.waitlist}
+                  />
+                )}
+              </div>
+              {p.insider && (
+                <div className="mt-3 flex gap-2 rounded-r-md border-l-[3px] border-amber-600 bg-amber-50 px-3 py-2 text-[12px] leading-relaxed text-amber-900">
+                  <span>💡</span>
+                  <span>{p.insider}</span>
+                </div>
+              )}
+            </Section>
+
+            {/* Next steps */}
+            <Section title="Next steps">
+              <ol className="space-y-2.5">
+                {[
+                  "Check eligibility — confirm your household size & income fit the AMI brackets above.",
+                  "Gather documents — photo ID, last 2 months of pay stubs, and any voucher paperwork.",
+                  p.phone || p.website
+                    ? "Contact the property — call or visit the website to confirm openings and waitlist status."
+                    : "Search the property name online to find the leasing office contact info.",
+                  "Apply or join the waitlist — submit the application and request a written confirmation.",
+                  "Save this listing — bookmark it so you can follow up in 1–2 weeks.",
+                ].map((step, i) => (
+                  <li key={i} className="flex gap-2.5 text-sm leading-relaxed">
+                    <span className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-[var(--sage-pale)] text-[11px] font-bold text-[var(--forest)]">
+                      {i + 1}
+                    </span>
+                    <span className="text-[var(--ink-mid)]">{step}</span>
+                  </li>
+                ))}
+              </ol>
+            </Section>
+
+            <Link
+              to="/apply"
+              className="mt-6 flex w-full items-center justify-center gap-2 rounded-lg bg-[var(--forest)] px-4 py-3 text-sm font-bold text-white hover:bg-[var(--forest-mid)]"
+            >
+              <CheckCircle2 className="h-4 w-4" />
+              Get application help
+            </Link>
+          </>
+        )}
+      </SheetContent>
+    </Sheet>
+  );
+}
+
+function Section({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <div className="mt-6">
+      <h3 className="mb-2 text-[11px] font-bold uppercase tracking-widest text-[var(--muted)]">
+        {title}
+      </h3>
+      {children}
+    </div>
+  );
+}
+
+function EligRow({
+  icon,
+  label,
+  value,
+}: {
+  icon: React.ReactNode;
+  label: string;
+  value: string;
+}) {
+  return (
+    <div className="flex items-start gap-2.5 text-sm">
+      <span className="mt-0.5 text-[var(--forest)]">{icon}</span>
+      <div className="flex-1">
+        <div className="text-[11px] font-semibold uppercase tracking-wide text-[var(--muted)]">
+          {label}
+        </div>
+        <div className="text-[13px] font-medium text-[var(--ink)]">{value}</div>
       </div>
     </div>
   );
