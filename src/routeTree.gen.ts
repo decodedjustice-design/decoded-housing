@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as TenantRightsRouteImport } from './routes/tenant-rights'
 import { Route as ShelterRouteImport } from './routes/shelter'
 import { Route as SearchRouteImport } from './routes/search'
+import { Route as SavedSheltersRouteImport } from './routes/saved-shelters'
 import { Route as BasicNeedsRouteImport } from './routes/basic-needs'
 import { Route as ApplyRouteImport } from './routes/apply'
 import { Route as IndexRouteImport } from './routes/index'
@@ -29,6 +30,11 @@ const ShelterRoute = ShelterRouteImport.update({
 const SearchRoute = SearchRouteImport.update({
   id: '/search',
   path: '/search',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SavedSheltersRoute = SavedSheltersRouteImport.update({
+  id: '/saved-shelters',
+  path: '/saved-shelters',
   getParentRoute: () => rootRouteImport,
 } as any)
 const BasicNeedsRoute = BasicNeedsRouteImport.update({
@@ -51,6 +57,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/apply': typeof ApplyRoute
   '/basic-needs': typeof BasicNeedsRoute
+  '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
   '/shelter': typeof ShelterRoute
   '/tenant-rights': typeof TenantRightsRoute
@@ -59,6 +66,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/apply': typeof ApplyRoute
   '/basic-needs': typeof BasicNeedsRoute
+  '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
   '/shelter': typeof ShelterRoute
   '/tenant-rights': typeof TenantRightsRoute
@@ -68,6 +76,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/apply': typeof ApplyRoute
   '/basic-needs': typeof BasicNeedsRoute
+  '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
   '/shelter': typeof ShelterRoute
   '/tenant-rights': typeof TenantRightsRoute
@@ -78,6 +87,7 @@ export interface FileRouteTypes {
     | '/'
     | '/apply'
     | '/basic-needs'
+    | '/saved-shelters'
     | '/search'
     | '/shelter'
     | '/tenant-rights'
@@ -86,6 +96,7 @@ export interface FileRouteTypes {
     | '/'
     | '/apply'
     | '/basic-needs'
+    | '/saved-shelters'
     | '/search'
     | '/shelter'
     | '/tenant-rights'
@@ -94,6 +105,7 @@ export interface FileRouteTypes {
     | '/'
     | '/apply'
     | '/basic-needs'
+    | '/saved-shelters'
     | '/search'
     | '/shelter'
     | '/tenant-rights'
@@ -103,6 +115,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ApplyRoute: typeof ApplyRoute
   BasicNeedsRoute: typeof BasicNeedsRoute
+  SavedSheltersRoute: typeof SavedSheltersRoute
   SearchRoute: typeof SearchRoute
   ShelterRoute: typeof ShelterRoute
   TenantRightsRoute: typeof TenantRightsRoute
@@ -129,6 +142,13 @@ declare module '@tanstack/react-router' {
       path: '/search'
       fullPath: '/search'
       preLoaderRoute: typeof SearchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/saved-shelters': {
+      id: '/saved-shelters'
+      path: '/saved-shelters'
+      fullPath: '/saved-shelters'
+      preLoaderRoute: typeof SavedSheltersRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/basic-needs': {
@@ -159,6 +179,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ApplyRoute: ApplyRoute,
   BasicNeedsRoute: BasicNeedsRoute,
+  SavedSheltersRoute: SavedSheltersRoute,
   SearchRoute: SearchRoute,
   ShelterRoute: ShelterRoute,
   TenantRightsRoute: TenantRightsRoute,
