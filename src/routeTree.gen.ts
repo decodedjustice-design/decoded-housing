@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as TenantRightsRouteImport } from './routes/tenant-rights'
 import { Route as ShelterRouteImport } from './routes/shelter'
+import { Route as SearchV2RouteImport } from './routes/search-v2'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as SavedSheltersRouteImport } from './routes/saved-shelters'
 import { Route as OurStoryRouteImport } from './routes/our-story'
@@ -27,6 +28,11 @@ const TenantRightsRoute = TenantRightsRouteImport.update({
 const ShelterRoute = ShelterRouteImport.update({
   id: '/shelter',
   path: '/shelter',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SearchV2Route = SearchV2RouteImport.update({
+  id: '/search-v2',
+  path: '/search-v2',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SearchRoute = SearchRouteImport.update({
@@ -73,6 +79,7 @@ export interface FileRoutesByFullPath {
   '/our-story': typeof OurStoryRoute
   '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
+  '/search-v2': typeof SearchV2Route
   '/shelter': typeof ShelterRoute
   '/tenant-rights': typeof TenantRightsRoute
 }
@@ -84,6 +91,7 @@ export interface FileRoutesByTo {
   '/our-story': typeof OurStoryRoute
   '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
+  '/search-v2': typeof SearchV2Route
   '/shelter': typeof ShelterRoute
   '/tenant-rights': typeof TenantRightsRoute
 }
@@ -96,6 +104,7 @@ export interface FileRoutesById {
   '/our-story': typeof OurStoryRoute
   '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
+  '/search-v2': typeof SearchV2Route
   '/shelter': typeof ShelterRoute
   '/tenant-rights': typeof TenantRightsRoute
 }
@@ -109,6 +118,7 @@ export interface FileRouteTypes {
     | '/our-story'
     | '/saved-shelters'
     | '/search'
+    | '/search-v2'
     | '/shelter'
     | '/tenant-rights'
   fileRoutesByTo: FileRoutesByTo
@@ -120,6 +130,7 @@ export interface FileRouteTypes {
     | '/our-story'
     | '/saved-shelters'
     | '/search'
+    | '/search-v2'
     | '/shelter'
     | '/tenant-rights'
   id:
@@ -131,6 +142,7 @@ export interface FileRouteTypes {
     | '/our-story'
     | '/saved-shelters'
     | '/search'
+    | '/search-v2'
     | '/shelter'
     | '/tenant-rights'
   fileRoutesById: FileRoutesById
@@ -143,6 +155,7 @@ export interface RootRouteChildren {
   OurStoryRoute: typeof OurStoryRoute
   SavedSheltersRoute: typeof SavedSheltersRoute
   SearchRoute: typeof SearchRoute
+  SearchV2Route: typeof SearchV2Route
   ShelterRoute: typeof ShelterRoute
   TenantRightsRoute: typeof TenantRightsRoute
 }
@@ -161,6 +174,13 @@ declare module '@tanstack/react-router' {
       path: '/shelter'
       fullPath: '/shelter'
       preLoaderRoute: typeof ShelterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/search-v2': {
+      id: '/search-v2'
+      path: '/search-v2'
+      fullPath: '/search-v2'
+      preLoaderRoute: typeof SearchV2RouteImport
       parentRoute: typeof rootRouteImport
     }
     '/search': {
@@ -223,6 +243,7 @@ const rootRouteChildren: RootRouteChildren = {
   OurStoryRoute: OurStoryRoute,
   SavedSheltersRoute: SavedSheltersRoute,
   SearchRoute: SearchRoute,
+  SearchV2Route: SearchV2Route,
   ShelterRoute: ShelterRoute,
   TenantRightsRoute: TenantRightsRoute,
 }
