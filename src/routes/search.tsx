@@ -10,6 +10,8 @@ import {
   Navigation,
   ExternalLink,
   Ticket,
+  Bookmark,
+  BookmarkCheck,
 } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useProperties, type Property } from "@/lib/useProperties";
@@ -263,6 +265,23 @@ function PropertyDetailsDrawer({
   const open = property !== null;
   const p = property;
 
+  const [savedIds, setSavedIds] = useState<string[]>([]);
+
+  useEffect(() => {
+    setSavedIds(readSavedProperties());
+  }, [property?.id]);
+
+  const isSaved = p ? savedIds.includes(p.id) : false;
+
+  const toggleSave = () => {
+    if (!p) return;
+    const next = isSaved
+      ? savedIds.filter((id) => id !== p.id)
+      : [...savedIds, p.id];
+    setSavedIds(next);
+    writeSavedProperties(next);
+  };
+
   const directionsUrl = p
     ? `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
         [p.address, p.city, "WA"].filter(Boolean).join(", "),
@@ -309,6 +328,27 @@ function PropertyDetailsDrawer({
                   <ExternalLink className="h-3 w-3 opacity-60" />
                 </a>
               )}
+
+              <button
+                type="button"
+                onClick={toggleSave}
+                aria-pressed={isSaved}
+                className={`inline-flex items-center justify-center gap-2 rounded-xl px-3 py-2 text-sm font-semibold transition-colors ${
+                  isSaved
+                    ? "bg-primary/10 text-primary"
+                    : "border border-border bg-background text-foreground hover:bg-muted"
+                }`}
+              >
+                {isSaved ? (
+                  <>
+                    <BookmarkCheck className="h-4 w-4" /> Saved to your list
+                  </>
+                ) : (
+                  <>
+                    <Bookmark className="h-4 w-4" /> Save listing
+                  </>
+                )}
+              </button>
 
               <div className="flex flex-wrap gap-1.5 text-[11px]">
                 {p.voucher && (
