@@ -12,8 +12,21 @@ import {
   List as ListIcon,
   Clock,
   CheckCircle2,
+  Phone,
+  Globe,
+  Users,
+  BedDouble,
+  Tag,
+  ExternalLink,
 } from "lucide-react";
 import { useProperties, type Property } from "@/lib/useProperties";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetDescription,
+} from "@/components/ui/sheet";
 
 export const Route = createFileRoute("/search-v2")({
   head: () => ({
@@ -76,6 +89,7 @@ function SearchV2Page() {
   const [view, setView] = useState<"grid" | "list">("list");
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [highlightId, setHighlightId] = useState<string | null>(null);
+  const [selected, setSelected] = useState<Property | null>(null);
 
   // advanced filters
   const [maxAmi, setMaxAmi] = useState<number | undefined>(undefined);
@@ -249,6 +263,7 @@ function SearchV2Page() {
                 horizontal={view === "list"}
                 highlighted={highlightId === p.id}
                 onHover={() => setHighlightId(p.id)}
+                onSelect={() => setSelected(p)}
               />
             ))}
           </div>
@@ -347,6 +362,8 @@ function SearchV2Page() {
           </div>
         </div>
       )}
+
+      <PropertyDrawer property={selected} onClose={() => setSelected(null)} />
     </div>
   );
 }
