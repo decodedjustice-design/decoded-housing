@@ -24,6 +24,27 @@ import {
   SheetDescription,
 } from "@/components/ui/sheet";
 
+const SAVED_PROPERTIES_KEY = "decoded-housing:saved-properties";
+
+function readSavedProperties(): string[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = window.localStorage.getItem(SAVED_PROPERTIES_KEY);
+    return raw ? (JSON.parse(raw) as string[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeSavedProperties(ids: string[]) {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(SAVED_PROPERTIES_KEY, JSON.stringify(ids));
+  } catch {
+    /* ignore */
+  }
+}
+
 const KING_COUNTY_CITIES = [
   "Auburn","Bellevue","Bothell","Burien","Covington","Des Moines","Enumclaw",
   "Federal Way","Issaquah","Kenmore","Kent","Kirkland","Lake Forest Park",
