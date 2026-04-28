@@ -1,8 +1,26 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { MapPin, BedDouble, Users } from "lucide-react";
+import {
+  MapPin,
+  BedDouble,
+  Users,
+  ShieldCheck,
+  Train,
+  Tag,
+  Building2,
+  Navigation,
+  ExternalLink,
+  Ticket,
+} from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useProperties } from "@/lib/useProperties";
+import { useProperties, type Property } from "@/lib/useProperties";
 import { PropertiesMap } from "@/components/PropertiesMap";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetDescription,
+} from "@/components/ui/sheet";
 
 const KING_COUNTY_CITIES = [
   "Auburn","Bellevue","Bothell","Burien","Covington","Des Moines","Enumclaw",
@@ -46,6 +64,7 @@ function SearchPage() {
   const [maxAmi, setMaxAmi] = useState<number | "">("");
   const [bedroom, setBedroom] = useState<string>("");
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [openId, setOpenId] = useState<string | null>(null);
   const cardRefs = useRef<Map<string, HTMLElement>>(new Map());
 
   const filters = useMemo(
@@ -59,6 +78,11 @@ function SearchPage() {
   );
 
   const { data, loading, error } = useProperties(filters);
+
+  const opened = useMemo(
+    () => data.find((p) => p.id === openId) ?? null,
+    [data, openId],
+  );
 
   // Reset selection if it disappears from filtered results
   useEffect(() => {
@@ -145,7 +169,10 @@ function SearchPage() {
                 if (node) cardRefs.current.set(l.id, node);
                 else cardRefs.current.delete(l.id);
               }}
-              onClick={() => setSelectedId(l.id)}
+              onClick={() => {
+                setSelectedId(l.id);
+                setOpenId(l.id);
+              }}
               className={`cursor-pointer rounded-2xl border bg-card p-5 shadow-[var(--shadow-card)] transition ${
                 selectedId === l.id
                   ? "border-primary ring-2 ring-primary/40"
@@ -169,6 +196,7 @@ function SearchPage() {
                 onClick={(e) => {
                   e.stopPropagation();
                   setSelectedId(l.id);
+                  setOpenId(l.id);
                 }}
                 className="mt-4 w-full rounded-xl bg-primary px-3 py-2 text-sm font-medium text-primary-foreground hover:bg-primary-glow"
               >
@@ -198,6 +226,159 @@ function SearchPage() {
           />
         </aside>
       </div>
+
+      <PropertyDetailsDrawer property={opened} onClose={() => setOpenId(null)} />
     </main>
+  );
+}
+
+function PropertyDetailsDrawer({
+  property,
+  onClose,
+}: {
+  property: Property | null;
+  onClose: () => void;
+}) {
+  const open = property !== null;
+  const p = property;
+
+  const directionsUrl = p
+    ? `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
+        [p.address, p.city, "WA"].filter(Boolean).join(", "),
+      )}`
+    : "#";
+
+  return (
+    <Sheet open={open} onOpenChange={(o) => !o && onClose()}>
+      <SheetContent side="right" className="w-full overflow-y-auto sm:max-w-md">
+        {p && (
+          <>
+            <SheetHeader className="text-left">
+              <div className="flex items-start justify-between gap-3">
+                <SheetTitle className="text-xl leading-tight">{p.name}</SheetTitle>
+                {p.verified && (
+                  <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-semibold text-primary">
+                    <ShieldCheck className="h-3 w-3" /> Verified
+                  </span>
+                )}
+              </div>
+              {(p.address || p.city) && (
+                <SheetDescription className="flex items-start gap-1.5">
+                  <MapPin className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+                  <span>
+                    {p.address ? `${p.address}, ` : ""}
+                    {p.city}
+                  </span>
+                </SheetDescription>
+              )}
+            </SheetHeader>
+
+            <div className="mt-4 flex flex-col gap-4">
+              <div className="h-36 rounded-xl border border-border bg-[var(--gradient-soft)]" />
+
+              {(p.address || p.city) && (
+                <a
+                  href={directionsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-3 py-2.5 text-sm font-semibold text-primary-foreground hover:opacity-90"
+                >
+                  <Navigation className="h-4 w-4" />
+                  Get directions
+                  <ExternalLink className="h-3 w-3 opacity-60" />
+                </a>
+              )}
+
+              <div className="flex flex-wrap gap-1.5 text-[11px]">
+                {p.voucher && (
+                  <span className="inline-flex items-center gap-1 rounded-full bg-primary/10 px-2 py-0.5 font-medium text-primary">
+                    <Ticket className="h-3 w-3" /> Vouchers accepted
+                  </span>
+                )}
+                {p.transit_distance != null && p.transit_distance <= 0.5 && (
+                  <span className="inline-flex items-center gap-1 rounded-full bg-accent px-2 py-0.5 font-medium text-accent-foreground">
+                    <Train className="h-3 w-3" />
+                    {p.transit_label ?? `${p.transit_distance} mi to transit`}
+                  </span>
+                )}
+                {(p.types ?? []).map((t) => (
+                  <span
+                    key={t}
+                    className="inline-flex items-center gap-1 rounded-full bg-muted px-2 py-0.5 font-medium text-foreground"
+                  >
+                    <Tag className="h-3 w-3" /> {t}
+                  </span>
+                ))}
+              </div>
+
+              <dl className="grid grid-cols-2 gap-3 text-sm">
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                    AMI
+                  </dt>
+                  <dd className="mt-0.5 flex items-start gap-1.5 text-foreground">
+                    <Users className="mt-0.5 h-3.5 w-3.5 text-muted-foreground" />
+                    {(p.ami ?? []).join(" • ") || "Not listed"}
+                  </dd>
+                </div>
+                <div>
+                  <dt className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                    Unit sizes
+                  </dt>
+                  <dd className="mt-0.5 flex items-start gap-1.5 text-foreground">
+                    <BedDouble className="mt-0.5 h-3.5 w-3.5 text-muted-foreground" />
+                    {(p.units ?? []).join(" • ") || "Varies"}
+                  </dd>
+                </div>
+                {p.affordable != null && (
+                  <div>
+                    <dt className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                      Affordable units
+                    </dt>
+                    <dd className="mt-0.5 flex items-start gap-1.5 text-foreground">
+                      <Building2 className="mt-0.5 h-3.5 w-3.5 text-muted-foreground" />
+                      {p.affordable}
+                    </dd>
+                  </div>
+                )}
+                {p.waitlist && (
+                  <div>
+                    <dt className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                      Waitlist
+                    </dt>
+                    <dd className="mt-0.5 text-foreground">{p.waitlist}</dd>
+                  </div>
+                )}
+                {p.likely && (
+                  <div className="col-span-2">
+                    <dt className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                      Likelihood
+                    </dt>
+                    <dd className="mt-0.5 text-foreground">{p.likely}</dd>
+                  </div>
+                )}
+              </dl>
+
+              {p.insider && (
+                <div className="rounded-xl border border-border bg-card p-3">
+                  <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+                    Insider tip
+                  </p>
+                  <p className="text-sm leading-relaxed text-foreground/90">
+                    {p.insider}
+                  </p>
+                </div>
+              )}
+
+              {p.updated_days != null && (
+                <p className="text-xs text-muted-foreground">
+                  Updated {p.updated_days} day{p.updated_days === 1 ? "" : "s"} ago
+                </p>
+              )}
+            </div>
+          </>
+        )}
+      </SheetContent>
+    </Sheet>
   );
 }
