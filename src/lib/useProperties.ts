@@ -20,6 +20,8 @@ export interface Property {
   updated_days: number | null;
   insider?: string | null;
   image_url: string | null;
+  phone?: string | null;
+  website?: string | null;
 }
 
 export interface PropertyFilters {
