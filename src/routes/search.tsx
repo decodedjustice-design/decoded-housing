@@ -47,6 +47,12 @@ const BEDROOM_OPTIONS = [
   { label: "4+ bedrooms", value: "4BR+" },
 ];
 
+const PROGRAM_OPTIONS: Array<{ label: string; value: string }> = [
+  { label: "All programs", value: "" },
+  { label: "LIHTC (Tax Credit)", value: "LIHTC (Tax Credit)" },
+  { label: "MFTE / ARCH Set-Aside", value: "MFTE/ARCH Set-Aside" },
+];
+
 export const Route = createFileRoute("/search")({
   head: () => ({
     meta: [
@@ -63,6 +69,7 @@ function SearchPage() {
   const [city, setCity] = useState<string>("");
   const [maxAmi, setMaxAmi] = useState<number | "">("");
   const [bedroom, setBedroom] = useState<string>("");
+  const [program, setProgram] = useState<string>("");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [openId, setOpenId] = useState<string | null>(null);
   const cardRefs = useRef<Map<string, HTMLElement>>(new Map());
@@ -72,9 +79,10 @@ function SearchPage() {
       cities: city ? [city] : [],
       maxAmi: maxAmi === "" ? undefined : maxAmi,
       bedrooms: bedroom ? [bedroom] : [],
+      types: program ? [program] : [],
       sort: "recent" as const,
     }),
-    [city, maxAmi, bedroom],
+    [city, maxAmi, bedroom, program],
   );
 
   const { data, loading, error } = useProperties(filters);
@@ -105,7 +113,7 @@ function SearchPage() {
         <p className="mt-1 text-sm text-muted-foreground">King County listings — filter by what fits your situation.</p>
       </header>
 
-      <div className="mb-6 grid gap-3 rounded-2xl border border-border bg-card p-4 sm:grid-cols-3">
+      <div className="mb-6 grid gap-3 rounded-2xl border border-border bg-card p-4 sm:grid-cols-2 lg:grid-cols-4">
         <label className="text-xs font-medium text-muted-foreground">
           City
           <select
@@ -143,6 +151,19 @@ function SearchPage() {
             onChange={(e) => setBedroom(e.target.value)}
           >
             {BEDROOM_OPTIONS.map((opt) => (
+              <option key={opt.label} value={opt.value}>{opt.label}</option>
+            ))}
+          </select>
+        </label>
+
+        <label className="text-xs font-medium text-muted-foreground">
+          Program
+          <select
+            className="mt-1 block w-full rounded-lg border border-border bg-background px-3 py-2 text-sm text-foreground"
+            value={program}
+            onChange={(e) => setProgram(e.target.value)}
+          >
+            {PROGRAM_OPTIONS.map((opt) => (
               <option key={opt.label} value={opt.value}>{opt.label}</option>
             ))}
           </select>
