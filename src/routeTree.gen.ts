@@ -14,6 +14,7 @@ import { Route as ShelterRouteImport } from './routes/shelter'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as SavedSheltersRouteImport } from './routes/saved-shelters'
 import { Route as OurStoryRouteImport } from './routes/our-story'
+import { Route as HomeV2RouteImport } from './routes/home-v2'
 import { Route as BasicNeedsRouteImport } from './routes/basic-needs'
 import { Route as ApplyRouteImport } from './routes/apply'
 import { Route as IndexRouteImport } from './routes/index'
@@ -43,6 +44,11 @@ const OurStoryRoute = OurStoryRouteImport.update({
   path: '/our-story',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HomeV2Route = HomeV2RouteImport.update({
+  id: '/home-v2',
+  path: '/home-v2',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BasicNeedsRoute = BasicNeedsRouteImport.update({
   id: '/basic-needs',
   path: '/basic-needs',
@@ -63,6 +69,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/apply': typeof ApplyRoute
   '/basic-needs': typeof BasicNeedsRoute
+  '/home-v2': typeof HomeV2Route
   '/our-story': typeof OurStoryRoute
   '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
@@ -73,6 +80,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/apply': typeof ApplyRoute
   '/basic-needs': typeof BasicNeedsRoute
+  '/home-v2': typeof HomeV2Route
   '/our-story': typeof OurStoryRoute
   '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
@@ -84,6 +92,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/apply': typeof ApplyRoute
   '/basic-needs': typeof BasicNeedsRoute
+  '/home-v2': typeof HomeV2Route
   '/our-story': typeof OurStoryRoute
   '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
@@ -96,6 +105,7 @@ export interface FileRouteTypes {
     | '/'
     | '/apply'
     | '/basic-needs'
+    | '/home-v2'
     | '/our-story'
     | '/saved-shelters'
     | '/search'
@@ -106,6 +116,7 @@ export interface FileRouteTypes {
     | '/'
     | '/apply'
     | '/basic-needs'
+    | '/home-v2'
     | '/our-story'
     | '/saved-shelters'
     | '/search'
@@ -116,6 +127,7 @@ export interface FileRouteTypes {
     | '/'
     | '/apply'
     | '/basic-needs'
+    | '/home-v2'
     | '/our-story'
     | '/saved-shelters'
     | '/search'
@@ -127,6 +139,7 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ApplyRoute: typeof ApplyRoute
   BasicNeedsRoute: typeof BasicNeedsRoute
+  HomeV2Route: typeof HomeV2Route
   OurStoryRoute: typeof OurStoryRoute
   SavedSheltersRoute: typeof SavedSheltersRoute
   SearchRoute: typeof SearchRoute
@@ -171,6 +184,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof OurStoryRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/home-v2': {
+      id: '/home-v2'
+      path: '/home-v2'
+      fullPath: '/home-v2'
+      preLoaderRoute: typeof HomeV2RouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/basic-needs': {
       id: '/basic-needs'
       path: '/basic-needs'
@@ -199,6 +219,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ApplyRoute: ApplyRoute,
   BasicNeedsRoute: BasicNeedsRoute,
+  HomeV2Route: HomeV2Route,
   OurStoryRoute: OurStoryRoute,
   SavedSheltersRoute: SavedSheltersRoute,
   SearchRoute: SearchRoute,
