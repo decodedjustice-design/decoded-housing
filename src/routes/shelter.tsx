@@ -10,6 +10,10 @@ import {
   ExternalLink,
   Navigation,
   ChevronRight,
+  Bookmark,
+  BookmarkCheck,
+  Link2,
+  Check,
 } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import type { Tables } from "@/integrations/supabase/types";
@@ -22,6 +26,27 @@ import {
 } from "@/components/ui/sheet";
 
 type Shelter = Tables<"shelters">;
+
+const SAVED_KEY = "decoded-housing:saved-shelters";
+
+function readSaved(): string[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = window.localStorage.getItem(SAVED_KEY);
+    return raw ? (JSON.parse(raw) as string[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeSaved(ids: string[]) {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(SAVED_KEY, JSON.stringify(ids));
+  } catch {
+    /* ignore */
+  }
+}
 
 export const Route = createFileRoute("/shelter")({
   head: () => ({
