@@ -10,6 +10,10 @@ import {
   ExternalLink,
   Navigation,
   ChevronRight,
+  Bookmark,
+  BookmarkCheck,
+  Link2,
+  Check,
 } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import type { Tables } from "@/integrations/supabase/types";
@@ -22,6 +26,27 @@ import {
 } from "@/components/ui/sheet";
 
 type Shelter = Tables<"shelters">;
+
+const SAVED_KEY = "decoded-housing:saved-shelters";
+
+function readSaved(): string[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const raw = window.localStorage.getItem(SAVED_KEY);
+    return raw ? (JSON.parse(raw) as string[]) : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeSaved(ids: string[]) {
+  if (typeof window === "undefined") return;
+  try {
+    window.localStorage.setItem(SAVED_KEY, JSON.stringify(ids));
+  } catch {
+    /* ignore */
+  }
+}
 
 export const Route = createFileRoute("/shelter")({
   head: () => ({
@@ -295,6 +320,39 @@ function ShelterDrawer({
   const avail = s?.realistic_availability ?? "unknown";
   const barrier = s?.barrier_level ?? "medium";
 
+  const [savedIds, setSavedIds] = useState<string[]>([]);
+  const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    setSavedIds(readSaved());
+  }, [shelter?.id]);
+
+  useEffect(() => {
+    if (!copied) return;
+    const t = window.setTimeout(() => setCopied(false), 1800);
+    return () => window.clearTimeout(t);
+  }, [copied]);
+
+  const isSaved = s ? savedIds.includes(s.id) : false;
+
+  const toggleSave = () => {
+    if (!s) return;
+    const next = isSaved ? savedIds.filter((id) => id !== s.id) : [...savedIds, s.id];
+    setSavedIds(next);
+    writeSaved(next);
+  };
+
+  const copyShareLink = async () => {
+    if (!s || typeof window === "undefined") return;
+    const url = `${window.location.origin}/shelter?id=${encodeURIComponent(s.id)}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+    } catch {
+      window.prompt("Copy this link:", url);
+    }
+  };
+
   const directionsUrl = s
     ? `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(
         [s.address, s.city, "WA"].filter(Boolean).join(", "),
@@ -357,6 +415,45 @@ function ShelterDrawer({
                     No address
                   </span>
                 )}
+              </div>
+
+              {/* Save / share */}
+              <div className="grid grid-cols-2 gap-2">
+                <button
+                  type="button"
+                  onClick={toggleSave}
+                  aria-pressed={isSaved}
+                  className={`inline-flex items-center justify-center gap-2 rounded-xl px-3 py-2 text-sm font-semibold transition-colors ${
+                    isSaved
+                      ? "bg-primary/10 text-primary"
+                      : "border border-border bg-background text-foreground hover:bg-muted"
+                  }`}
+                >
+                  {isSaved ? (
+                    <>
+                      <BookmarkCheck className="h-4 w-4" /> Saved
+                    </>
+                  ) : (
+                    <>
+                      <Bookmark className="h-4 w-4" /> Save shelter
+                    </>
+                  )}
+                </button>
+                <button
+                  type="button"
+                  onClick={copyShareLink}
+                  className="inline-flex items-center justify-center gap-2 rounded-xl border border-border bg-background px-3 py-2 text-sm font-semibold text-foreground hover:bg-muted"
+                >
+                  {copied ? (
+                    <>
+                      <Check className="h-4 w-4 text-primary" /> Link copied
+                    </>
+                  ) : (
+                    <>
+                      <Link2 className="h-4 w-4" /> Copy share link
+                    </>
+                  )}
+                </button>
               </div>
 
               {/* Tags */}
