@@ -1,14 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
-import { Search, AlertTriangle, HeartHandshake, KeyRound, ArrowRight } from "lucide-react";
+import { Search, AlertTriangle, HeartHandshake, KeyRound, Scale, Home, ArrowRight } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Decoded Housing — Start Here" },
-      { name: "description", content: "What do you need right now? Find housing, get help if you might lose it, pay bills, or settle in." },
+      { name: "description", content: "King County housing help in plain language. Find shelter, housing, rent help, food, and tenant support." },
       { property: "og:title", content: "Decoded Housing — Start Here" },
-      { property: "og:description", content: "Calm, supportive housing guidance for King County." },
+      { property: "og:description", content: "Calm, step-by-step housing guidance for King County." },
     ],
   }),
   component: Index,
@@ -17,31 +17,45 @@ export const Route = createFileRoute("/")({
 const paths = [
   {
     to: "/search" as const,
-    title: "Housing Search",
-    desc: "Browse affordable units and review standard eligibility details.",
+    title: "Find affordable housing",
+    desc: "Browse places in King County and see what to do next, with or without a voucher.",
     icon: Search,
     tone: "bg-[oklch(0.93_0.05_150)] text-[oklch(0.32_0.08_155)]",
   },
   {
     to: "/shelter" as const,
-    title: "Housing Stability Support",
-    desc: "Review eviction prevention resources, hotlines, and immediate actions.",
-    icon: AlertTriangle,
+    title: "Need shelter tonight",
+    desc: "Get urgent options, phone numbers, and simple first steps if you need a safe place now.",
+    icon: Home,
     tone: "bg-[oklch(0.93_0.06_25)] text-[oklch(0.45_0.13_25)]",
   },
   {
+    to: "/shelter" as const,
+    title: "I'm worried I'll lose my housing",
+    desc: "Find rent help, prevention resources, and actions to take before a crisis gets worse.",
+    icon: AlertTriangle,
+    tone: "bg-[oklch(0.92_0.05_20)] text-[oklch(0.45_0.13_25)]",
+  },
+  {
+    to: "/waitlist" as const,
+    title: "I have a voucher and need a place",
+    desc: "Use voucher-friendly search and planning steps to move forward faster.",
+    icon: KeyRound,
+    tone: "bg-[oklch(0.92_0.05_140)] text-[oklch(0.32_0.07_150)]",
+  },
+  {
     to: "/basic-needs" as const,
-    title: "Basic Needs Assistance",
-    desc: "Access food, utility, rent, and household support programs.",
+    title: "Food, utilities, furniture, and basics",
+    desc: "Get connected to food, utility support, rent help, and household essentials.",
     icon: HeartHandshake,
     tone: "bg-[oklch(0.94_0.07_85)] text-[oklch(0.38_0.1_75)]",
   },
   {
-    to: "/apply" as const,
-    title: "Application and Move-In Support",
-    desc: "Follow structured steps for applications and move-in planning.",
-    icon: KeyRound,
-    tone: "bg-[oklch(0.92_0.05_140)] text-[oklch(0.32_0.07_150)]",
+    to: "/tenant-rights" as const,
+    title: "Know your tenant rights",
+    desc: "Understand your rights in plain language and learn what to do if a landlord problem comes up.",
+    icon: Scale,
+    tone: "bg-[oklch(0.92_0.04_250)] text-[oklch(0.36_0.09_250)]",
   },
 ];
 
@@ -59,26 +73,37 @@ function Index() {
         />
         <div className="relative max-w-2xl text-primary-foreground">
           <h1 className="font-display text-balance text-[44px] font-medium leading-[1.02] tracking-tight sm:text-[68px]">
-            HOUSING ACCESS PLATFORM
+            Housing help in King County that makes sense
           </h1>
-          <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-white/75 sm:text-[17px]">
-            Search affordable housing, review eligibility, and manage applications across King County.
+          <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-white/85 sm:text-[17px]">
+            If you need shelter, affordable housing, rent help, or basics like food and utilities, start here. We break things down into clear next steps.
           </p>
-          <div className="mt-8">
+          <div className="mt-8 flex flex-wrap gap-3">
             <Link
               to="/search"
               className="inline-flex items-center gap-2 rounded-[8px] bg-white px-5 py-2.5 text-sm font-semibold text-foreground transition-opacity hover:opacity-90"
             >
-              Start Housing Search <ArrowRight className="h-4 w-4" />
+              Find housing now <ArrowRight className="h-4 w-4" />
+            </Link>
+            <Link
+              to="/shelter"
+              className="inline-flex items-center gap-2 rounded-[8px] border border-white/35 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-white/20"
+            >
+              Need shelter tonight
             </Link>
           </div>
+          <p className="mt-4 text-sm text-white/80">You are not behind. Start with your situation, and we’ll help you take the next step.</p>
         </div>
       </section>
 
-      <section className="mt-12 grid gap-6 sm:grid-cols-2">
+      <section className="mt-6 rounded-[8px] border border-border bg-card/70 p-5 text-sm text-muted-foreground">
+        This guide is for people in King County with or without vouchers. You’ll get practical steps, not agency jargon.
+      </section>
+
+      <section className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {paths.map((p, i) => (
           <Link
-            key={p.to}
+            key={`${p.to}-${p.title}`}
             to={p.to}
             className="group relative rounded-[8px] border border-border bg-card p-8"
             style={{ animation: `fade-up 0.7s var(--ease-out-expo) ${i * 80}ms both` }}
@@ -103,18 +128,12 @@ function Index() {
       </section>
 
       <section className="mt-14 overflow-hidden rounded-[8px] border border-border bg-card p-8 sm:p-10">
-        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <h3 className="text-xl font-semibold tracking-tight text-foreground">Housing Support Services</h3>
-            <p className="mt-1.5 text-[14px] text-muted-foreground">Use Get Assistance (right side) to access food, utilities, furniture, and rent support at any time.</p>
-          </div>
-          <Link
-            to="/tenant-rights"
-            className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-[13px] font-medium text-background shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-px hover:shadow-[var(--shadow-elevated)]"
-          >
-            Read tenant rights <ArrowRight className="h-4 w-4" />
-          </Link>
-        </div>
+        <h3 className="text-xl font-semibold tracking-tight text-foreground">How to use this site</h3>
+        <ol className="mt-3 list-decimal space-y-1.5 pl-5 text-[14px] text-muted-foreground">
+          <li>Pick the card that matches your situation right now.</li>
+          <li>Follow the steps and use the phone numbers or links provided.</li>
+          <li>Come back anytime for your next step as things change.</li>
+        </ol>
       </section>
     </main>
   );
