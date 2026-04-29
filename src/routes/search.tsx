@@ -223,7 +223,16 @@ function SearchPage() {
                   : "border-border hover:border-primary/40"
               }`}
             >
-              <div className="mb-3 h-32 rounded-xl bg-[var(--gradient-soft)] border border-border" />
+              {l.image_url ? (
+                <img
+                  src={l.image_url}
+                  alt={`${l.name} photo`}
+                  className="mb-3 h-32 w-full rounded-xl border border-border object-cover"
+                  loading="lazy"
+                />
+              ) : (
+                <div className="mb-3 h-32 rounded-xl border border-border bg-[var(--gradient-soft)]" />
+              )}
               <h3 className="text-base font-semibold text-foreground">{l.name}</h3>
               <div className="mt-1 flex items-center gap-1 text-xs text-muted-foreground">
                 <MapPin className="h-3.5 w-3.5" /> {l.city}
@@ -335,7 +344,15 @@ function PropertyDetailsDrawer({
             </SheetHeader>
 
             <div className="mt-4 flex flex-col gap-4">
-              <div className="h-36 rounded-xl border border-border bg-[var(--gradient-soft)]" />
+              {p.image_url ? (
+                <img
+                  src={p.image_url}
+                  alt={`${p.name} photo`}
+                  className="h-36 w-full rounded-xl border border-border object-cover"
+                />
+              ) : (
+                <div className="h-36 rounded-xl border border-border bg-[var(--gradient-soft)]" />
+              )}
 
               {(p.address || p.city) && (
                 <a
