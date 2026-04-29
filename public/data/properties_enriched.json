@@ -1,0 +1,8036 @@
+[
+  {
+    "id": "prop-0001",
+    "name": "128 Kirkland [Rose Terrace]",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0002",
+    "name": "Adara at Totem Lake",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0003",
+    "name": "Capella at Esterra Park",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0004",
+    "name": "Horizon at Together Center",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0005",
+    "name": "Polaris at Together Center",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0006",
+    "name": "162TEN",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0007",
+    "name": "595 Kirkland Way townhomes",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0008",
+    "name": "66 Degrees",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0009",
+    "name": "888 Bellevue",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0010",
+    "name": "9040 NE Juanita Dr",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0011",
+    "name": "Allez",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0012",
+    "name": "AMLI Redmond Way",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0013",
+    "name": "Angela Dews House (LEO adult family home #3)",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0014",
+    "name": "Aria Apartments",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0015",
+    "name": "Arjanwood",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0016",
+    "name": "Ashford Park Condominiums",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0017",
+    "name": "AVA Esterra Park",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0018",
+    "name": "Avalon Esterra Park",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0019",
+    "name": "Avalon Newcastle Commons",
+    "city": "Newcastle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0020",
+    "name": "Bayshore View Apartments",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0021",
+    "name": "Bell Marymoor Park",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0022",
+    "name": "Bellevue 10",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0023",
+    "name": "Bellevue Heights",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0024",
+    "name": "Benjamin Willow",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0025",
+    "name": "Blackbird",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0026",
+    "name": "Bloom",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0027",
+    "name": "Boardwalk",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0028",
+    "name": "BonTerra",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0029",
+    "name": "Brio",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0030",
+    "name": "Broadstone Savoie",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0031",
+    "name": "Broadstone Vega",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0032",
+    "name": "Brookshire Condominiums",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0033",
+    "name": "Brownstones West",
+    "city": "Sammamish",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0034",
+    "name": "Canopy (Rose Hill) Cottages",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0035",
+    "name": "Centre Cottages [Croquet Club]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0036",
+    "name": "Conover Commons",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0037",
+    "name": "Copal Apartments (Bellevue Station)",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0038",
+    "name": "Copper Leaf [Newport Way Condos]",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0039",
+    "name": "Core 83",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0040",
+    "name": "Crofton Springs II",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0041",
+    "name": "Crosswater",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0042",
+    "name": "Cru at Willows [Proctor Willows 2]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0043",
+    "name": "Cultivate Apartments",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0044",
+    "name": "Delano [Park Place]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0045",
+    "name": "Discovery Heights",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0046",
+    "name": "Eastline Central (Redmond Grand Phase 2)",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0047",
+    "name": "Eastline Grand [Redmond Grand]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0048",
+    "name": "Eastrail Flats",
+    "city": "Woodinville",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0049",
+    "name": "Eaves Redmond Campus",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0050",
+    "name": "Edge",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0051",
+    "name": "Elan [Redmond 133]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0052",
+    "name": "Element Townhomes",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0053",
+    "name": "Elements [Ashwood Commons]",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0054",
+    "name": "Ellington at Bellevue (fka Parkridge)",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0055",
+    "name": "Ellis at Bel-Red [Big 1 Residential]",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0056",
+    "name": "Enclave [IH Div 54]",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0057",
+    "name": "Encore at Rose Hill",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0058",
+    "name": "English Landing 1",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0059",
+    "name": "English Landing 2 [Edgewood East]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0060",
+    "name": "Everlight (was Modera Redmond)",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0061",
+    "name": "Fairwind [Cougar Ridge West]",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0062",
+    "name": "Ferncroft",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0063",
+    "name": "Forest Heights",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0064",
+    "name": "Frazer Court",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0065",
+    "name": "Garbarino property",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0066",
+    "name": "Grata at Totem Lake",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0067",
+    "name": "Greenbrier (homeownership)",
+    "city": "Woodinville",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0068",
+    "name": "Greystone Manor PRD",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0069",
+    "name": "Hadley",
+    "city": "Mercer Island",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0070",
+    "name": "Hanson (aka Carlyle Court)",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0071",
+    "name": "Hawthorne Park",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0072",
+    "name": "Heathers Ridge [Kirkmond]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0073",
+    "name": "Hedgewood East [Beuca]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0074",
+    "name": "Heritage Place",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0075",
+    "name": "Heron Flats & Lofts",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0076",
+    "name": "Hiatt Springs",
+    "city": "Kenmore",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0077",
+    "name": "Hue Apartments [Redmond Sunrise]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0078",
+    "name": "Hyde Square",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0079",
+    "name": "Indigo",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0080",
+    "name": "Jade Residences",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0081",
+    "name": "Jefferson House",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0082",
+    "name": "Johal Short Plat",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0083",
+    "name": "Julia Pritt House [Compassion House 2]",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0084",
+    "name": "Kelsey Lane Condominiums",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0085",
+    "name": "Kensington Lane",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0086",
+    "name": "Kirkland Commons",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0087",
+    "name": "Kirkland Crossing [Unit A]",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0088",
+    "name": "Lake Boren Townhomes",
+    "city": "Newcastle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0089",
+    "name": "Lakehouse Residences [Lake Boren]",
+    "city": "Newcastle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0090",
+    "name": "Lakemont Ridge",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0091",
+    "name": "Lakeview Park",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0092",
+    "name": "Lodestone on Market (Aspen Townhomes)",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0093",
+    "name": "Magnolia at Moss Bay",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0094",
+    "name": "Marymoor Ridge [Deer Creek]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0095",
+    "name": "Marymoor Vistas",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0096",
+    "name": "Midlakes Condominiums",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0097",
+    "name": "Mike Ernst House (LEO adult family home #5)",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0098",
+    "name": "Milano [Wilburton Heights]",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0099",
+    "name": "Milehouse",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0100",
+    "name": "Modera Bridle Trails",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0101",
+    "name": "Monti House [Compassion House I]",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0102",
+    "name": "Morningstar",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0103",
+    "name": "Nelson Ridge",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0104",
+    "name": "Newport Hills Condominiums",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0105",
+    "name": "Nuovo",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0106",
+    "name": "Old Town Lofts",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0107",
+    "name": "Ondina",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0108",
+    "name": "Outlook [IH Div 33]",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0109",
+    "name": "Panorama Village",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0110",
+    "name": "Parc Square",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0111",
+    "name": "Park East",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0112",
+    "name": "Park Highlands",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0113",
+    "name": "Parkside",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0114",
+    "name": "Parkside at Juanita [Kirkland Villas]",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0115",
+    "name": "Penny Lane II",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0116",
+    "name": "Plaza (Natural Built)",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0117",
+    "name": "Plaza on State",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0118",
+    "name": "Porch and Park",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0119",
+    "name": "Portulaca",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0120",
+    "name": "Prelude at Rose Hill",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0121",
+    "name": "Radiate Apartments",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0122",
+    "name": "Ravello",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0123",
+    "name": "Ray Meadows",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0124",
+    "name": "Red 160",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0125",
+    "name": "Redmond Park (fka Heritage Park)",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0126",
+    "name": "Redmond Square Apartments",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0127",
+    "name": "Riverpark",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0128",
+    "name": "Rose Hill Cottages (City Ministries)",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0129",
+    "name": "Rosehaven at Bradford Place",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0130",
+    "name": "Rosewood Court",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0131",
+    "name": "Saddleback",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0132",
+    "name": "SAMM [Plateau 120]",
+    "city": "Sammamish",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0133",
+    "name": "Sammamish Townhomes",
+    "city": "Sammamish",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0134",
+    "name": "Satomi",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0135",
+    "name": "Senderos",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0136",
+    "name": "Sequoia Glen I",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0137",
+    "name": "Sequoia Glen II",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0138",
+    "name": "Silver Glen",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0139",
+    "name": "SK Apartments [Luna Sol]",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0140",
+    "name": "Sky",
+    "city": "Sammamish",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0141",
+    "name": "Slater 116",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0142",
+    "name": "Soleil [Larkin]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0143",
+    "name": "Soma Towers",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0144",
+    "name": "Spectra",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0145",
+    "name": "Spencer 68",
+    "city": "Kenmore",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0146",
+    "name": "Springtree Lane",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0147",
+    "name": "Starpoint [IH Divs 31 & 43]",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0148",
+    "name": "Station House Lofts",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0149",
+    "name": "Steeple Rock",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0150",
+    "name": "Stokely (fka Cerasa)",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0151",
+    "name": "Stonehill Meadows",
+    "city": "Woodinville",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0152",
+    "name": "Stonehill Village",
+    "city": "Woodinville",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0153",
+    "name": "Summer Grove II",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0154",
+    "name": "Sunset Ridge",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0155",
+    "name": "Sycamore Park",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0156",
+    "name": "Talisman",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0157",
+    "name": "The Bond",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0158",
+    "name": "The Bower",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0159",
+    "name": "The Brynn",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0160",
+    "name": "The Carter on the Park",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0161",
+    "name": "The Charles [NLG Project One]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0162",
+    "name": "The Cleveland",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0163",
+    "name": "The Highlands at Wynhaven [IH Div 17]",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0164",
+    "name": "The Luke",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0165",
+    "name": "The McKee",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0166",
+    "name": "The Meadows at Marymoor",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0167",
+    "name": "The Notch",
+    "city": "Newcastle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0168",
+    "name": "The Pine",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0169",
+    "name": "The Piper [LMC South Park]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0170",
+    "name": "The Retreat",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0171",
+    "name": "The Spoke [The Spark]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0172",
+    "name": "The Terrapin (228 106th Pl NE)",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0173",
+    "name": "The Triangle",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0174",
+    "name": "The Walk",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0175",
+    "name": "Tria",
+    "city": "Newcastle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0176",
+    "name": "Uptown at Kirkland Urban",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0177",
+    "name": "Urbane",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0178",
+    "name": "Vale",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0179",
+    "name": "Vantage on Market",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0180",
+    "name": "Vareze",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0181",
+    "name": "Veloce",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0182",
+    "name": "Venetto [Kingsgate 12703]",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0183",
+    "name": "Verde Esterra Park",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0184",
+    "name": "Versant [Terrene at 132nd]",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0185",
+    "name": "Vicino Apartments [Northup Way]",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0186",
+    "name": "Vista Park [IH Block 10/11]",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0187",
+    "name": "Voyager",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0188",
+    "name": "Vue 22 [BelRed II]",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0189",
+    "name": "Vue Kirkland",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0190",
+    "name": "Vuemont South",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0191",
+    "name": "Waterstone [Cobblestone Court]",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0192",
+    "name": "West Highlands Park",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0193",
+    "name": "Westridge Flats",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0194",
+    "name": "Westridge Townhomes",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0195",
+    "name": "Willows 124 (Proctor Willows 1)",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0196",
+    "name": "Windsor Totem Lake (fka Uplund)",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0197",
+    "name": "Woodlands Reserve Townhomes",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0198",
+    "name": "Woodlands Ridge",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0199",
+    "name": "Woodside",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0200",
+    "name": "Xing Hua",
+    "city": "Mercer Island",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0201",
+    "name": "Z Home",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0202",
+    "name": "Zephyr",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0203",
+    "name": "Cedar Pointe",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0204",
+    "name": "Emma Pardee Townhomes",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0205",
+    "name": "Graham/Terry Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0206",
+    "name": "Larned Aparments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0207",
+    "name": "Second + Pine",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0208",
+    "name": "Andrew'S Arms",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0209",
+    "name": "Citi-Mini / Virginia Court Apts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0210",
+    "name": "Byron/Wetmore",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0211",
+    "name": "Juneau Townhouses",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0212",
+    "name": "Spencer Court Apartments",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0213",
+    "name": "Ywca Family Village",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0214",
+    "name": "Brandenwood Apartments",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0215",
+    "name": "Cascade Court/Sterling Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0216",
+    "name": "Easternwood Family Housing",
+    "city": "Bothell",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0217",
+    "name": "Np Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0218",
+    "name": "Union Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0219",
+    "name": "Webster Court Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0220",
+    "name": "Wintonia Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0221",
+    "name": "Westlake Apartments",
+    "city": "Maple Valley",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0222",
+    "name": "Maple Crossing Apartments",
+    "city": "Maple Valley",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0223",
+    "name": "Balfour Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0224",
+    "name": "Heg House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0225",
+    "name": "Vermont Inn",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0226",
+    "name": "Victorian Row Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0227",
+    "name": "Bellevue/Olive Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0228",
+    "name": "Heritage Grove Apartments",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0229",
+    "name": "Pacific Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0230",
+    "name": "Heritage Woods Apartments",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0231",
+    "name": "Meadows On Lea Hill, The",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0232",
+    "name": "Sunset Pointe Apartments",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0233",
+    "name": "El Patio",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0234",
+    "name": "Cascadian Apartments",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0235",
+    "name": "Gilman Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0236",
+    "name": "Glen Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0237",
+    "name": "Green River Court Apts",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0238",
+    "name": "Hampton Heights Apartments",
+    "city": "Tukwila",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0239",
+    "name": "Mercer Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0240",
+    "name": "Park Court Apts",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0241",
+    "name": "Silverwood Park Apartments",
+    "city": "Des Moines",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0242",
+    "name": "Woodridge Park",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0243",
+    "name": "Eagles, The",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0244",
+    "name": "Crestline Apartments",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0245",
+    "name": "Bush Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0246",
+    "name": "Fairwood Apartments",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0247",
+    "name": "Kerner-Scott House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0248",
+    "name": "Meridian Court Apartments",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0249",
+    "name": "Northlake Grove Cooperative",
+    "city": "Kenmore",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0250",
+    "name": "Lyon Building",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0251",
+    "name": "Veranda Green",
+    "city": "Burien",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0252",
+    "name": "Aki Kurose Village (Stone View)",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0253",
+    "name": "Auburn Court Apartments",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0254",
+    "name": "Casa Pacifica",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0255",
+    "name": "Eastern Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0256",
+    "name": "Highland Garden Apartments",
+    "city": "Sammamish",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0257",
+    "name": "Jensen Block",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0258",
+    "name": "Laurelwood Gardens",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0259",
+    "name": "Renton Family Housing",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0260",
+    "name": "Seneca Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0261",
+    "name": "Tate Mason",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0262",
+    "name": "Madison Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0263",
+    "name": "Santos Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0264",
+    "name": "Colonial Gardens",
+    "city": "Shoreline",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0265",
+    "name": "Compass Center Transitional",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0266",
+    "name": "Dorothy Day Residence",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0267",
+    "name": "Fleming Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0268",
+    "name": "Frye Building",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0269",
+    "name": "Heritage Park",
+    "city": "Bothell",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0270",
+    "name": "Rainier Views I Ii & Si View",
+    "city": "Enumclaw",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0271",
+    "name": "Ravenna School",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0272",
+    "name": "Seaview Apartments",
+    "city": "Des Moines",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0273",
+    "name": "Villa Apts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0274",
+    "name": "Windsor Heights",
+    "city": "Seatac",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0275",
+    "name": "Norman Mitchell Manor",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0276",
+    "name": "Sand Point Family Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0277",
+    "name": "Alpine Ridge Apartments",
+    "city": "Bothell",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0278",
+    "name": "Auburn Manor Apartments",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0279",
+    "name": "Burke Gilman Place Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0280",
+    "name": "Cedar Ridge Apartments",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0281",
+    "name": "David Colwell Building",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0282",
+    "name": "Park Place (Kent)",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0283",
+    "name": "Security House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0284",
+    "name": "Somerset Gardens East",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0285",
+    "name": "Somerset Gardens West",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0286",
+    "name": "Vasa Creek Woods Apartments",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0287",
+    "name": "Ymca Building Project",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0288",
+    "name": "Alderbrook Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0289",
+    "name": "Riverside Landing Apartments",
+    "city": "Bothell",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0290",
+    "name": "El Nor Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0291",
+    "name": "Holly Park Phase Ii",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0292",
+    "name": "Lewiston Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0293",
+    "name": "Oregon Place Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0294",
+    "name": "Silver Springs Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0295",
+    "name": "Terrace Apartments",
+    "city": "Des Moines",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0296",
+    "name": "Harrison House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0297",
+    "name": "Aki Kurose Ii",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0298",
+    "name": "Heron Landing",
+    "city": "Kenmore",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0299",
+    "name": "Julie Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0300",
+    "name": "Lakeview Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0301",
+    "name": "Mariposa Apartments",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0302",
+    "name": "Mountain View Apartments",
+    "city": "Tukwila",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0303",
+    "name": "Southwood Square Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0304",
+    "name": "Stewart Court Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0305",
+    "name": "Oleta Apartments, The",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0306",
+    "name": "Village At Overlake Station",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0307",
+    "name": "Vivian Mclean Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0308",
+    "name": "Views At Madison Phase Ii",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0309",
+    "name": "Esperanza Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0310",
+    "name": "Heron Run",
+    "city": "Kenmore",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0311",
+    "name": "Longfellow/Westwood Court Coop",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0312",
+    "name": "Arbor Heights",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0313",
+    "name": "Coronado Springs Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0314",
+    "name": "Eastwood Square Apartments",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0315",
+    "name": "Gilmore, The",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0316",
+    "name": "Greenbrier Heights Senior",
+    "city": "Woodinville",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0317",
+    "name": "Plymouth Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0318",
+    "name": "Traugott Terrace",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0319",
+    "name": "Ywca Opportunity Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0320",
+    "name": "Evergreen Court (Bellevue)",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0321",
+    "name": "Parkway Apartments",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0322",
+    "name": "Rainier Vista Senior Apartments",
+    "city": "Pacific",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0323",
+    "name": "Views At Madison Phase I",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0324",
+    "name": "Belltown Senior Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0325",
+    "name": "Helen V Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0326",
+    "name": "Meadowbrook View",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0327",
+    "name": "Mitchell Place Senior Residence",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0328",
+    "name": "Avondale Park",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0329",
+    "name": "Chalet Apartments",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0330",
+    "name": "Courtland Place At Rainier Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0331",
+    "name": "Harrison House Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0332",
+    "name": "International House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0333",
+    "name": "Martin Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0334",
+    "name": "Ok Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0335",
+    "name": "Plum Court Family Apartments",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0336",
+    "name": "Tashiro-Kaplan Artist Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0337",
+    "name": "Domingo Viernes Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0338",
+    "name": "Cate Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0339",
+    "name": "Greenbrier Heights Family/Dash",
+    "city": "Woodinville",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0340",
+    "name": "Tyree Scott Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0341",
+    "name": "Whisperwood Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0342",
+    "name": "White River Garden",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0343",
+    "name": "1811 Eastlake Supportive Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0344",
+    "name": "Crestview West Apartments",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0345",
+    "name": "Croft Place Townhomes",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0346",
+    "name": "Katharine'S Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0347",
+    "name": "La Madera Apartment Homes",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0348",
+    "name": "Pine Ridge Apartment Homes",
+    "city": "Seatac",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0349",
+    "name": "Stonebrook Ii",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0350",
+    "name": "Karlstrom, The",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0351",
+    "name": "Ritz Apartments, The",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0352",
+    "name": "Valley Park East + West",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0353",
+    "name": "Alaska House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0354",
+    "name": "Angle Lake Court",
+    "city": "Seatac",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0355",
+    "name": "Holly Park Iii",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0356",
+    "name": "Judkins Park Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0357",
+    "name": "Morrison Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0358",
+    "name": "Park Hill Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0359",
+    "name": "Stonebrook Apartments",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0360",
+    "name": "Woodlands At Forbes Lake",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0361",
+    "name": "Plymouth On Stewart",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0362",
+    "name": "A Place Of Our Own",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0363",
+    "name": "Lowman Building",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0364",
+    "name": "Genesee Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0365",
+    "name": "Lasalle Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0366",
+    "name": "Nihonmachi Terrace",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0367",
+    "name": "Washington Terrace",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0368",
+    "name": "Garden Grove & Wildwood Court",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0369",
+    "name": "Silvian Apts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0370",
+    "name": "Rose Crest At Talus",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0371",
+    "name": "Villa Capri",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0372",
+    "name": "Alder Crest Apts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0373",
+    "name": "High Point Phase I",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0374",
+    "name": "Greenbridge Seola Crossing One",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0375",
+    "name": "Cabrini Senior Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0376",
+    "name": "Dakota At Rainier Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0377",
+    "name": "Denny Park Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0378",
+    "name": "Glendale Redevelopment",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0379",
+    "name": "Historic Cooper School",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0380",
+    "name": "Pantages Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0381",
+    "name": "Rainier Vista Phase I",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0382",
+    "name": "Ventana Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0383",
+    "name": "Broadway Crossing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0384",
+    "name": "Cambridge Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0385",
+    "name": "Eernisse Apts",
+    "city": "Vashon",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0386",
+    "name": "Evans House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0387",
+    "name": "Homeworks Phase I",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0388",
+    "name": "Lauren Heights Family Apartments",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0389",
+    "name": "New Haven Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0390",
+    "name": "Scenic Vista Senior Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0391",
+    "name": "Villa Esperanza Apartments",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0392",
+    "name": "Windham Apartments, The",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0393",
+    "name": "Mine Hill Apartments",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0394",
+    "name": "Greenbridge Seola Crossing Two",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0395",
+    "name": "One Community Commons",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0396",
+    "name": "Creston Point",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0397",
+    "name": "Stone Way Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0398",
+    "name": "Summerwood Apartments",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0399",
+    "name": "Vintage At Burien",
+    "city": "Burien",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0400",
+    "name": "Fremont Solstice Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0401",
+    "name": "Greentree Apartment Homes",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0402",
+    "name": "Hiawatha Artist Lofts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0403",
+    "name": "Johnson Hill Apts",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0404",
+    "name": "Kenyon House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0405",
+    "name": "Liberty Square Apartments",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0406",
+    "name": "Seasons",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0407",
+    "name": "Seattle High Rise Rehab Phase Ii",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0408",
+    "name": "Simons Senior Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0409",
+    "name": "Urban League Village @ Colman School",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0410",
+    "name": "Greenbridge Hope Vi - Nia Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0411",
+    "name": "Quintessa Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0412",
+    "name": "Radcliffe Place",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0413",
+    "name": "Appian Way Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0414",
+    "name": "Bart Harvey",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0415",
+    "name": "Blakely At Echo Lake",
+    "city": "Shoreline",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0416",
+    "name": "Cesar Chavez Village",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0417",
+    "name": "Frederic Ozanam House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0418",
+    "name": "High Point Phase Ii",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0419",
+    "name": "Rainier House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0420",
+    "name": "Samaki Commons",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0421",
+    "name": "Santa Teresita Del Nino Jesus",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0422",
+    "name": "Mcdermott Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0423",
+    "name": "Greenbridge Salmon Creek Apts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0424",
+    "name": "Barkley Ridge Apartments",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0425",
+    "name": "Cedar Park Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0426",
+    "name": "Egis Housing Project",
+    "city": "Tukwila",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0427",
+    "name": "Rainier Glen Apartments",
+    "city": "Enumclaw",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0428",
+    "name": "Senior City",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0429",
+    "name": "Apartment (Mlk)",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0430",
+    "name": "Arrowhead Gardens",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0431",
+    "name": "Humphrey House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0432",
+    "name": "Compass Center Renton Veterans",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0433",
+    "name": "Greenbridge Eastbridge Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0434",
+    "name": "Holiday Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0435",
+    "name": "Bakhita Gardens-Rose Of Lima",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0436",
+    "name": "Birch Creek Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0437",
+    "name": "Covington Place Retirement",
+    "city": "Covington",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0438",
+    "name": "Seattle High Rise Rehab Phase Iii",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0439",
+    "name": "South Shore Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0440",
+    "name": "Tressa Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0441",
+    "name": "Ywca Family Village Issaquah Ii",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0442",
+    "name": "Lake City Village Hope Vi Phase Vi",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0443",
+    "name": "Francis Village",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0444",
+    "name": "Gossett Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0445",
+    "name": "Sixth Place Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0446",
+    "name": "Park Lake Homes Ii - Zephyr",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0447",
+    "name": "Rose Street Apts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0448",
+    "name": "Victoria Park Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0449",
+    "name": "Brettler Family Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0450",
+    "name": "Unity Village Of White Center",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0451",
+    "name": "Monica'S Village Place I",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0452",
+    "name": "Andrew'S Glen",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0453",
+    "name": "Canaday House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0454",
+    "name": "Tamarack Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0455",
+    "name": "Dekko Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0456",
+    "name": "First & Vine Apts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0457",
+    "name": "Rainier Vista Northeast",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0458",
+    "name": "Providence Joseph House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0459",
+    "name": "Ww - Jefferson, The",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0460",
+    "name": "Ww - Columbia City Station Apts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0461",
+    "name": "Copper Lantern Apartments",
+    "city": "Kenmore",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0462",
+    "name": "Discovery Heights",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0463",
+    "name": "Ywca Family Village Issaquah I",
+    "city": "Issaquah",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0464",
+    "name": "Addison On Fourth",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0465",
+    "name": "Aurora Supportive Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0466",
+    "name": "Emerald City Commons",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0467",
+    "name": "Ernestine Anderson Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0468",
+    "name": "Fairwind Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0469",
+    "name": "Nyer Urness House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0470",
+    "name": "Phyllis Gutierrez Kenney Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0471",
+    "name": "Williams Apts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0472",
+    "name": "Green River Homes",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0473",
+    "name": "Tri-Court Senior Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0474",
+    "name": "Ww - Columbia City Station Apts B",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0475",
+    "name": "12Th Avenue Arts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0476",
+    "name": "Polaris Apartments",
+    "city": "Shoreline",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0477",
+    "name": "Velocity Apartments",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0478",
+    "name": "Lake Washington Apts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0479",
+    "name": "Columbia Gardens At Rainier Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0480",
+    "name": "Cottage Grove",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0481",
+    "name": "Interurban Senior Living",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0482",
+    "name": "Patrick Place Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0483",
+    "name": "Artspace Mt Baker Station Lofts",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0484",
+    "name": "Ashwood Court Apartments",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0485",
+    "name": "Haines Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0486",
+    "name": "Parker Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0487",
+    "name": "Vantage Point Apartments",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0488",
+    "name": "August Wilson Place",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0489",
+    "name": "Des Moines Family Housing",
+    "city": "Des Moines",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0490",
+    "name": "Kebero Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0491",
+    "name": "Leschi House Redevelopment",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0492",
+    "name": "Caroline W. Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0493",
+    "name": "Cheryl Chow Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0494",
+    "name": "Compass On Dexter",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0495",
+    "name": "Park 16",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0496",
+    "name": "Abbey Lincoln Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0497",
+    "name": "Corinthian Apartments",
+    "city": "Seatac",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0498",
+    "name": "Hirabayashi Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0499",
+    "name": "Kitts Corner",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0500",
+    "name": "Marion West",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0501",
+    "name": "Plaza Roberto Maestas",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0502",
+    "name": "Polaris At Covington",
+    "city": "Covington",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0503",
+    "name": "Spiritwood Manor",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0504",
+    "name": "Summerfield Apartment Homes",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0505",
+    "name": "Sylvia Odom'S Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0506",
+    "name": "William J Wood Veterans House",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0507",
+    "name": "Celebration Senior Living East",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0508",
+    "name": "Interbay Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0509",
+    "name": "Raven Terrace",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0510",
+    "name": "Reserve At Renton, The",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0511",
+    "name": "Alex Jackson House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0512",
+    "name": "Compass At Ronald Commons",
+    "city": "Shoreline",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0513",
+    "name": "Estates At Hillside Gardens",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0514",
+    "name": "Grandview Apartments",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0515",
+    "name": "Hoa Mai Gardens",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0516",
+    "name": "Mercy Othello Plaza East",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0517",
+    "name": "Mercy Othello Plaza West",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0518",
+    "name": "Plymouth On First Hill",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0519",
+    "name": "Providence John Gabriel House",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0520",
+    "name": "Security House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0521",
+    "name": "Tukwila Village Phase I Senior",
+    "city": "Tukwila",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0522",
+    "name": "Celebration Senior Living West",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0523",
+    "name": "Reserve At Seatac",
+    "city": "Seatac",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0524",
+    "name": "Uptown Square",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0525",
+    "name": "Anchor Flats",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0526",
+    "name": "Burien Haus",
+    "city": "Burien",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0527",
+    "name": "Estelle Supportive Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0528",
+    "name": "Highland Village Somerset Gardens",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0529",
+    "name": "Homestead North + South",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0530",
+    "name": "Larc @ Kent",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0531",
+    "name": "Linden Flats",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0532",
+    "name": "Mount Baker Village Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0533",
+    "name": "Newholly Phase I",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0534",
+    "name": "Promenade Apartments",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0535",
+    "name": "Reserve At Auburn",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0536",
+    "name": "Royal Hills Apartments",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0537",
+    "name": "Santos Place/Sand Point Family",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0538",
+    "name": "Sunset Court Apartments",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0539",
+    "name": "Villas At Auburn, The",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0540",
+    "name": "Adriana Senior Apartments, The",
+    "city": "Des Moines",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0541",
+    "name": "Athene",
+    "city": "Kirkland",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0542",
+    "name": "30Bellevue",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0543",
+    "name": "Boulevard Place",
+    "city": "Bothell",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0544",
+    "name": "Clement Place Psh",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0545",
+    "name": "Compass Broadview",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0546",
+    "name": "June Leonard Place",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0547",
+    "name": "Liberty Bank Building",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0548",
+    "name": "Mercy Magnusson Place North",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0549",
+    "name": "Mercy Magnusson Place South",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0550",
+    "name": "Red Cedar",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0551",
+    "name": "Renton Crest",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0552",
+    "name": "Thai Binh Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0553",
+    "name": "Waterview Crossing Apartments",
+    "city": "Des Moines",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0554",
+    "name": "West Seattle Affordable Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0555",
+    "name": "Golden Cedars",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0556",
+    "name": "Redmond Ridge Apartments",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0557",
+    "name": "Southside By Vintage",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0558",
+    "name": "Tony Lee",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0559",
+    "name": "Sanford Hildebrandt Towers",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0560",
+    "name": "An Lac",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0561",
+    "name": "Coronado Springs Cottages",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0562",
+    "name": "Gardner House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0563",
+    "name": "Opportunity Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0564",
+    "name": "Panorama Apartments",
+    "city": "Snoqualmie",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0565",
+    "name": "Patricia K. Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0566",
+    "name": "Station House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0567",
+    "name": "Heights By Vintage",
+    "city": "Seatac",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0568",
+    "name": "Bob + Marcia Almquist Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0569",
+    "name": "Bonanza Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0570",
+    "name": "Crossroads Senior Living",
+    "city": "Bellevue",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0571",
+    "name": "Hobson Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0572",
+    "name": "Larc @ Burien",
+    "city": "Burien",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0573",
+    "name": "Spokane At Rainier Court",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0574",
+    "name": "Abbell Portfolio",
+    "city": "Seatac",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0575",
+    "name": "Aspen Terrace",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0576",
+    "name": "Confluence, The",
+    "city": "Tukwila",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0577",
+    "name": "Copper Gate",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0578",
+    "name": "Encore Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0579",
+    "name": "Filipino Community Village",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0580",
+    "name": "Kent Permanent Supportive Housing",
+    "city": "Kent",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0581",
+    "name": "Kristin Benson Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0582",
+    "name": "Sunset Oaks",
+    "city": "Renton",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0583",
+    "name": "Traditions At Federal Way",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0584",
+    "name": "Tukwila Village Phase 2 Senior",
+    "city": "Tukwila",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0585",
+    "name": "Watermark Apartments",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0586",
+    "name": "Woodland North",
+    "city": "Lake Forest Park",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0587",
+    "name": "12Th And Spruce Supportive Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0588",
+    "name": "Csc Housing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0589",
+    "name": "Capella At Esterra Park 4%",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0590",
+    "name": "Capella At Esterra Park 9%",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0591",
+    "name": "Cedar Crossing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0592",
+    "name": "George Fleming Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0593",
+    "name": "Hinoki Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0594",
+    "name": "Hobson Place - Phase 2",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0595",
+    "name": "Legacy Plaza Senior Living",
+    "city": "Auburn",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0596",
+    "name": "North Star, The",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0597",
+    "name": "Northaven Three Apartments",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0598",
+    "name": "Polaris At Rainier Beach",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0599",
+    "name": "Willow Crossing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0600",
+    "name": "Yancy Street Psh",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0601",
+    "name": "Blake House",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0602",
+    "name": "Eastern And Np Hotel",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0603",
+    "name": "Elizabeth Thomas Homes",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0604",
+    "name": "Ethiopian Village",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0605",
+    "name": "Horizon Housing At Together Center",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0606",
+    "name": "Maddux, The",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0607",
+    "name": "Pine Ridge Apartments",
+    "city": "Seatac",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0608",
+    "name": "Pointe By Vintage Apartments",
+    "city": "Des Moines",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0609",
+    "name": "Polaris At Lake City",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0610",
+    "name": "Polaris At Seatac",
+    "city": "Seatac",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0611",
+    "name": "Polaris At Together Center",
+    "city": "Redmond",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0612",
+    "name": "Quinn By Vintage",
+    "city": "Shoreline",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0613",
+    "name": "Redondo Heights Tod Phase I",
+    "city": "Federal Way",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0614",
+    "name": "Rise On Madison, The",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0615",
+    "name": "Salish Landing",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0616",
+    "name": "St Margaret'S Place",
+    "city": "Shoreline",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0617",
+    "name": "Station By Vintage Apartments",
+    "city": "Covington",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  },
+  {
+    "id": "prop-0618",
+    "name": "Uncle Bob'S Place",
+    "city": "Seattle",
+    "state": "WA",
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "location": null,
+    "photos": [],
+    "photos_verified": false
+  }
+]
