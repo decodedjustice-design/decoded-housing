@@ -50,8 +50,8 @@ function WaitlistPage() {
   return (
     <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
       <header className="mb-6">
-        <h1 className="text-3xl font-semibold text-foreground">Your Housing Tracker</h1>
-        <p className="mt-1 text-sm text-muted-foreground">Track your saved places, application steps, and updates in one calm view.</p>
+        <h1 className="text-3xl font-semibold text-foreground">Housing Tracker</h1>
+        <p className="mt-1 text-sm text-muted-foreground">Centralized tracking for saved properties, application stages, and status updates.</p>
       </header>
 
       <section className="mb-6 grid gap-3 rounded-2xl border border-[#E8E4DC] bg-card p-4 sm:grid-cols-2">
@@ -71,7 +71,7 @@ function WaitlistPage() {
 
       <section className="space-y-3">
         {rows.length === 0 && (
-          <div className="rounded-2xl border border-[#E8E4DC] bg-card p-6 text-sm text-muted-foreground">No tracked properties yet. Save a property from search to start your tracker.</div>
+          <div className="rounded-2xl border border-[#E8E4DC] bg-card p-6 text-sm text-muted-foreground">No tracked properties. Save a property from Search to initialize tracking.</div>
         )}
         {rows.map(([id, item]) => (
           <article key={id} className="rounded-2xl border border-[#E8E4DC] bg-card p-4">
@@ -91,7 +91,7 @@ function WaitlistPage() {
                 </select>
               </label>
               <label className="text-xs font-medium text-muted-foreground sm:col-span-2">Notes
-                <textarea value={item.notes} onChange={(e) => updateItem(id, { notes: e.target.value })} className="mt-1 min-h-20 w-full rounded-lg border border-[#E8E4DC] px-3 py-2 text-sm" placeholder="Add reminders, next steps, or contact notes." />
+                <textarea value={item.notes} onChange={(e) => updateItem(id, { notes: e.target.value })} className="mt-1 min-h-20 w-full rounded-lg border border-[#E8E4DC] px-3 py-2 text-sm" placeholder="Add follow-up actions and contact records." />
               </label>
             </div>
             <p className="mt-3 text-xs text-muted-foreground">Last updated: {new Date(item.last_updated).toLocaleString()}</p>
