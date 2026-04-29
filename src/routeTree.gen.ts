@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as TenantRightsRouteImport } from './routes/tenant-rights'
 import { Route as ShelterRouteImport } from './routes/shelter'
+import { Route as WaitlistRouteImport } from './routes/waitlist'
 import { Route as SearchV2RouteImport } from './routes/search-v2'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as SavedSheltersRouteImport } from './routes/saved-shelters'
@@ -28,6 +29,11 @@ const TenantRightsRoute = TenantRightsRouteImport.update({
 const ShelterRoute = ShelterRouteImport.update({
   id: '/shelter',
   path: '/shelter',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WaitlistRoute = WaitlistRouteImport.update({
+  id: '/waitlist',
+  path: '/waitlist',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SearchV2Route = SearchV2RouteImport.update({
@@ -82,6 +88,7 @@ export interface FileRoutesByFullPath {
   '/search-v2': typeof SearchV2Route
   '/shelter': typeof ShelterRoute
   '/tenant-rights': typeof TenantRightsRoute
+  '/waitlist': typeof WaitlistRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -94,6 +101,7 @@ export interface FileRoutesByTo {
   '/search-v2': typeof SearchV2Route
   '/shelter': typeof ShelterRoute
   '/tenant-rights': typeof TenantRightsRoute
+  '/waitlist': typeof WaitlistRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -107,6 +115,7 @@ export interface FileRoutesById {
   '/search-v2': typeof SearchV2Route
   '/shelter': typeof ShelterRoute
   '/tenant-rights': typeof TenantRightsRoute
+  '/waitlist': typeof WaitlistRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -121,6 +130,7 @@ export interface FileRouteTypes {
     | '/search-v2'
     | '/shelter'
     | '/tenant-rights'
+    | '/waitlist'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -133,6 +143,7 @@ export interface FileRouteTypes {
     | '/search-v2'
     | '/shelter'
     | '/tenant-rights'
+    | '/waitlist'
   id:
     | '__root__'
     | '/'
@@ -145,6 +156,7 @@ export interface FileRouteTypes {
     | '/search-v2'
     | '/shelter'
     | '/tenant-rights'
+    | '/waitlist'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -158,6 +170,7 @@ export interface RootRouteChildren {
   SearchV2Route: typeof SearchV2Route
   ShelterRoute: typeof ShelterRoute
   TenantRightsRoute: typeof TenantRightsRoute
+  WaitlistRoute: typeof WaitlistRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -218,6 +231,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BasicNeedsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/waitlist': {
+      id: '/waitlist'
+      path: '/waitlist'
+      fullPath: '/waitlist'
+      preLoaderRoute: typeof WaitlistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/apply': {
       id: '/apply'
       path: '/apply'
@@ -246,6 +266,7 @@ const rootRouteChildren: RootRouteChildren = {
   SearchV2Route: SearchV2Route,
   ShelterRoute: ShelterRoute,
   TenantRightsRoute: TenantRightsRoute,
+  WaitlistRoute: WaitlistRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

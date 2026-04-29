@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   Search,
   MapPin,
@@ -18,8 +18,11 @@ import {
   BedDouble,
   Tag,
   ExternalLink,
+  Bookmark,
+  Check,
 } from "lucide-react";
 import { useProperties, type Property } from "@/lib/useProperties";
+import { getWaitlist, saveWaitlist, type WaitlistMap } from "@/lib/waitlist";
 import {
   Sheet,
   SheetContent,
@@ -90,6 +93,28 @@ function SearchV2Page() {
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [highlightId, setHighlightId] = useState<string | null>(null);
   const [selected, setSelected] = useState<Property | null>(null);
+  const [waitlist, setWaitlist] = useState<WaitlistMap>({});
+
+  useEffect(() => {
+    setWaitlist(getWaitlist());
+  }, []);
+
+  const saveProperty = (property: Property) => {
+    const now = new Date().toISOString();
+    const next = {
+      ...waitlist,
+      [property.id]: {
+        name: property.name,
+        status: "Interested" as const,
+        date_added: waitlist[property.id]?.date_added ?? now,
+        last_updated: now,
+        notes: waitlist[property.id]?.notes ?? "",
+        priority: waitlist[property.id]?.priority ?? "Medium",
+      },
+    };
+    setWaitlist(next);
+    saveWaitlist(next);
+  };
 
   // advanced filters
   const [maxAmi, setMaxAmi] = useState<number | undefined>(undefined);
@@ -156,6 +181,9 @@ function SearchV2Page() {
           />
         </div>
         <div className="ml-auto flex items-center gap-2 text-xs text-[var(--muted)]">
+          <Link to="/waitlist" className="rounded px-2 py-1 hover:bg-[var(--warm-off)]">
+            Waitlist Tracker
+          </Link>
           <Link to="/search" className="rounded px-2 py-1 hover:bg-[var(--warm-off)]">
             ← Back to classic search
           </Link>
@@ -264,6 +292,8 @@ function SearchV2Page() {
                 highlighted={highlightId === p.id}
                 onHover={() => setHighlightId(p.id)}
                 onSelect={() => setSelected(p)}
+                isTracked={Boolean(waitlist[p.id])}
+                onSave={() => saveProperty(p)}
               />
             ))}
           </div>
@@ -433,12 +463,16 @@ function PropCard({
   highlighted,
   onHover,
   onSelect,
+  isTracked,
+  onSave,
 }: {
   p: Property;
   horizontal: boolean;
   highlighted: boolean;
   onHover: () => void;
   onSelect: () => void;
+  isTracked: boolean;
+  onSave: () => void;
 }) {
   const tags = (p.types ?? []).slice(0, 4);
   return (
@@ -496,9 +530,16 @@ function PropCard({
             </span>
           ))}
         </div>
-        <h3 className="font-serif text-[15px] font-semibold leading-tight text-[var(--ink)]">
-          {p.name}
-        </h3>
+        <div className="flex items-center justify-between gap-2">
+          <h3 className="font-serif text-[15px] font-semibold leading-tight text-[var(--ink)]">
+            {p.name}
+          </h3>
+          {isTracked && (
+            <span className="rounded-full border border-[var(--warm-border)] bg-[var(--sage-softer)] px-2 py-0.5 text-[10px] font-semibold text-[var(--forest)]">
+              Tracked
+            </span>
+          )}
+        </div>
         <div className="mt-1 flex items-center gap-1 text-xs text-[var(--muted)]">
           <MapPin className="h-3 w-3 flex-shrink-0" />
           <span className="truncate">{p.address ?? p.city}</span>
@@ -520,6 +561,22 @@ function PropCard({
             <span>{p.insider}</span>
           </div>
         )}
+
+        <button
+          type="button"
+          onClick={(e) => {
+            e.stopPropagation();
+            onSave();
+          }}
+          className={`mt-3 inline-flex items-center gap-1.5 rounded-lg border px-2.5 py-1.5 text-xs font-semibold transition-colors ${
+            isTracked
+              ? "border-[var(--sage)] bg-[var(--sage-pale)] text-[var(--forest)]"
+              : "border-[var(--warm-border)] bg-white text-[var(--ink-mid)] hover:border-[var(--sage)]"
+          }`}
+        >
+          {isTracked ? <Check className="h-3.5 w-3.5" /> : <Bookmark className="h-3.5 w-3.5" />}
+          {isTracked ? "Saved ✓" : "Save"}
+        </button>
 
         <div className="mt-2 flex flex-wrap items-center justify-between gap-1.5 border-t border-[var(--warm-off)] pt-2">
           {p.transit_label || p.transit_distance != null ? (
