@@ -27,9 +27,11 @@
       ],
       "location": null,
       "photos": [
-        "https://source.unsplash.com/800x600/?apartment-building"
+        "https://resource.rentcafe.com/image/upload/x_0%2Cy_0%2Cw_2048%2Ch_1367%2Cc_crop/q_auto%2Cf_auto%2Cc_lfill%2Cw_420%2Car_1.4%2Cg_auto/s3/2/248783/slider1.jpg",
+        "https://resource.rentcafe.com/image/upload/x_0%2Cy_0%2Cw_2048%2Ch_1367%2Cc_crop/q_auto%2Cf_auto%2Cc_lfill%2Cw_576%2Car_1.92%2Cg_auto/s3/2/248783/slider2.jpg",
+        "https://resource.rentcafe.com/image/upload/x_0%2Cy_0%2Cw_2048%2Ch_1367%2Cc_crop/q_auto%2Cf_auto%2Cc_lfill%2Cw_576%2Car_1.92%2Cg_auto/s3/2/248783/slider3.jpg"
       ],
-      "photos_verified": false,
+      "photos_verified": true,
       "website": "https://www.google.com/search?q=Adara+at+Totem+Lake+Kirkland+WA"
     },
     {
@@ -43,9 +45,10 @@
       ],
       "location": null,
       "photos": [
-        "https://source.unsplash.com/800x600/?apartment-building"
+        "https://thumbs.apts247.info/resize/?img=https%3A%2F%2Fmedia.apts247.info%2F1f%2F1f12d97ca59a4e38adfb2efbf9f5ac2b%2Famenity_lists%2Fcommunity-amenities.jpg&output=webp&w=355",
+        "https://thumbs.apts247.info/resize/?img=https%3A%2F%2Fmedia.apts247.info%2F1f%2F1f12d97ca59a4e38adfb2efbf9f5ac2b%2Famenity_lists%2Fapartment-features.jpg&output=webp&w=355"
       ],
-      "photos_verified": false,
+      "photos_verified": true,
       "website": "https://www.google.com/search?q=Capella+at+Esterra+Park+Redmond+WA"
     },
     {
@@ -75,9 +78,10 @@
       ],
       "location": null,
       "photos": [
-        "https://source.unsplash.com/800x600/?apartment-building"
+        "https://thumbs.apts247.info/resize/?img=https%3A%2F%2Fmedia.apts247.info%2F6d%2F6db1c6b9457e4a89afc6877174e1c267%2Famenity_lists%2Fcommunity-amenities.jpg&output=webp&w=355",
+        "https://thumbs.apts247.info/resize/?img=https%3A%2F%2Fmedia.apts247.info%2F6d%2F6db1c6b9457e4a89afc6877174e1c267%2Famenity_lists%2Fapartment-features.jpg&output=webp&w=355"
       ],
-      "photos_verified": false,
+      "photos_verified": true,
       "website": "https://www.google.com/search?q=Polaris+at+Together+Center+Redmond+WA"
     },
     {
