@@ -1,16 +1,19 @@
 import { Link } from "@tanstack/react-router";
-import { Home, Search, ClipboardList, HeartHandshake, Scale, AlertTriangle, Bookmark, BookOpen, Menu, X } from "lucide-react";
+import { Home, Search, HeartHandshake, Scale, AlertTriangle, Bookmark, Info, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const links = [
   { to: "/", label: "Start Here", icon: Home },
-  { to: "/search", label: "Search Housing", icon: Search },
-  { to: "/apply", label: "Apply", icon: ClipboardList },
-  { to: "/basic-needs", label: "Basic Needs", icon: HeartHandshake },
-  { to: "/tenant-rights", label: "Tenant Rights", icon: Scale },
+  { to: "/search", label: "Housing", icon: Search },
   { to: "/shelter", label: "Shelter", icon: AlertTriangle },
+  { to: "/basic-needs", label: "Bills & Basics", icon: HeartHandshake },
+  { to: "/tenant-rights", label: "Tenant Rights", icon: Scale },
+  { to: "/our-story", label: "About", icon: Info },
+] as const;
+
+const utilityLinks = [
   { to: "/saved-shelters", label: "Saved", icon: Bookmark },
-  { to: "/our-story", label: "Our Story", icon: BookOpen },
+  { to: "/search", label: "Search", icon: Search },
 ] as const;
 
 export function Navbar() {
@@ -44,6 +47,18 @@ export function Navbar() {
           ))}
         </nav>
 
+        <nav className="hidden items-center gap-0.5 lg:flex">
+          {utilityLinks.map((l) => (
+            <Link
+              key={l.label}
+              to={l.to}
+              className="rounded-full px-3 py-1.5 text-[13px] font-medium text-muted-foreground transition-all duration-300 ease-[var(--ease-out-expo)] hover:bg-accent/70 hover:text-accent-foreground"
+            >
+              {l.label}
+            </Link>
+          ))}
+        </nav>
+
         <Link
           to="/shelter"
           className="hidden items-center gap-2 rounded-full bg-destructive px-3.5 py-2 text-[13px] font-semibold text-destructive-foreground shadow-[var(--shadow-card)] ring-1 ring-destructive/30 transition-all duration-300 hover:shadow-[var(--shadow-elevated)] hover:-translate-y-px sm:inline-flex"
@@ -63,9 +78,9 @@ export function Navbar() {
       {open && (
         <div className="border-t border-border bg-background lg:hidden">
           <nav className="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-3">
-            {links.map((l) => (
+            {[...links, ...utilityLinks].map((l) => (
               <Link
-                key={l.to}
+                key={`${l.to}-${l.label}`}
                 to={l.to}
                 onClick={() => setOpen(false)}
                 className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-accent hover:text-accent-foreground"
