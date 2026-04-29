@@ -5,21 +5,21 @@ import { useState } from "react";
 export const Route = createFileRoute("/apply")({
   head: () => ({
     meta: [
-      { title: "Apply Step-by-Step — Decoded Housing" },
-      { name: "description", content: "Guided housing application flow with checklist, scripts, and progress tracking." },
-      { property: "og:title", content: "Apply Step-by-Step — Decoded Housing" },
-      { property: "og:description", content: "We'll walk you through every step of your housing application." },
+      { title: "Application Workflow — Decoded Housing" },
+      { name: "description", content: "Structured application workflow with checklist, scripts, and progress tracking." },
+      { property: "og:title", content: "Application Workflow — Decoded Housing" },
+      { property: "og:description", content: "Standard workflow for completing a housing application." },
     ],
   }),
   component: ApplyPage,
 });
 
 const steps = [
-  { title: "Gather your documents", detail: "ID, proof of income, rental history, references." },
-  { title: "Confirm eligibility", detail: "Check AMI, household size, and voucher status." },
-  { title: "Complete the application", detail: "Fill it out together — we explain each question." },
-  { title: "Submit & follow up", detail: "Track confirmation, then check in weekly." },
-  { title: "Lease signing", detail: "What to ask, what to bring, what to watch for." },
+  { title: "Document Collection", detail: "Collect ID, income documentation, rental history, and references." },
+  { title: "Eligibility Verification", detail: "Confirm AMI threshold, household size, and voucher status." },
+  { title: "Application Completion", detail: "Complete all required application fields." },
+  { title: "Submission and Follow-Up", detail: "Confirm submission and track follow-up actions." },
+  { title: "Lease Execution", detail: "Prepare required questions, documents, and review checklist." },
 ];
 
 function ApplyPage() {
@@ -32,8 +32,8 @@ function ApplyPage() {
   return (
     <main className="mx-auto max-w-4xl px-4 pb-24 pt-10 sm:px-6">
       <header className="mb-6">
-        <h1 className="text-3xl font-semibold text-foreground">Your application, step by step</h1>
-        <p className="mt-1 text-sm text-muted-foreground">No overwhelm. Check things off as you go.</p>
+        <h1 className="text-3xl font-semibold text-foreground">Application Tracker</h1>
+        <p className="mt-1 text-sm text-muted-foreground">Structured checklist for application completion.</p>
       </header>
 
       <div className="mb-6 rounded-2xl border border-border bg-card p-5">
@@ -70,7 +70,7 @@ function ApplyPage() {
               {i === 2 && (
                 <div className="mt-4 rounded-xl border border-border bg-[var(--gradient-soft)] p-4">
                   <div className="mb-1 flex items-center gap-2 text-xs font-semibold text-primary">
-                    <MessageSquareQuote className="h-4 w-4" /> What to say
+                    <MessageSquareQuote className="h-4 w-4" /> Call Script
                   </div>
                   <p className="text-sm text-foreground">
                     "Hi, I'm calling about the unit listed for [address]. I have a Section 8 voucher and would like to confirm you accept it and ask about the application process."

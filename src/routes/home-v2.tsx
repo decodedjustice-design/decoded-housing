@@ -18,13 +18,13 @@ import {
 export const Route = createFileRoute("/home-v2")({
   head: () => ({
     meta: [
-      { title: "Decoded Housing — Find Affordable Housing in King County" },
+      { title: "Decoded Housing — Housing Search in King County" },
       {
         name: "description",
         content:
           "ARCH, MFTE, Section 8, public housing, shelters — all in one place. Real listings, plain language, and the exact scripts to get in the door. Free, always.",
       },
-      { property: "og:title", content: "Decoded Housing — Find Affordable Housing in King County" },
+      { property: "og:title", content: "Decoded Housing — Housing Search in King County" },
       {
         property: "og:description",
         content:
@@ -47,9 +47,9 @@ const doors = [
     tag: "Free",
     tone: "green" as const,
     icon: "🏠",
-    title: "Find Affordable Housing",
+    title: "Housing Search",
     desc: "Search ARCH, MFTE, Section 8, and income-based apartments across King County. Real listings with contact info and insider tips on how to apply.",
-    cta: "Search properties",
+    cta: "Open Search",
     to: "/search" as const,
     urgent: false,
   },
@@ -57,19 +57,19 @@ const doors = [
     tag: "Free",
     tone: "amber" as const,
     icon: "📋",
-    title: "Check What You Qualify For",
+    title: "Program Eligibility",
     desc: "Answer 4 questions about your household and income. We'll show you every program you're eligible for — with AMI levels, income limits, and how to apply.",
-    cta: "Check eligibility",
+    cta: "Run Eligibility Check",
     to: "/apply" as const,
     urgent: false,
   },
   {
-    tag: "Need help now",
+    tag: "Priority",
     tone: "red" as const,
     icon: "🚨",
-    title: "Need Shelter Tonight",
+    title: "Immediate Shelter Access",
     desc: "If you or your family need a safe place tonight, start here. We'll show you the best available options for your situation — ranked, with direct contact info.",
-    cta: "Find shelter now",
+    cta: "Open Shelter Options",
     to: "/shelter" as const,
     urgent: true,
   },
@@ -136,15 +136,14 @@ function HomeV2() {
             184 affordable properties in King County
           </span>
           <h1 className="mb-5 font-serif text-[clamp(36px,5vw,58px)] font-bold leading-[1.15] tracking-tight text-foreground">
-            Find a home that's actually{" "}
+            Locate housing that is{" "}
             <span className="relative inline-block text-primary">
-              within reach.
+              program-eligible.
               <span className="absolute inset-x-0 bottom-1 -z-10 h-1 rounded bg-primary/20" />
             </span>
           </h1>
           <p className="mb-9 text-[17px] leading-[1.75] text-muted-foreground">
-            ARCH, MFTE, Section 8, public housing, shelters — all in one place. Real listings, plain language, and the
-            exact scripts to get in the door. Free, always.
+            ARCH, MFTE, Section 8, public housing, shelters — all in one place. Verified listings, standardized guidance, and call scripts for application intake.
           </p>
 
           <form
@@ -171,7 +170,7 @@ function HomeV2() {
               { label: "🏘 ARCH units", to: "/search?type=ARCH" },
               { label: "🏢 MFTE units", to: "/search?type=MFTE" },
               { label: "🎫 Accepts vouchers", to: "/search" },
-              { label: "📋 Check eligibility", to: "/apply" },
+              { label: "📋 Run Eligibility Check", to: "/apply" },
             ].map((q) => (
               <a
                 key={q.label}

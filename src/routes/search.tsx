@@ -132,8 +132,8 @@ function SearchPage() {
   return (
     <main className="mx-auto max-w-7xl px-4 pb-24 pt-10 sm:px-6">
       <header className="mb-6">
-        <h1 className="text-3xl font-semibold text-foreground">Find affordable housing</h1>
-        <p className="mt-1 text-sm text-muted-foreground">King County listings — filter by what fits your situation.</p>
+        <h1 className="text-3xl font-semibold text-foreground">Housing Search</h1>
+        <p className="mt-1 text-sm text-muted-foreground">King County affordable housing inventory with standard filters.</p>
       </header>
 
       <div className="mb-6 grid gap-3 rounded-2xl border border-border bg-card p-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -239,10 +239,10 @@ function SearchPage() {
               </div>
               <div className="mt-3 flex flex-wrap gap-2 text-xs">
                 <span className="inline-flex items-center gap-1 rounded-full bg-accent px-2 py-1 text-accent-foreground">
-                  <Users className="h-3 w-3" /> {(l.ami ?? []).join(" • ") || "AMI not listed"}
+                  <Users className="h-3 w-3" /> {(l.ami ?? []).join(" • ") || "AMI unavailable"}
                 </span>
                 <span className="inline-flex items-center gap-1 rounded-full bg-accent px-2 py-1 text-accent-foreground">
-                  <BedDouble className="h-3 w-3" /> {(l.units ?? []).join(" • ") || "Units vary"}
+                  <BedDouble className="h-3 w-3" /> {(l.units ?? []).join(" • ") || "Unit mix varies"}
                 </span>
               </div>
               <button
