@@ -58,7 +58,7 @@ function MiniPanel({ category, onClose }: { category: ResourceCategory; onClose:
                 </div>
                 {r.phone && (
                   <a href={`tel:${r.phone}`} className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-primary hover:underline">
-                    <Phone className="h-3 w-3" /> {r.phone}
+                    <Phone className="h-3 w-3" /> Get Assistance
                   </a>
                 )}
               </li>
@@ -75,9 +75,9 @@ export function QuickAssistSidebar() {
 
   return (
     <>
-      <aside className="fixed bottom-4 right-4 z-30 flex flex-col gap-2 rounded-2xl border border-border bg-card p-2 shadow-[var(--shadow-soft)] sm:bottom-auto sm:right-4 sm:top-24">
-        <div className="px-2 pb-1 pt-1 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
-          Quick Assist
+      <aside className="fixed bottom-4 right-4 z-30 flex flex-col gap-2 rounded-[8px] border border-border bg-card p-3 shadow-[var(--shadow-soft)] sm:bottom-auto sm:right-4 sm:top-24">
+        <div className="px-1 pb-1 pt-1 text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+          Program Directory
         </div>
         {items.map((it) => (
           <button
@@ -90,6 +90,7 @@ export function QuickAssistSidebar() {
             <it.icon className="h-5 w-5" />
           </button>
         ))}
+        <div className="px-1 pt-1 text-[10px] uppercase tracking-wider text-muted-foreground">View Available Programs</div>
       </aside>
 
       {active && <MiniPanel category={active} onClose={() => setActive(null)} />}
