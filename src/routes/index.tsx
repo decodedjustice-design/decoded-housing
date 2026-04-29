@@ -47,52 +47,72 @@ const paths = [
 
 function Index() {
   return (
-    <main className="mx-auto max-w-6xl px-4 pb-24 pt-10 sm:px-6 lg:pt-16">
+    <main className="mx-auto max-w-6xl px-4 pb-28 pt-8 sm:px-6 lg:pt-14">
       <section
-        className="relative overflow-hidden rounded-3xl border border-border p-8 shadow-[var(--shadow-soft)] sm:p-14"
+        className="grain animate-fade-up relative overflow-hidden rounded-[28px] border border-white/10 p-8 shadow-[var(--shadow-elevated)] sm:p-16"
         style={{ backgroundImage: "var(--gradient-hero)" }}
       >
-        <div className="max-w-2xl text-primary-foreground">
-          <p className="mb-3 inline-flex rounded-full bg-white/15 px-3 py-1 text-xs font-medium backdrop-blur">
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0"
+          style={{ backgroundImage: "var(--gradient-mesh)" }}
+        />
+        <div className="relative max-w-2xl text-primary-foreground">
+          <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[11px] font-medium uppercase tracking-[0.18em] text-white/90 backdrop-blur">
+            <span className="h-1.5 w-1.5 rounded-full bg-emerald-300" />
             King County housing support
           </p>
-          <h1 className="text-3xl font-semibold leading-tight sm:text-5xl">
-            What do you need right now?
+          <h1 className="font-display text-balance text-[44px] font-medium leading-[1.02] tracking-tight sm:text-[68px]">
+            What do you need <em className="italic text-white/90">right now</em>?
           </h1>
-          <p className="mt-4 max-w-xl text-base text-white/85 sm:text-lg">
+          <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-white/75 sm:text-[17px]">
             One step at a time. Pick where you are today and we'll guide you with clear actions, scripts, and local resources.
           </p>
+          <div className="mt-8 flex flex-wrap items-center gap-3 text-[12px] text-white/60">
+            <span className="font-mono">/01</span>
+            <span className="h-px w-8 bg-white/30" />
+            <span className="uppercase tracking-[0.2em]">Choose your path below</span>
+          </div>
         </div>
       </section>
 
-      <section className="mt-10 grid gap-4 sm:grid-cols-2">
-        {paths.map((p) => (
+      <section className="mt-12 grid gap-4 sm:grid-cols-2">
+        {paths.map((p, i) => (
           <Link
             key={p.to}
             to={p.to}
-            className="group rounded-2xl border border-border bg-card p-6 shadow-[var(--shadow-card)] transition hover:-translate-y-0.5 hover:shadow-[var(--shadow-soft)]"
+            className="group hover-lift relative overflow-hidden rounded-2xl border border-border/70 bg-card p-7 shadow-[var(--shadow-card)]"
+            style={{ animation: `fade-up 0.7s var(--ease-out-expo) ${i * 80}ms both` }}
           >
-            <div className={`mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl ${p.tone}`}>
-              <p.icon className="h-6 w-6" />
-            </div>
-            <h2 className="text-lg font-semibold text-foreground">{p.title}</h2>
-            <p className="mt-1 text-sm text-muted-foreground">{p.desc}</p>
-            <div className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-primary group-hover:gap-2 transition-all">
-              Start here <ArrowRight className="h-4 w-4" />
+            <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-[var(--gradient-soft)] opacity-0 blur-2xl transition-opacity duration-500 group-hover:opacity-100" />
+            <div className="relative">
+              <div className="mb-5 flex items-center justify-between">
+                <div className={`inline-flex h-11 w-11 items-center justify-center rounded-xl ${p.tone}`}>
+                  <p.icon className="h-5 w-5" />
+                </div>
+                <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted-foreground/70">
+                  0{i + 1}
+                </span>
+              </div>
+              <h2 className="font-display text-2xl font-medium tracking-tight text-foreground">{p.title}</h2>
+              <p className="mt-2 text-pretty text-[14px] leading-relaxed text-muted-foreground">{p.desc}</p>
+              <div className="mt-6 inline-flex items-center gap-1.5 text-[13px] font-medium text-primary transition-all duration-300 group-hover:gap-3">
+                Start here <ArrowRight className="h-3.5 w-3.5" />
+              </div>
             </div>
           </Link>
         ))}
       </section>
 
-      <section className="mt-12 rounded-2xl border border-border bg-card p-6 sm:p-8">
+      <section className="mt-14 overflow-hidden rounded-2xl border border-border/70 bg-card p-7 shadow-[var(--shadow-card)] sm:p-10">
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h3 className="text-base font-semibold text-foreground">Not sure where to start?</h3>
-            <p className="text-sm text-muted-foreground">Tap Quick Assist (right side) for food, utilities, furniture, and rent help anytime.</p>
+            <h3 className="font-display text-xl font-medium tracking-tight text-foreground">Not sure where to start?</h3>
+            <p className="mt-1.5 text-[14px] text-muted-foreground">Tap Quick Assist (right side) for food, utilities, furniture, and rent help anytime.</p>
           </div>
           <Link
             to="/tenant-rights"
-            className="inline-flex items-center gap-2 rounded-xl bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground hover:opacity-90"
+            className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-[13px] font-medium text-background shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-px hover:shadow-[var(--shadow-elevated)]"
           >
             Read tenant rights <ArrowRight className="h-4 w-4" />
           </Link>

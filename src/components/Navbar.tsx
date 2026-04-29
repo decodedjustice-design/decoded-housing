@@ -17,26 +17,27 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-border bg-background/85 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
-        <Link to="/" className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-[var(--shadow-card)]">
-            <Home className="h-5 w-5" />
+    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/70 backdrop-blur-xl supports-[backdrop-filter]:bg-background/55">
+      <div className="mx-auto flex h-[68px] max-w-7xl items-center justify-between px-4 sm:px-6">
+        <Link to="/" className="group flex items-center gap-2.5">
+          <div className="relative flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-[var(--shadow-card)] ring-1 ring-primary/20 transition-transform duration-500 ease-[var(--ease-out-expo)] group-hover:scale-105">
+            <Home className="h-[18px] w-[18px]" />
+            <span className="pointer-events-none absolute inset-0 rounded-xl bg-[var(--gradient-sheen)]" />
           </div>
           <div className="leading-tight">
-            <div className="text-base font-semibold text-foreground">Decoded Housing</div>
-            <div className="text-[11px] text-muted-foreground">King County</div>
+            <div className="font-display text-[17px] font-semibold tracking-tight text-foreground">Decoded Housing</div>
+            <div className="text-[10.5px] uppercase tracking-[0.18em] text-muted-foreground">King County</div>
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hidden items-center gap-0.5 lg:flex">
           {links.map((l) => (
             <Link
               key={l.to}
               to={l.to}
               activeOptions={{ exact: l.to === "/" }}
-              className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
-              activeProps={{ className: "rounded-lg px-3 py-2 text-sm font-semibold bg-accent text-accent-foreground" }}
+              className="rounded-full px-3 py-1.5 text-[13px] font-medium text-muted-foreground transition-all duration-300 ease-[var(--ease-out-expo)] hover:bg-accent/70 hover:text-accent-foreground"
+              activeProps={{ className: "rounded-full px-3 py-1.5 text-[13px] font-semibold bg-foreground text-background shadow-[var(--shadow-card)]" }}
             >
               {l.label}
             </Link>
@@ -45,9 +46,9 @@ export function Navbar() {
 
         <Link
           to="/shelter"
-          className="hidden items-center gap-2 rounded-lg bg-destructive px-3 py-2 text-sm font-semibold text-destructive-foreground shadow-[var(--shadow-card)] hover:opacity-95 sm:inline-flex"
+          className="hidden items-center gap-2 rounded-full bg-destructive px-3.5 py-2 text-[13px] font-semibold text-destructive-foreground shadow-[var(--shadow-card)] ring-1 ring-destructive/30 transition-all duration-300 hover:shadow-[var(--shadow-elevated)] hover:-translate-y-px sm:inline-flex"
         >
-          <AlertTriangle className="h-4 w-4" /> Need shelter tonight
+          <AlertTriangle className="h-3.5 w-3.5" /> Shelter tonight
         </Link>
 
         <button
