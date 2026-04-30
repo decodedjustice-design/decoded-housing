@@ -75,7 +75,7 @@
 
   /* Warm cinematic paper */
   --background: oklch(0.975 0.012 92);
-  --foreground: oklch(0.18 0.025 155);
+  --foreground: oklch(0.2 0.02 28);
 
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.2 0.025 155);
@@ -83,18 +83,18 @@
   --popover-foreground: oklch(0.2 0.025 155);
 
   /* Deep forest primary */
-  --primary: oklch(0.34 0.08 158);
+  --primary: oklch(0.39 0.11 18);
   --primary-foreground: oklch(0.98 0.01 95);
-  --primary-glow: oklch(0.58 0.13 148);
+  --primary-glow: oklch(0.55 0.12 28);
 
   /* Sage secondary */
-  --secondary: oklch(0.88 0.035 142);
+  --secondary: oklch(0.9 0.02 65);
   --secondary-foreground: oklch(0.24 0.05 155);
 
   --muted: oklch(0.955 0.015 90);
-  --muted-foreground: oklch(0.46 0.02 145);
+  --muted-foreground: oklch(0.45 0.02 35);
 
-  --accent: oklch(0.93 0.035 142);
+  --accent: oklch(0.91 0.03 45);
   --accent-foreground: oklch(0.28 0.06 155);
 
   /* Amber alert */
@@ -105,8 +105,8 @@
   --destructive: oklch(0.55 0.2 28);
   --destructive-foreground: oklch(0.99 0.01 95);
 
-  --border: oklch(0.89 0.018 130);
-  --input: oklch(0.89 0.018 130);
+  --border: oklch(0.86 0.015 60);
+  --input: oklch(0.86 0.015 60);
   --ring: oklch(0.55 0.11 150);
 
   /* Cinematic gradients */
