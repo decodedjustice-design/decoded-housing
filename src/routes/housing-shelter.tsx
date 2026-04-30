@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ShieldCheck, ShieldAlert, BedDouble, Home, Building2, Phone, Mail, ExternalLink } from "lucide-react";
-import { useProperties } from "@/lib/useProperties";
+import { useProperties } from "@/hooks/use-properties";
 import { PropertiesMap } from "@/components/PropertiesMap";
 
 export const Route = createFileRoute("/housing-shelter")({ component: HousingShelterPage });
@@ -25,7 +25,14 @@ function HousingShelterPage() {
   const [householdFit, setHouseholdFit] = useState("all");
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
-  const { data, loading } = useProperties({ search: q });
+  const queryFilters = useMemo(() => ({ search: q }), [q]);
+  const { data, loading, error, totalLoaded } = useProperties(queryFilters);
+
+
+  useEffect(() => {
+    const missing = data.filter((p) => !p.id || !p.name).length;
+    console.info("[housing] Card field diagnostics", { missingRequiredFields: missing });
+  }, [data]);
 
   const decorated = useMemo(() => data.map((p) => {
     const isShelter = p.types?.some((type) => /shelter|emergency/i.test(type)) ?? false;
@@ -75,6 +82,12 @@ function HousingShelterPage() {
 
   const selected = filtered.find((p) => p.id === selectedId) ?? filtered[0] ?? null;
 
+  console.info("[housing] Search render diagnostics", {
+    totalLoaded,
+    filtered: filtered.length,
+    selectedId,
+  });
+
   return <main className="mx-auto max-w-[1400px] px-4 py-8 sm:px-6">
     <h1 className="font-display text-4xl">Housing & Shelter Discovery Engine</h1>
     <p className="mt-2 text-muted-foreground">One canonical discovery route for apartments, transitional programs, and urgent shelter tonight options.</p>
@@ -103,7 +116,9 @@ function HousingShelterPage() {
     <section className="mt-6 grid gap-4 lg:grid-cols-[1.1fr_1fr]">
       <div className="h-[420px]"><PropertiesMap properties={filtered} selectedId={selected?.id ?? null} onSelect={setSelectedId} /></div>
       <div className="max-h-[420px] space-y-3 overflow-y-auto rounded-xl border border-border bg-card p-3">
-        {loading && <p className="text-sm text-muted-foreground">Loading options...</p>}
+        {loading && <p className="text-sm text-muted-foreground">Loading housing options...</p>}
+        {!loading && error && <p className="text-sm text-destructive">Data source issue: {error}. Showing available results only.</p>}
+        {!loading && !error && filtered.length === 0 && <p className="text-sm text-muted-foreground">No matches yet. Try fewer filters or a different city.</p>}
         {!loading && filtered.map((p) => <article key={p.id} className={`cursor-pointer rounded-xl border p-3 ${selected?.id===p.id ? "border-primary" : "border-border"}`} onClick={() => setSelectedId(p.id)}>
           <div className="flex items-start justify-between"><h2 className="text-base font-semibold">{p.name}</h2>{p.verified ? <ShieldCheck className="h-4 w-4 text-primary" /> : <ShieldAlert className="h-4 w-4 text-muted-foreground" />}</div>
           <p className="text-sm text-muted-foreground">{p.city || "City pending"} • {p.address || "Address available on request"}</p>
