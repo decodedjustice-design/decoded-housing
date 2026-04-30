@@ -1,3 +1,6 @@
+import { createFileRoute, Navigate } from "@tanstack/react-router";
+
+export const Route = createFileRoute("/apply")({ component: () => <Navigate to="/housing/how-to-apply" replace /> });
 import { createFileRoute } from "@tanstack/react-router";
 import { CheckCircle2, Circle, MessageSquareQuote, Phone } from "lucide-react";
 import { useState } from "react";
