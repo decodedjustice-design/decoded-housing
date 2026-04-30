@@ -50,8 +50,8 @@ export const Route = createFileRoute("/search-v2")({
   component: SearchV2Page,
 });
 
-const PROGRAMS = ["ARCH", "MFTE", "Section 8", "LIHTC", "Transitional", "Shelter"] as const;
-const CITIES = ["Bellevue", "Kirkland", "Redmond", "Issaquah", "Renton"] as const;
+const PROGRAMS = ["ARCH", "MFTE", "Section 8", "Transitional", "Shelter"] as const;
+const CITIES = ["Bellevue", "Kirkland", "Redmond", "Issaquah", "Renton", "Seattle"] as const;
 const AMI_LEVELS = [
   { label: "30% AMI — Very low income", value: 30 },
   { label: "50% AMI — Low income", value: 50 },
@@ -90,6 +90,7 @@ function SearchV2Page() {
   const [transit, setTransit] = useState(false);
   const [sort, setSort] = useState<string>("best");
   const [view, setView] = useState<"grid" | "list">("list");
+  const [mobileMap, setMobileMap] = useState(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [highlightId, setHighlightId] = useState<string | null>(null);
   const [selected, setSelected] = useState<Property | null>(null);
@@ -176,7 +177,7 @@ function SearchV2Page() {
           <input
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search by name, city, or address…"
+            placeholder="Search by city or ZIP"
             className="flex-1 border-0 bg-transparent text-sm outline-none placeholder:text-[var(--muted)]"
           />
         </div>
@@ -191,7 +192,7 @@ function SearchV2Page() {
       </div>
 
       {/* Filter pills */}
-      <div className="flex flex-shrink-0 items-center gap-2 overflow-x-auto border-b border-[var(--warm-border)] bg-white px-5 py-2.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      <div className="flex flex-shrink-0 items-center gap-2 overflow-x-auto border-b border-[var(--warm-border)] bg-white px-5 py-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
         {PROGRAMS.map((p) => (
           <Pill
             key={p}
@@ -201,29 +202,18 @@ function SearchV2Page() {
             {p}
           </Pill>
         ))}
-        <Divider />
-        {CITIES.map((c) => (
-          <Pill
-            key={c}
-            active={activeCities.includes(c)}
-            onClick={() => setActiveCities((a) => toggle(a, c))}
-          >
-            <MapPin className="h-3 w-3" /> {c}
-          </Pill>
-        ))}
-        <Divider />
         <Pill onClick={() => setFiltersOpen(true)}>
           <SlidersHorizontal className="h-3 w-3" /> More filters
-        </Pill>
-        <Pill active={voucher} onClick={() => setVoucher((v) => !v)}>
-          <Ticket className="h-3 w-3" /> Accepts vouchers
         </Pill>
         <Pill active={verified} onClick={() => setVerified((v) => !v)}>
           <ShieldCheck className="h-3 w-3" /> Verified only
         </Pill>
-        <Pill active={transit} onClick={() => setTransit((v) => !v)}>
-          <Train className="h-3 w-3" /> Near light rail
-        </Pill>
+        <button
+          onClick={() => setMobileMap((v) => !v)}
+          className="rounded-full border-[1.5px] border-[var(--warm-border)] bg-white px-3.5 py-1.5 text-[13px] font-semibold text-[var(--ink-mid)] md:hidden"
+        >
+          {mobileMap ? "List" : "Map"}
+        </button>
         <span className="ml-auto whitespace-nowrap font-mono text-[11px] text-[var(--muted)]">
           {loading ? "Loading…" : `Showing ${properties.length} properties`}
         </span>
@@ -232,7 +222,7 @@ function SearchV2Page() {
       {/* Main split */}
       <div className="relative flex flex-1 overflow-hidden">
         {/* Results panel */}
-        <div className="flex w-full flex-shrink-0 flex-col overflow-y-auto border-r border-[var(--warm-border)] bg-[var(--warm-white)] md:w-[480px]">
+        <div className={`flex w-full flex-shrink-0 flex-col overflow-y-auto border-r border-[var(--warm-border)] bg-[var(--warm-white)] md:w-[520px] ${mobileMap ? "hidden md:flex" : "flex"}`}>
           <div className="sticky top-0 z-10 flex items-center justify-between gap-3 border-b border-[var(--warm-border)] bg-white px-5 py-3">
             <div className="text-[13px] font-bold text-[var(--ink)]">
               <span className="font-mono text-[var(--forest)]">{properties.length}</span>{" "}
@@ -300,7 +290,7 @@ function SearchV2Page() {
         </div>
 
         {/* Map panel */}
-        <div className="hidden flex-1 items-center justify-center overflow-hidden bg-[var(--sage-softer)] md:flex">
+        <div className={`flex-1 items-center justify-center overflow-hidden bg-[var(--sage-softer)] ${mobileMap ? "flex md:flex" : "hidden md:flex"}`}>
           <FakeMap
             pins={properties.slice(0, 12)}
             highlightId={highlightId}
@@ -360,8 +350,17 @@ function SearchV2Page() {
                 ))}
               </div>
             </FilterSection>
+            <FilterSection title="City">
+              <div className="flex flex-wrap gap-1.5">
+                {CITIES.map((c) => (
+                  <FChip key={c} active={activeCities.includes(c)} onClick={() => setActiveCities((a) => toggle(a, c))}>
+                    {c}
+                  </FChip>
+                ))}
+              </div>
+            </FilterSection>
 
-            <FilterSection title="Quick toggles">
+            <FilterSection title="More filters">
               <div className="flex flex-wrap gap-1.5">
                 <FChip active={voucher} onClick={() => setVoucher((v) => !v)}>
                   🎫 Accepts vouchers
@@ -474,7 +473,8 @@ function PropCard({
   isTracked: boolean;
   onSave: () => void;
 }) {
-  const tags = (p.types ?? []).slice(0, 4);
+  const tags = (p.types ?? []).slice(0, 3);
+  const extraTags = Math.max((p.types ?? []).length - 3, 0);
   return (
     <div
       onMouseEnter={onHover}
@@ -492,17 +492,18 @@ function PropCard({
       } ${highlighted ? "border-[var(--forest)] shadow-[0_0_0_3px_rgba(27,67,50,0.1)]" : "border-[var(--warm-border)] hover:-translate-y-px hover:border-[var(--sage)] hover:shadow-[0_6px_24px_rgba(27,67,50,0.09)]"}`}
     >
       <div
-        className={`relative overflow-hidden bg-[var(--sage-softer)] ${horizontal ? "h-auto w-[140px] flex-shrink-0" : "h-[150px]"}`}
+        className={`relative overflow-hidden bg-[var(--sage-softer)] ${horizontal ? "h-auto w-[180px] flex-shrink-0" : "h-[180px]"}`}
       >
-        {p.image_url ? (
+        {p.primaryPhoto ?? p.image_url ? (
           <img
-            src={p.image_url}
+            src={p.primaryPhoto ?? p.image_url ?? ""}
             alt={p.name}
             className="h-full w-full object-cover transition-transform group-hover:scale-105"
           />
         ) : (
-          <div className="flex h-full w-full items-center justify-center text-[var(--sage)]">
-            <MapPin className="h-8 w-8" />
+          <div className="flex h-full w-full flex-col items-center justify-center gap-1 text-[var(--muted)]">
+            <MapPin className="h-6 w-6" />
+            <span className="text-[11px] font-semibold">Photo not yet added</span>
           </div>
         )}
         <div className="absolute left-2 right-2 top-2 flex items-start justify-between">
@@ -529,6 +530,7 @@ function PropCard({
               {t}
             </span>
           ))}
+          {extraTags > 0 && <span className="rounded-full bg-[var(--warm-off)] px-2 py-0.5 text-[10px] font-bold text-[var(--ink-mid)]">+{extraTags} more</span>}
         </div>
         <div className="flex items-center justify-between gap-2">
           <h3 className="font-serif text-[15px] font-semibold leading-tight text-[var(--ink)]">
@@ -562,21 +564,33 @@ function PropCard({
           </div>
         )}
 
-        <button
-          type="button"
-          onClick={(e) => {
-            e.stopPropagation();
-            onSave();
-          }}
-          className={`mt-3 inline-flex items-center gap-1.5 rounded-lg border px-2.5 py-1.5 text-xs font-semibold transition-colors ${
-            isTracked
-              ? "border-[var(--sage)] bg-[var(--sage-pale)] text-[var(--forest)]"
-              : "border-[var(--warm-border)] bg-white text-[var(--ink-mid)] hover:border-[var(--sage)]"
-          }`}
-        >
-          {isTracked ? <Check className="h-3.5 w-3.5" /> : <Bookmark className="h-3.5 w-3.5" />}
-          {isTracked ? "Saved ✓" : "Save"}
-        </button>
+        <div className="mt-3 flex gap-2">
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              onSelect();
+            }}
+            className="rounded-lg bg-[var(--forest)] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[var(--forest-mid)]"
+          >
+            View details
+          </button>
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              onSave();
+            }}
+            className={`inline-flex items-center gap-1.5 rounded-lg border px-2.5 py-1.5 text-xs font-semibold transition-colors ${
+              isTracked
+                ? "border-[var(--sage)] bg-[var(--sage-pale)] text-[var(--forest)]"
+                : "border-[var(--warm-border)] bg-white text-[var(--ink-mid)] hover:border-[var(--sage)]"
+            }`}
+          >
+            {isTracked ? <Check className="h-3.5 w-3.5" /> : <Bookmark className="h-3.5 w-3.5" />}
+            {isTracked ? "Saved ✓" : "Save"}
+          </button>
+        </div>
 
         <div className="mt-2 flex flex-wrap items-center justify-between gap-1.5 border-t border-[var(--warm-off)] pt-2">
           {p.transit_label || p.transit_distance != null ? (

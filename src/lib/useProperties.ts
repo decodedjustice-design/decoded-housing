@@ -19,6 +19,10 @@ export interface Property {
   updated_days: number | null;
   insider?: string | null;
   image_url: string | null;
+  photos?: string[] | null;
+  primaryPhoto?: string | null;
+  photoSource?: string | null;
+  photoVerified?: boolean;
   phone?: string | null;
   website?: string | null;
 }
@@ -86,6 +90,10 @@ export function useProperties(filters: PropertyFilters) {
           updated_days: null,
           insider: null,
           image_url: p.photos?.[0] ?? null,
+          photos: p.photos ?? [],
+          primaryPhoto: p.photos?.[0] ?? null,
+          photoSource: p.website ?? null,
+          photoVerified: Boolean(p.website && p.photos?.length),
           phone: null,
           website: p.website ?? null,
         }));
