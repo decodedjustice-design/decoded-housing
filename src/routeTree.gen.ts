@@ -9,19 +9,51 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as WaitlistRouteImport } from './routes/waitlist'
 import { Route as TenantRightsRouteImport } from './routes/tenant-rights'
 import { Route as ShelterRouteImport } from './routes/shelter'
-import { Route as WaitlistRouteImport } from './routes/waitlist'
 import { Route as SearchV2RouteImport } from './routes/search-v2'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as SavedSheltersRouteImport } from './routes/saved-shelters'
+import { Route as SavedRouteImport } from './routes/saved'
+import { Route as PhoneScriptsRouteImport } from './routes/phone-scripts'
 import { Route as OurStoryRouteImport } from './routes/our-story'
+import { Route as HousingShelterRouteImport } from './routes/housing-shelter'
+import { Route as HousingRouteImport } from './routes/housing'
 import { Route as HomeV2RouteImport } from './routes/home-v2'
 import { Route as DashboardRouteImport } from './routes/dashboard'
+import { Route as BillsBasicsRouteImport } from './routes/bills-basics'
 import { Route as BasicNeedsRouteImport } from './routes/basic-needs'
 import { Route as ApplyRouteImport } from './routes/apply'
+import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as TenantRightsNoticesRouteImport } from './routes/tenant-rights.notices'
+import { Route as TenantRightsLegalHelpRouteImport } from './routes/tenant-rights.legal-help'
+import { Route as TenantRightsLandlordProblemsRouteImport } from './routes/tenant-rights.landlord-problems'
+import { Route as TenantRightsEvictionHelpRouteImport } from './routes/tenant-rights.eviction-help'
+import { Route as ShelterYouthYoungAdultsRouteImport } from './routes/shelter.youth-young-adults'
+import { Route as ShelterTonightRouteImport } from './routes/shelter.tonight'
+import { Route as ShelterSingleAdultsRouteImport } from './routes/shelter.single-adults'
+import { Route as ShelterIfFullRouteImport } from './routes/shelter.if-full'
+import { Route as ShelterFamilyRouteImport } from './routes/shelter.family'
+import { Route as ShelterCrisisNumbersRouteImport } from './routes/shelter.crisis-numbers'
+import { Route as HousingWithoutVoucherRouteImport } from './routes/housing.without-voucher'
+import { Route as HousingWithVoucherRouteImport } from './routes/housing.with-voucher'
+import { Route as HousingHowToApplyRouteImport } from './routes/housing.how-to-apply'
+import { Route as HousingFindAffordableHousingRouteImport } from './routes/housing.find-affordable-housing'
+import { Route as HousingDocumentsRouteImport } from './routes/housing.documents'
+import { Route as BillsBasicsUtilitiesRouteImport } from './routes/bills-basics.utilities'
+import { Route as BillsBasicsTransportationPhoneRouteImport } from './routes/bills-basics.transportation-phone'
+import { Route as BillsBasicsRentHelpRouteImport } from './routes/bills-basics.rent-help'
+import { Route as BillsBasicsHygieneLaundryRouteImport } from './routes/bills-basics.hygiene-laundry'
+import { Route as BillsBasicsFurnitureHouseholdRouteImport } from './routes/bills-basics.furniture-household'
+import { Route as BillsBasicsFoodRouteImport } from './routes/bills-basics.food'
 
+const WaitlistRoute = WaitlistRouteImport.update({
+  id: '/waitlist',
+  path: '/waitlist',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TenantRightsRoute = TenantRightsRouteImport.update({
   id: '/tenant-rights',
   path: '/tenant-rights',
@@ -30,11 +62,6 @@ const TenantRightsRoute = TenantRightsRouteImport.update({
 const ShelterRoute = ShelterRouteImport.update({
   id: '/shelter',
   path: '/shelter',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const WaitlistRoute = WaitlistRouteImport.update({
-  id: '/waitlist',
-  path: '/waitlist',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SearchV2Route = SearchV2RouteImport.update({
@@ -52,9 +79,29 @@ const SavedSheltersRoute = SavedSheltersRouteImport.update({
   path: '/saved-shelters',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SavedRoute = SavedRouteImport.update({
+  id: '/saved',
+  path: '/saved',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PhoneScriptsRoute = PhoneScriptsRouteImport.update({
+  id: '/phone-scripts',
+  path: '/phone-scripts',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const OurStoryRoute = OurStoryRouteImport.update({
   id: '/our-story',
   path: '/our-story',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HousingShelterRoute = HousingShelterRouteImport.update({
+  id: '/housing-shelter',
+  path: '/housing-shelter',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HousingRoute = HousingRouteImport.update({
+  id: '/housing',
+  path: '/housing',
   getParentRoute: () => rootRouteImport,
 } as any)
 const HomeV2Route = HomeV2RouteImport.update({
@@ -67,6 +114,11 @@ const DashboardRoute = DashboardRouteImport.update({
   path: '/dashboard',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BillsBasicsRoute = BillsBasicsRouteImport.update({
+  id: '/bills-basics',
+  path: '/bills-basics',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BasicNeedsRoute = BasicNeedsRouteImport.update({
   id: '/basic-needs',
   path: '/basic-needs',
@@ -77,117 +129,408 @@ const ApplyRoute = ApplyRouteImport.update({
   path: '/apply',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TenantRightsNoticesRoute = TenantRightsNoticesRouteImport.update({
+  id: '/notices',
+  path: '/notices',
+  getParentRoute: () => TenantRightsRoute,
+} as any)
+const TenantRightsLegalHelpRoute = TenantRightsLegalHelpRouteImport.update({
+  id: '/legal-help',
+  path: '/legal-help',
+  getParentRoute: () => TenantRightsRoute,
+} as any)
+const TenantRightsLandlordProblemsRoute =
+  TenantRightsLandlordProblemsRouteImport.update({
+    id: '/landlord-problems',
+    path: '/landlord-problems',
+    getParentRoute: () => TenantRightsRoute,
+  } as any)
+const TenantRightsEvictionHelpRoute =
+  TenantRightsEvictionHelpRouteImport.update({
+    id: '/eviction-help',
+    path: '/eviction-help',
+    getParentRoute: () => TenantRightsRoute,
+  } as any)
+const ShelterYouthYoungAdultsRoute = ShelterYouthYoungAdultsRouteImport.update({
+  id: '/youth-young-adults',
+  path: '/youth-young-adults',
+  getParentRoute: () => ShelterRoute,
+} as any)
+const ShelterTonightRoute = ShelterTonightRouteImport.update({
+  id: '/tonight',
+  path: '/tonight',
+  getParentRoute: () => ShelterRoute,
+} as any)
+const ShelterSingleAdultsRoute = ShelterSingleAdultsRouteImport.update({
+  id: '/single-adults',
+  path: '/single-adults',
+  getParentRoute: () => ShelterRoute,
+} as any)
+const ShelterIfFullRoute = ShelterIfFullRouteImport.update({
+  id: '/if-full',
+  path: '/if-full',
+  getParentRoute: () => ShelterRoute,
+} as any)
+const ShelterFamilyRoute = ShelterFamilyRouteImport.update({
+  id: '/family',
+  path: '/family',
+  getParentRoute: () => ShelterRoute,
+} as any)
+const ShelterCrisisNumbersRoute = ShelterCrisisNumbersRouteImport.update({
+  id: '/crisis-numbers',
+  path: '/crisis-numbers',
+  getParentRoute: () => ShelterRoute,
+} as any)
+const HousingWithoutVoucherRoute = HousingWithoutVoucherRouteImport.update({
+  id: '/without-voucher',
+  path: '/without-voucher',
+  getParentRoute: () => HousingRoute,
+} as any)
+const HousingWithVoucherRoute = HousingWithVoucherRouteImport.update({
+  id: '/with-voucher',
+  path: '/with-voucher',
+  getParentRoute: () => HousingRoute,
+} as any)
+const HousingHowToApplyRoute = HousingHowToApplyRouteImport.update({
+  id: '/how-to-apply',
+  path: '/how-to-apply',
+  getParentRoute: () => HousingRoute,
+} as any)
+const HousingFindAffordableHousingRoute =
+  HousingFindAffordableHousingRouteImport.update({
+    id: '/find-affordable-housing',
+    path: '/find-affordable-housing',
+    getParentRoute: () => HousingRoute,
+  } as any)
+const HousingDocumentsRoute = HousingDocumentsRouteImport.update({
+  id: '/documents',
+  path: '/documents',
+  getParentRoute: () => HousingRoute,
+} as any)
+const BillsBasicsUtilitiesRoute = BillsBasicsUtilitiesRouteImport.update({
+  id: '/utilities',
+  path: '/utilities',
+  getParentRoute: () => BillsBasicsRoute,
+} as any)
+const BillsBasicsTransportationPhoneRoute =
+  BillsBasicsTransportationPhoneRouteImport.update({
+    id: '/transportation-phone',
+    path: '/transportation-phone',
+    getParentRoute: () => BillsBasicsRoute,
+  } as any)
+const BillsBasicsRentHelpRoute = BillsBasicsRentHelpRouteImport.update({
+  id: '/rent-help',
+  path: '/rent-help',
+  getParentRoute: () => BillsBasicsRoute,
+} as any)
+const BillsBasicsHygieneLaundryRoute =
+  BillsBasicsHygieneLaundryRouteImport.update({
+    id: '/hygiene-laundry',
+    path: '/hygiene-laundry',
+    getParentRoute: () => BillsBasicsRoute,
+  } as any)
+const BillsBasicsFurnitureHouseholdRoute =
+  BillsBasicsFurnitureHouseholdRouteImport.update({
+    id: '/furniture-household',
+    path: '/furniture-household',
+    getParentRoute: () => BillsBasicsRoute,
+  } as any)
+const BillsBasicsFoodRoute = BillsBasicsFoodRouteImport.update({
+  id: '/food',
+  path: '/food',
+  getParentRoute: () => BillsBasicsRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/apply': typeof ApplyRoute
   '/basic-needs': typeof BasicNeedsRoute
+  '/bills-basics': typeof BillsBasicsRouteWithChildren
   '/dashboard': typeof DashboardRoute
   '/home-v2': typeof HomeV2Route
+  '/housing': typeof HousingRouteWithChildren
+  '/housing-shelter': typeof HousingShelterRoute
   '/our-story': typeof OurStoryRoute
+  '/phone-scripts': typeof PhoneScriptsRoute
+  '/saved': typeof SavedRoute
   '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
   '/search-v2': typeof SearchV2Route
-  '/shelter': typeof ShelterRoute
-  '/tenant-rights': typeof TenantRightsRoute
+  '/shelter': typeof ShelterRouteWithChildren
+  '/tenant-rights': typeof TenantRightsRouteWithChildren
   '/waitlist': typeof WaitlistRoute
+  '/bills-basics/food': typeof BillsBasicsFoodRoute
+  '/bills-basics/furniture-household': typeof BillsBasicsFurnitureHouseholdRoute
+  '/bills-basics/hygiene-laundry': typeof BillsBasicsHygieneLaundryRoute
+  '/bills-basics/rent-help': typeof BillsBasicsRentHelpRoute
+  '/bills-basics/transportation-phone': typeof BillsBasicsTransportationPhoneRoute
+  '/bills-basics/utilities': typeof BillsBasicsUtilitiesRoute
+  '/housing/documents': typeof HousingDocumentsRoute
+  '/housing/find-affordable-housing': typeof HousingFindAffordableHousingRoute
+  '/housing/how-to-apply': typeof HousingHowToApplyRoute
+  '/housing/with-voucher': typeof HousingWithVoucherRoute
+  '/housing/without-voucher': typeof HousingWithoutVoucherRoute
+  '/shelter/crisis-numbers': typeof ShelterCrisisNumbersRoute
+  '/shelter/family': typeof ShelterFamilyRoute
+  '/shelter/if-full': typeof ShelterIfFullRoute
+  '/shelter/single-adults': typeof ShelterSingleAdultsRoute
+  '/shelter/tonight': typeof ShelterTonightRoute
+  '/shelter/youth-young-adults': typeof ShelterYouthYoungAdultsRoute
+  '/tenant-rights/eviction-help': typeof TenantRightsEvictionHelpRoute
+  '/tenant-rights/landlord-problems': typeof TenantRightsLandlordProblemsRoute
+  '/tenant-rights/legal-help': typeof TenantRightsLegalHelpRoute
+  '/tenant-rights/notices': typeof TenantRightsNoticesRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/apply': typeof ApplyRoute
   '/basic-needs': typeof BasicNeedsRoute
+  '/bills-basics': typeof BillsBasicsRouteWithChildren
   '/dashboard': typeof DashboardRoute
   '/home-v2': typeof HomeV2Route
+  '/housing': typeof HousingRouteWithChildren
+  '/housing-shelter': typeof HousingShelterRoute
   '/our-story': typeof OurStoryRoute
+  '/phone-scripts': typeof PhoneScriptsRoute
+  '/saved': typeof SavedRoute
   '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
   '/search-v2': typeof SearchV2Route
-  '/shelter': typeof ShelterRoute
-  '/tenant-rights': typeof TenantRightsRoute
+  '/shelter': typeof ShelterRouteWithChildren
+  '/tenant-rights': typeof TenantRightsRouteWithChildren
   '/waitlist': typeof WaitlistRoute
+  '/bills-basics/food': typeof BillsBasicsFoodRoute
+  '/bills-basics/furniture-household': typeof BillsBasicsFurnitureHouseholdRoute
+  '/bills-basics/hygiene-laundry': typeof BillsBasicsHygieneLaundryRoute
+  '/bills-basics/rent-help': typeof BillsBasicsRentHelpRoute
+  '/bills-basics/transportation-phone': typeof BillsBasicsTransportationPhoneRoute
+  '/bills-basics/utilities': typeof BillsBasicsUtilitiesRoute
+  '/housing/documents': typeof HousingDocumentsRoute
+  '/housing/find-affordable-housing': typeof HousingFindAffordableHousingRoute
+  '/housing/how-to-apply': typeof HousingHowToApplyRoute
+  '/housing/with-voucher': typeof HousingWithVoucherRoute
+  '/housing/without-voucher': typeof HousingWithoutVoucherRoute
+  '/shelter/crisis-numbers': typeof ShelterCrisisNumbersRoute
+  '/shelter/family': typeof ShelterFamilyRoute
+  '/shelter/if-full': typeof ShelterIfFullRoute
+  '/shelter/single-adults': typeof ShelterSingleAdultsRoute
+  '/shelter/tonight': typeof ShelterTonightRoute
+  '/shelter/youth-young-adults': typeof ShelterYouthYoungAdultsRoute
+  '/tenant-rights/eviction-help': typeof TenantRightsEvictionHelpRoute
+  '/tenant-rights/landlord-problems': typeof TenantRightsLandlordProblemsRoute
+  '/tenant-rights/legal-help': typeof TenantRightsLegalHelpRoute
+  '/tenant-rights/notices': typeof TenantRightsNoticesRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/apply': typeof ApplyRoute
   '/basic-needs': typeof BasicNeedsRoute
+  '/bills-basics': typeof BillsBasicsRouteWithChildren
   '/dashboard': typeof DashboardRoute
   '/home-v2': typeof HomeV2Route
+  '/housing': typeof HousingRouteWithChildren
+  '/housing-shelter': typeof HousingShelterRoute
   '/our-story': typeof OurStoryRoute
+  '/phone-scripts': typeof PhoneScriptsRoute
+  '/saved': typeof SavedRoute
   '/saved-shelters': typeof SavedSheltersRoute
   '/search': typeof SearchRoute
   '/search-v2': typeof SearchV2Route
-  '/shelter': typeof ShelterRoute
-  '/tenant-rights': typeof TenantRightsRoute
+  '/shelter': typeof ShelterRouteWithChildren
+  '/tenant-rights': typeof TenantRightsRouteWithChildren
   '/waitlist': typeof WaitlistRoute
+  '/bills-basics/food': typeof BillsBasicsFoodRoute
+  '/bills-basics/furniture-household': typeof BillsBasicsFurnitureHouseholdRoute
+  '/bills-basics/hygiene-laundry': typeof BillsBasicsHygieneLaundryRoute
+  '/bills-basics/rent-help': typeof BillsBasicsRentHelpRoute
+  '/bills-basics/transportation-phone': typeof BillsBasicsTransportationPhoneRoute
+  '/bills-basics/utilities': typeof BillsBasicsUtilitiesRoute
+  '/housing/documents': typeof HousingDocumentsRoute
+  '/housing/find-affordable-housing': typeof HousingFindAffordableHousingRoute
+  '/housing/how-to-apply': typeof HousingHowToApplyRoute
+  '/housing/with-voucher': typeof HousingWithVoucherRoute
+  '/housing/without-voucher': typeof HousingWithoutVoucherRoute
+  '/shelter/crisis-numbers': typeof ShelterCrisisNumbersRoute
+  '/shelter/family': typeof ShelterFamilyRoute
+  '/shelter/if-full': typeof ShelterIfFullRoute
+  '/shelter/single-adults': typeof ShelterSingleAdultsRoute
+  '/shelter/tonight': typeof ShelterTonightRoute
+  '/shelter/youth-young-adults': typeof ShelterYouthYoungAdultsRoute
+  '/tenant-rights/eviction-help': typeof TenantRightsEvictionHelpRoute
+  '/tenant-rights/landlord-problems': typeof TenantRightsLandlordProblemsRoute
+  '/tenant-rights/legal-help': typeof TenantRightsLegalHelpRoute
+  '/tenant-rights/notices': typeof TenantRightsNoticesRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/about'
     | '/apply'
     | '/basic-needs'
+    | '/bills-basics'
     | '/dashboard'
     | '/home-v2'
+    | '/housing'
+    | '/housing-shelter'
     | '/our-story'
+    | '/phone-scripts'
+    | '/saved'
     | '/saved-shelters'
     | '/search'
     | '/search-v2'
     | '/shelter'
     | '/tenant-rights'
     | '/waitlist'
+    | '/bills-basics/food'
+    | '/bills-basics/furniture-household'
+    | '/bills-basics/hygiene-laundry'
+    | '/bills-basics/rent-help'
+    | '/bills-basics/transportation-phone'
+    | '/bills-basics/utilities'
+    | '/housing/documents'
+    | '/housing/find-affordable-housing'
+    | '/housing/how-to-apply'
+    | '/housing/with-voucher'
+    | '/housing/without-voucher'
+    | '/shelter/crisis-numbers'
+    | '/shelter/family'
+    | '/shelter/if-full'
+    | '/shelter/single-adults'
+    | '/shelter/tonight'
+    | '/shelter/youth-young-adults'
+    | '/tenant-rights/eviction-help'
+    | '/tenant-rights/landlord-problems'
+    | '/tenant-rights/legal-help'
+    | '/tenant-rights/notices'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/about'
     | '/apply'
     | '/basic-needs'
+    | '/bills-basics'
     | '/dashboard'
     | '/home-v2'
+    | '/housing'
+    | '/housing-shelter'
     | '/our-story'
+    | '/phone-scripts'
+    | '/saved'
     | '/saved-shelters'
     | '/search'
     | '/search-v2'
     | '/shelter'
     | '/tenant-rights'
     | '/waitlist'
+    | '/bills-basics/food'
+    | '/bills-basics/furniture-household'
+    | '/bills-basics/hygiene-laundry'
+    | '/bills-basics/rent-help'
+    | '/bills-basics/transportation-phone'
+    | '/bills-basics/utilities'
+    | '/housing/documents'
+    | '/housing/find-affordable-housing'
+    | '/housing/how-to-apply'
+    | '/housing/with-voucher'
+    | '/housing/without-voucher'
+    | '/shelter/crisis-numbers'
+    | '/shelter/family'
+    | '/shelter/if-full'
+    | '/shelter/single-adults'
+    | '/shelter/tonight'
+    | '/shelter/youth-young-adults'
+    | '/tenant-rights/eviction-help'
+    | '/tenant-rights/landlord-problems'
+    | '/tenant-rights/legal-help'
+    | '/tenant-rights/notices'
   id:
     | '__root__'
     | '/'
+    | '/about'
     | '/apply'
     | '/basic-needs'
+    | '/bills-basics'
     | '/dashboard'
     | '/home-v2'
+    | '/housing'
+    | '/housing-shelter'
     | '/our-story'
+    | '/phone-scripts'
+    | '/saved'
     | '/saved-shelters'
     | '/search'
     | '/search-v2'
     | '/shelter'
     | '/tenant-rights'
     | '/waitlist'
+    | '/bills-basics/food'
+    | '/bills-basics/furniture-household'
+    | '/bills-basics/hygiene-laundry'
+    | '/bills-basics/rent-help'
+    | '/bills-basics/transportation-phone'
+    | '/bills-basics/utilities'
+    | '/housing/documents'
+    | '/housing/find-affordable-housing'
+    | '/housing/how-to-apply'
+    | '/housing/with-voucher'
+    | '/housing/without-voucher'
+    | '/shelter/crisis-numbers'
+    | '/shelter/family'
+    | '/shelter/if-full'
+    | '/shelter/single-adults'
+    | '/shelter/tonight'
+    | '/shelter/youth-young-adults'
+    | '/tenant-rights/eviction-help'
+    | '/tenant-rights/landlord-problems'
+    | '/tenant-rights/legal-help'
+    | '/tenant-rights/notices'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
   ApplyRoute: typeof ApplyRoute
   BasicNeedsRoute: typeof BasicNeedsRoute
+  BillsBasicsRoute: typeof BillsBasicsRouteWithChildren
   DashboardRoute: typeof DashboardRoute
   HomeV2Route: typeof HomeV2Route
+  HousingRoute: typeof HousingRouteWithChildren
+  HousingShelterRoute: typeof HousingShelterRoute
   OurStoryRoute: typeof OurStoryRoute
+  PhoneScriptsRoute: typeof PhoneScriptsRoute
+  SavedRoute: typeof SavedRoute
   SavedSheltersRoute: typeof SavedSheltersRoute
   SearchRoute: typeof SearchRoute
   SearchV2Route: typeof SearchV2Route
-  ShelterRoute: typeof ShelterRoute
-  TenantRightsRoute: typeof TenantRightsRoute
+  ShelterRoute: typeof ShelterRouteWithChildren
+  TenantRightsRoute: typeof TenantRightsRouteWithChildren
   WaitlistRoute: typeof WaitlistRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/waitlist': {
+      id: '/waitlist'
+      path: '/waitlist'
+      fullPath: '/waitlist'
+      preLoaderRoute: typeof WaitlistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/tenant-rights': {
       id: '/tenant-rights'
       path: '/tenant-rights'
@@ -223,11 +566,39 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SavedSheltersRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/saved': {
+      id: '/saved'
+      path: '/saved'
+      fullPath: '/saved'
+      preLoaderRoute: typeof SavedRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/phone-scripts': {
+      id: '/phone-scripts'
+      path: '/phone-scripts'
+      fullPath: '/phone-scripts'
+      preLoaderRoute: typeof PhoneScriptsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/our-story': {
       id: '/our-story'
       path: '/our-story'
       fullPath: '/our-story'
       preLoaderRoute: typeof OurStoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/housing-shelter': {
+      id: '/housing-shelter'
+      path: '/housing-shelter'
+      fullPath: '/housing-shelter'
+      preLoaderRoute: typeof HousingShelterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/housing': {
+      id: '/housing'
+      path: '/housing'
+      fullPath: '/housing'
+      preLoaderRoute: typeof HousingRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/home-v2': {
@@ -237,13 +608,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof HomeV2RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/basic-needs': {
-      id: '/basic-needs'
-      path: '/basic-needs'
-      fullPath: '/basic-needs'
-      preLoaderRoute: typeof BasicNeedsRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/dashboard': {
       id: '/dashboard'
       path: '/dashboard'
@@ -251,11 +615,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DashboardRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/waitlist': {
-      id: '/waitlist'
-      path: '/waitlist'
-      fullPath: '/waitlist'
-      preLoaderRoute: typeof WaitlistRouteImport
+    '/bills-basics': {
+      id: '/bills-basics'
+      path: '/bills-basics'
+      fullPath: '/bills-basics'
+      preLoaderRoute: typeof BillsBasicsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/basic-needs': {
+      id: '/basic-needs'
+      path: '/basic-needs'
+      fullPath: '/basic-needs'
+      preLoaderRoute: typeof BasicNeedsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/apply': {
@@ -265,6 +636,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ApplyRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -272,21 +650,254 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/tenant-rights/notices': {
+      id: '/tenant-rights/notices'
+      path: '/notices'
+      fullPath: '/tenant-rights/notices'
+      preLoaderRoute: typeof TenantRightsNoticesRouteImport
+      parentRoute: typeof TenantRightsRoute
+    }
+    '/tenant-rights/legal-help': {
+      id: '/tenant-rights/legal-help'
+      path: '/legal-help'
+      fullPath: '/tenant-rights/legal-help'
+      preLoaderRoute: typeof TenantRightsLegalHelpRouteImport
+      parentRoute: typeof TenantRightsRoute
+    }
+    '/tenant-rights/landlord-problems': {
+      id: '/tenant-rights/landlord-problems'
+      path: '/landlord-problems'
+      fullPath: '/tenant-rights/landlord-problems'
+      preLoaderRoute: typeof TenantRightsLandlordProblemsRouteImport
+      parentRoute: typeof TenantRightsRoute
+    }
+    '/tenant-rights/eviction-help': {
+      id: '/tenant-rights/eviction-help'
+      path: '/eviction-help'
+      fullPath: '/tenant-rights/eviction-help'
+      preLoaderRoute: typeof TenantRightsEvictionHelpRouteImport
+      parentRoute: typeof TenantRightsRoute
+    }
+    '/shelter/youth-young-adults': {
+      id: '/shelter/youth-young-adults'
+      path: '/youth-young-adults'
+      fullPath: '/shelter/youth-young-adults'
+      preLoaderRoute: typeof ShelterYouthYoungAdultsRouteImport
+      parentRoute: typeof ShelterRoute
+    }
+    '/shelter/tonight': {
+      id: '/shelter/tonight'
+      path: '/tonight'
+      fullPath: '/shelter/tonight'
+      preLoaderRoute: typeof ShelterTonightRouteImport
+      parentRoute: typeof ShelterRoute
+    }
+    '/shelter/single-adults': {
+      id: '/shelter/single-adults'
+      path: '/single-adults'
+      fullPath: '/shelter/single-adults'
+      preLoaderRoute: typeof ShelterSingleAdultsRouteImport
+      parentRoute: typeof ShelterRoute
+    }
+    '/shelter/if-full': {
+      id: '/shelter/if-full'
+      path: '/if-full'
+      fullPath: '/shelter/if-full'
+      preLoaderRoute: typeof ShelterIfFullRouteImport
+      parentRoute: typeof ShelterRoute
+    }
+    '/shelter/family': {
+      id: '/shelter/family'
+      path: '/family'
+      fullPath: '/shelter/family'
+      preLoaderRoute: typeof ShelterFamilyRouteImport
+      parentRoute: typeof ShelterRoute
+    }
+    '/shelter/crisis-numbers': {
+      id: '/shelter/crisis-numbers'
+      path: '/crisis-numbers'
+      fullPath: '/shelter/crisis-numbers'
+      preLoaderRoute: typeof ShelterCrisisNumbersRouteImport
+      parentRoute: typeof ShelterRoute
+    }
+    '/housing/without-voucher': {
+      id: '/housing/without-voucher'
+      path: '/without-voucher'
+      fullPath: '/housing/without-voucher'
+      preLoaderRoute: typeof HousingWithoutVoucherRouteImport
+      parentRoute: typeof HousingRoute
+    }
+    '/housing/with-voucher': {
+      id: '/housing/with-voucher'
+      path: '/with-voucher'
+      fullPath: '/housing/with-voucher'
+      preLoaderRoute: typeof HousingWithVoucherRouteImport
+      parentRoute: typeof HousingRoute
+    }
+    '/housing/how-to-apply': {
+      id: '/housing/how-to-apply'
+      path: '/how-to-apply'
+      fullPath: '/housing/how-to-apply'
+      preLoaderRoute: typeof HousingHowToApplyRouteImport
+      parentRoute: typeof HousingRoute
+    }
+    '/housing/find-affordable-housing': {
+      id: '/housing/find-affordable-housing'
+      path: '/find-affordable-housing'
+      fullPath: '/housing/find-affordable-housing'
+      preLoaderRoute: typeof HousingFindAffordableHousingRouteImport
+      parentRoute: typeof HousingRoute
+    }
+    '/housing/documents': {
+      id: '/housing/documents'
+      path: '/documents'
+      fullPath: '/housing/documents'
+      preLoaderRoute: typeof HousingDocumentsRouteImport
+      parentRoute: typeof HousingRoute
+    }
+    '/bills-basics/utilities': {
+      id: '/bills-basics/utilities'
+      path: '/utilities'
+      fullPath: '/bills-basics/utilities'
+      preLoaderRoute: typeof BillsBasicsUtilitiesRouteImport
+      parentRoute: typeof BillsBasicsRoute
+    }
+    '/bills-basics/transportation-phone': {
+      id: '/bills-basics/transportation-phone'
+      path: '/transportation-phone'
+      fullPath: '/bills-basics/transportation-phone'
+      preLoaderRoute: typeof BillsBasicsTransportationPhoneRouteImport
+      parentRoute: typeof BillsBasicsRoute
+    }
+    '/bills-basics/rent-help': {
+      id: '/bills-basics/rent-help'
+      path: '/rent-help'
+      fullPath: '/bills-basics/rent-help'
+      preLoaderRoute: typeof BillsBasicsRentHelpRouteImport
+      parentRoute: typeof BillsBasicsRoute
+    }
+    '/bills-basics/hygiene-laundry': {
+      id: '/bills-basics/hygiene-laundry'
+      path: '/hygiene-laundry'
+      fullPath: '/bills-basics/hygiene-laundry'
+      preLoaderRoute: typeof BillsBasicsHygieneLaundryRouteImport
+      parentRoute: typeof BillsBasicsRoute
+    }
+    '/bills-basics/furniture-household': {
+      id: '/bills-basics/furniture-household'
+      path: '/furniture-household'
+      fullPath: '/bills-basics/furniture-household'
+      preLoaderRoute: typeof BillsBasicsFurnitureHouseholdRouteImport
+      parentRoute: typeof BillsBasicsRoute
+    }
+    '/bills-basics/food': {
+      id: '/bills-basics/food'
+      path: '/food'
+      fullPath: '/bills-basics/food'
+      preLoaderRoute: typeof BillsBasicsFoodRouteImport
+      parentRoute: typeof BillsBasicsRoute
+    }
   }
 }
 
+interface BillsBasicsRouteChildren {
+  BillsBasicsFoodRoute: typeof BillsBasicsFoodRoute
+  BillsBasicsFurnitureHouseholdRoute: typeof BillsBasicsFurnitureHouseholdRoute
+  BillsBasicsHygieneLaundryRoute: typeof BillsBasicsHygieneLaundryRoute
+  BillsBasicsRentHelpRoute: typeof BillsBasicsRentHelpRoute
+  BillsBasicsTransportationPhoneRoute: typeof BillsBasicsTransportationPhoneRoute
+  BillsBasicsUtilitiesRoute: typeof BillsBasicsUtilitiesRoute
+}
+
+const BillsBasicsRouteChildren: BillsBasicsRouteChildren = {
+  BillsBasicsFoodRoute: BillsBasicsFoodRoute,
+  BillsBasicsFurnitureHouseholdRoute: BillsBasicsFurnitureHouseholdRoute,
+  BillsBasicsHygieneLaundryRoute: BillsBasicsHygieneLaundryRoute,
+  BillsBasicsRentHelpRoute: BillsBasicsRentHelpRoute,
+  BillsBasicsTransportationPhoneRoute: BillsBasicsTransportationPhoneRoute,
+  BillsBasicsUtilitiesRoute: BillsBasicsUtilitiesRoute,
+}
+
+const BillsBasicsRouteWithChildren = BillsBasicsRoute._addFileChildren(
+  BillsBasicsRouteChildren,
+)
+
+interface HousingRouteChildren {
+  HousingDocumentsRoute: typeof HousingDocumentsRoute
+  HousingFindAffordableHousingRoute: typeof HousingFindAffordableHousingRoute
+  HousingHowToApplyRoute: typeof HousingHowToApplyRoute
+  HousingWithVoucherRoute: typeof HousingWithVoucherRoute
+  HousingWithoutVoucherRoute: typeof HousingWithoutVoucherRoute
+}
+
+const HousingRouteChildren: HousingRouteChildren = {
+  HousingDocumentsRoute: HousingDocumentsRoute,
+  HousingFindAffordableHousingRoute: HousingFindAffordableHousingRoute,
+  HousingHowToApplyRoute: HousingHowToApplyRoute,
+  HousingWithVoucherRoute: HousingWithVoucherRoute,
+  HousingWithoutVoucherRoute: HousingWithoutVoucherRoute,
+}
+
+const HousingRouteWithChildren =
+  HousingRoute._addFileChildren(HousingRouteChildren)
+
+interface ShelterRouteChildren {
+  ShelterCrisisNumbersRoute: typeof ShelterCrisisNumbersRoute
+  ShelterFamilyRoute: typeof ShelterFamilyRoute
+  ShelterIfFullRoute: typeof ShelterIfFullRoute
+  ShelterSingleAdultsRoute: typeof ShelterSingleAdultsRoute
+  ShelterTonightRoute: typeof ShelterTonightRoute
+  ShelterYouthYoungAdultsRoute: typeof ShelterYouthYoungAdultsRoute
+}
+
+const ShelterRouteChildren: ShelterRouteChildren = {
+  ShelterCrisisNumbersRoute: ShelterCrisisNumbersRoute,
+  ShelterFamilyRoute: ShelterFamilyRoute,
+  ShelterIfFullRoute: ShelterIfFullRoute,
+  ShelterSingleAdultsRoute: ShelterSingleAdultsRoute,
+  ShelterTonightRoute: ShelterTonightRoute,
+  ShelterYouthYoungAdultsRoute: ShelterYouthYoungAdultsRoute,
+}
+
+const ShelterRouteWithChildren =
+  ShelterRoute._addFileChildren(ShelterRouteChildren)
+
+interface TenantRightsRouteChildren {
+  TenantRightsEvictionHelpRoute: typeof TenantRightsEvictionHelpRoute
+  TenantRightsLandlordProblemsRoute: typeof TenantRightsLandlordProblemsRoute
+  TenantRightsLegalHelpRoute: typeof TenantRightsLegalHelpRoute
+  TenantRightsNoticesRoute: typeof TenantRightsNoticesRoute
+}
+
+const TenantRightsRouteChildren: TenantRightsRouteChildren = {
+  TenantRightsEvictionHelpRoute: TenantRightsEvictionHelpRoute,
+  TenantRightsLandlordProblemsRoute: TenantRightsLandlordProblemsRoute,
+  TenantRightsLegalHelpRoute: TenantRightsLegalHelpRoute,
+  TenantRightsNoticesRoute: TenantRightsNoticesRoute,
+}
+
+const TenantRightsRouteWithChildren = TenantRightsRoute._addFileChildren(
+  TenantRightsRouteChildren,
+)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
   ApplyRoute: ApplyRoute,
   BasicNeedsRoute: BasicNeedsRoute,
+  BillsBasicsRoute: BillsBasicsRouteWithChildren,
   DashboardRoute: DashboardRoute,
   HomeV2Route: HomeV2Route,
+  HousingRoute: HousingRouteWithChildren,
+  HousingShelterRoute: HousingShelterRoute,
   OurStoryRoute: OurStoryRoute,
+  PhoneScriptsRoute: PhoneScriptsRoute,
+  SavedRoute: SavedRoute,
   SavedSheltersRoute: SavedSheltersRoute,
   SearchRoute: SearchRoute,
   SearchV2Route: SearchV2Route,
-  ShelterRoute: ShelterRoute,
-  TenantRightsRoute: TenantRightsRoute,
+  ShelterRoute: ShelterRouteWithChildren,
+  TenantRightsRoute: TenantRightsRouteWithChildren,
   WaitlistRoute: WaitlistRoute,
 }
 export const routeTree = rootRouteImport
