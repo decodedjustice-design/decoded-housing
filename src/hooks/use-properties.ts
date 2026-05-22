@@ -107,7 +107,8 @@ export function useProperties(filters: PropertyFilters) {
           setLoading(false);
           return;
         } catch (fallbackError) {
-          setError(fallbackError instanceof Error ? fallbackError.message : "Unable to load properties");
+          console.error("[housing] Fallback property source failed", fallbackError);
+          setError("Unable to load properties. Please try again later.");
           setRawData([]);
           setLoading(false);
           return;

@@ -105,7 +105,8 @@ export function useResources(opts: UseResourcesOpts = {}) {
     q.then(({ data: rows, error: err }) => {
       if (cancelled) return;
       if (err) {
-        setError(err.message);
+        console.error("[resources] Supabase query failed", err);
+        setError("Unable to load resources. Please try again later.");
         setData([]);
       } else {
         setData(sortByCityAndPriority(rows ?? [], city));
