@@ -2,7 +2,18 @@ import { useEffect, useMemo, useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import type { Tables } from "@/integrations/supabase/types";
 
-export type Property = Tables<"properties">;
+export type Property = Tables<"properties"> & {
+  affordable?: number | null;
+  waitlist?: string | null;
+  likely?: string | null;
+  transit_station?: string | null;
+  transit_label?: string | null;
+  phone?: string | null;
+  website?: string | null;
+  photos?: string[] | null;
+  latitude?: number | null;
+  longitude?: number | null;
+};
 
 interface EnrichedProperty {
   id: string;
@@ -55,14 +66,22 @@ async function loadStaticFallback(): Promise<Property[]> {
   const response = await fetch("/data/properties_enriched.json");
   if (!response.ok) throw new Error(`Failed to load static properties (${response.status})`);
   const payload = (await response.json()) as EnrichedPayload;
-  return (payload.properties ?? []).map((p) => ({
+  return (payload.properties ?? []).map<Property>((p) => ({
     id: p.id,
     name: p.name,
     city: p.city,
     address: null,
-    types: p.housing_types ?? null,
-    ami: null,
-    units: null,
+    types: p.housing_types ?? [],
+    ami: [],
+    units: [],
+    affordable_units: null,
+    total_units: null,
+    program_type: null,
+    source: null,
+    status: null,
+    year: null,
+    zip: null,
+    created_at: new Date().toISOString(),
     affordable: null,
     verified: Boolean(p.website),
     waitlist: null,

@@ -2,11 +2,11 @@ import { Home, House, HeartHandshake, Scale, Phone, BookOpen, Bookmark, AlertTri
 
 export const primaryNavLinks = [
   { to: "/", label: "Home", icon: Home, activeExact: true },
-  { to: "/housing-shelter", label: "Housing & Shelter", icon: House },
-  { to: "/bills-basics", label: "Bills & Basics", icon: HeartHandshake },
-  { to: "/tenant-rights", label: "Tenant Rights", icon: Scale },
-  { to: "/phone-scripts", label: "Phone Scripts", icon: Phone },
-  { to: "/about", label: "About", icon: BookOpen },
+  { to: "/housing-shelter", label: "Housing & Shelter", icon: House, activeExact: false },
+  { to: "/bills-basics", label: "Bills & Basics", icon: HeartHandshake, activeExact: false },
+  { to: "/tenant-rights", label: "Tenant Rights", icon: Scale, activeExact: false },
+  { to: "/phone-scripts", label: "Phone Scripts", icon: Phone, activeExact: false },
+  { to: "/about", label: "About", icon: BookOpen, activeExact: false },
 ] as const;
 
 export const utilityNavLinks = [
