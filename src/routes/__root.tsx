@@ -12,7 +12,7 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Decoded Housing — Housing stability for King County" },
+      { title: "Stable Housing Navigator — King County housing stability" },
     ],
     links: [{ rel: "stylesheet", href: appCss }],
   }),
