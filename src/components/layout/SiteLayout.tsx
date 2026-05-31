@@ -10,12 +10,13 @@ export function SiteLayout() {
       <footer className="mt-16 border-t border-border bg-card">
         <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 md:grid-cols-3">
           <div>
-            <h3 className="font-display text-xl">Decoded Housing</h3>
-            <p className="mt-2 text-sm text-muted-foreground">Housing and shelter discovery for King County, with practical next steps and grounded support.</p>
+            <h3 className="font-display text-xl">Stable Housing Navigator</h3>
+            <p className="mt-2 text-sm text-muted-foreground">King County housing stabilization, eviction prevention, barrier solving, basic-needs navigation, and follow-through support.</p>
           </div>
           <div>
             <h4 className="text-sm font-semibold">Navigation</h4>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
+              <li><Link to="/stable-housing-navigator">Stable Housing Navigator</Link></li>
               <li><Link to="/housing-shelter">Housing & Shelter</Link></li>
               <li><Link to="/bills-basics">Bills & Basics</Link></li>
               <li><Link to="/tenant-rights">Tenant Rights</Link></li>

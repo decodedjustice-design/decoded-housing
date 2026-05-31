@@ -16,6 +16,7 @@ import { Route as SearchV2RouteImport } from './routes/search-v2'
 import { Route as SearchRouteImport } from './routes/search'
 import { Route as SavedSheltersRouteImport } from './routes/saved-shelters'
 import { Route as SavedRouteImport } from './routes/saved'
+import { Route as StableHousingNavigatorRouteImport } from './routes/stable-housing-navigator'
 import { Route as PhoneScriptsRouteImport } from './routes/phone-scripts'
 import { Route as OurStoryRouteImport } from './routes/our-story'
 import { Route as HousingShelterRouteImport } from './routes/housing-shelter'
@@ -82,6 +83,11 @@ const SavedSheltersRoute = SavedSheltersRouteImport.update({
 const SavedRoute = SavedRouteImport.update({
   id: '/saved',
   path: '/saved',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const StableHousingNavigatorRoute = StableHousingNavigatorRouteImport.update({
+  id: '/stable-housing-navigator',
+  path: '/stable-housing-navigator',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PhoneScriptsRoute = PhoneScriptsRouteImport.update({
@@ -268,6 +274,7 @@ export interface FileRoutesByFullPath {
   '/search': typeof SearchRoute
   '/search-v2': typeof SearchV2Route
   '/shelter': typeof ShelterRouteWithChildren
+  '/stable-housing-navigator': typeof StableHousingNavigatorRoute
   '/tenant-rights': typeof TenantRightsRouteWithChildren
   '/waitlist': typeof WaitlistRoute
   '/bills-basics/food': typeof BillsBasicsFoodRoute
@@ -309,6 +316,7 @@ export interface FileRoutesByTo {
   '/search': typeof SearchRoute
   '/search-v2': typeof SearchV2Route
   '/shelter': typeof ShelterRouteWithChildren
+  '/stable-housing-navigator': typeof StableHousingNavigatorRoute
   '/tenant-rights': typeof TenantRightsRouteWithChildren
   '/waitlist': typeof WaitlistRoute
   '/bills-basics/food': typeof BillsBasicsFoodRoute
@@ -351,6 +359,7 @@ export interface FileRoutesById {
   '/search': typeof SearchRoute
   '/search-v2': typeof SearchV2Route
   '/shelter': typeof ShelterRouteWithChildren
+  '/stable-housing-navigator': typeof StableHousingNavigatorRoute
   '/tenant-rights': typeof TenantRightsRouteWithChildren
   '/waitlist': typeof WaitlistRoute
   '/bills-basics/food': typeof BillsBasicsFoodRoute
@@ -394,6 +403,7 @@ export interface FileRouteTypes {
     | '/search'
     | '/search-v2'
     | '/shelter'
+    | '/stable-housing-navigator'
     | '/tenant-rights'
     | '/waitlist'
     | '/bills-basics/food'
@@ -435,6 +445,7 @@ export interface FileRouteTypes {
     | '/search'
     | '/search-v2'
     | '/shelter'
+    | '/stable-housing-navigator'
     | '/tenant-rights'
     | '/waitlist'
     | '/bills-basics/food'
@@ -476,6 +487,7 @@ export interface FileRouteTypes {
     | '/search'
     | '/search-v2'
     | '/shelter'
+    | '/stable-housing-navigator'
     | '/tenant-rights'
     | '/waitlist'
     | '/bills-basics/food'
@@ -518,6 +530,7 @@ export interface RootRouteChildren {
   SearchRoute: typeof SearchRoute
   SearchV2Route: typeof SearchV2Route
   ShelterRoute: typeof ShelterRouteWithChildren
+  StableHousingNavigatorRoute: typeof StableHousingNavigatorRoute
   TenantRightsRoute: typeof TenantRightsRouteWithChildren
   WaitlistRoute: typeof WaitlistRoute
 }
@@ -571,6 +584,13 @@ declare module '@tanstack/react-router' {
       path: '/saved'
       fullPath: '/saved'
       preLoaderRoute: typeof SavedRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/stable-housing-navigator': {
+      id: '/stable-housing-navigator'
+      path: '/stable-housing-navigator'
+      fullPath: '/stable-housing-navigator'
+      preLoaderRoute: typeof StableHousingNavigatorRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/phone-scripts': {
@@ -897,6 +917,7 @@ const rootRouteChildren: RootRouteChildren = {
   SearchRoute: SearchRoute,
   SearchV2Route: SearchV2Route,
   ShelterRoute: ShelterRouteWithChildren,
+  StableHousingNavigatorRoute: StableHousingNavigatorRoute,
   TenantRightsRoute: TenantRightsRouteWithChildren,
   WaitlistRoute: WaitlistRoute,
 }
