@@ -88,8 +88,8 @@ export function PropertiesMap({ properties, selectedId, onSelect }: PropertiesMa
     markersRef.current.forEach((marker, id) => {
       const el = marker.getElement();
       el.style.cssText = id === selectedId
-        ? "width:26px;height:26px;border-radius:9999px;background:hsl(var(--destructive));border:2px solid white;"
-        : "width:18px;height:18px;border-radius:9999px;background:hsl(var(--primary));border:2px solid white;";
+        ? "width:26px;height:26px;border-radius:9999px;background:var(--destructive);border:2px solid white;"
+        : "width:18px;height:18px;border-radius:9999px;background:var(--primary);border:2px solid white;";
     });
   }, [selectedId]);
 

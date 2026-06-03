@@ -17,6 +17,7 @@ export function SiteLayout() {
             <h4 className="text-sm font-semibold">Navigation</h4>
             <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
               <li><Link to="/stable-housing-navigator">Stable Housing Navigator</Link></li>
+              <li><Link to="/properties">Property Tracker</Link></li>
               <li><Link to="/housing-shelter">Housing & Shelter</Link></li>
               <li><Link to="/bills-basics">Bills & Basics</Link></li>
               <li><Link to="/tenant-rights">Tenant Rights</Link></li>

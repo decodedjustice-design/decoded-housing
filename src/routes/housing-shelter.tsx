@@ -55,10 +55,9 @@ function HousingShelterPage() {
       programLabel: p.voucher ? "Voucher-Friendly" : "General Affordable",
       freshness: p.updated_days === null ? "Last updated unknown" : `Updated ${p.updated_days} days ago`,
       waitlistStatus: p.waitlist || (isShelter ? "Call for same-day bed status" : "Waitlist status not published"),
-      unitMatrix: p.units?.length ? p.units : isShelter ? ["Bed", "Shared room"] : ["Studio", "1-bedroom", "2-bedroom"],
-      amenities: [accessibility ? "Accessibility features" : null, pets ? "Pet / service animal support" : null, "Transit access", "Onsite support"].filter(Boolean) as string[],
-      email: `${p.name.toLowerCase().replace(/[^a-z0-9]+/g, "")}@housinghelp.org`,
-      photos: p.photos?.length ? p.photos.slice(0, 3) : ["https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200", "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200", "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=1200"],
+      unitMatrix: p.units?.length ? p.units : [],
+      amenities: [accessibility ? "Ask about accessibility features" : null, pets ? "Ask about pet and service-animal policies" : null].filter(Boolean) as string[],
+      photos: p.photos?.length ? p.photos.slice(0, 3) : [],
     };
   }), [data, accessibility, pets]);
 
@@ -123,7 +122,7 @@ function HousingShelterPage() {
           <div className="flex items-start justify-between"><h2 className="text-base font-semibold">{p.name}</h2>{p.verified ? <ShieldCheck className="h-4 w-4 text-primary" /> : <ShieldAlert className="h-4 w-4 text-muted-foreground" />}</div>
           <p className="text-sm text-muted-foreground">{p.city || "City pending"} • {p.address || "Address available on request"}</p>
           <div className="mt-2 flex flex-wrap gap-1">{p.badges.map((badge) => <span key={badge} className="rounded-full bg-muted px-2 py-0.5 text-[11px]">{badge}</span>)}</div>
-          <p className="mt-2 text-sm">Units: {p.unitMatrix.join(", ")} • Price: {p.affordable ? `$${p.affordable}+` : "Call for pricing"}</p>
+          <p className="mt-2 text-sm">Units: {p.unitMatrix.length ? p.unitMatrix.join(", ") : "Call for current unit mix"} • Price: {p.affordable ? `$${p.affordable}+` : "Call for pricing"}</p>
           <p className="text-xs text-muted-foreground">Waitlist: {p.waitlistStatus} • {p.freshness}</p>
         </article>)}
       </div>
@@ -131,20 +130,20 @@ function HousingShelterPage() {
 
     {selected && <section className="mt-6 rounded-xl border border-border bg-card p-5">
       <h3 className="text-2xl font-semibold">{selected.name}</h3>
-      <div className="mt-3 grid gap-3 md:grid-cols-3">{selected.photos.slice(0,3).map((photo, i) => <img key={`${selected.id}-${i}`} src={photo} alt={`${selected.name} photo ${i+1}`} className="h-44 w-full rounded-lg object-cover" />)}</div>
+      {selected.photos.length > 0 && <div className="mt-3 grid gap-3 md:grid-cols-3">{selected.photos.slice(0,3).map((photo, i) => <img key={`${selected.id}-${i}`} src={photo} alt={`${selected.name} photo ${i+1}`} className="h-44 w-full rounded-lg object-cover" />)}</div>}
       <div className="mt-4 grid gap-4 md:grid-cols-2">
         <div className="space-y-2 text-sm">
           <p className="flex items-center gap-2"><Building2 className="h-4 w-4" /> Program: {selected.programLabel}</p>
-          <p className="flex items-center gap-2"><BedDouble className="h-4 w-4" /> Unit matrix: {selected.unitMatrix.join(", ")}</p>
+          <p className="flex items-center gap-2"><BedDouble className="h-4 w-4" /> Unit matrix: {selected.unitMatrix.length ? selected.unitMatrix.join(", ") : "Call for current unit mix"}</p>
           <p className="flex items-center gap-2"><Home className="h-4 w-4" /> Price notes: {selected.affordable ? `Starting near $${selected.affordable}` : "Price varies, call for current range"}</p>
-          <p>Amenities: {selected.amenities.join(", ")}</p>
+          {selected.amenities.length > 0 && <p>Questions to ask: {selected.amenities.join(", ")}</p>}
           <p>Apply instructions: Visit property website, ask about openings, required documents, and timelines.</p>
           <p>If no opening: Ask for waitlist process, callback window, and transitional or shelter alternatives.</p>
         </div>
         <div className="space-y-2 text-sm">
           <p className="flex items-center gap-2"><ExternalLink className="h-4 w-4" /> {selected.website ? <a className="text-primary underline" href={selected.website} target="_blank" rel="noreferrer">Property website</a> : "Website unavailable"}</p>
           <p className="flex items-center gap-2"><Phone className="h-4 w-4" /> {selected.phone || "Phone on request"}</p>
-          <p className="flex items-center gap-2"><Mail className="h-4 w-4" /> {selected.email}</p>
+          <p className="flex items-center gap-2"><Mail className="h-4 w-4" /> Email not published in current data</p>
           <p className="text-muted-foreground">{selected.verified ? "Verified" : "Community verified"} • {selected.freshness}</p>
           <p className="text-muted-foreground">Insider notes: {selected.insider || "Ask about move-in readiness, utility coverage, and approval timeline."}</p>
           <div className="flex gap-3 pt-2"><Link to="/phone-scripts" className="rounded-lg bg-primary px-3 py-2 text-primary-foreground">Script button</Link><Link to="/saved" className="rounded-lg border border-border px-3 py-2">Save</Link></div>
