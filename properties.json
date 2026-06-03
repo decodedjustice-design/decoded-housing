@@ -1,0 +1,6701 @@
+[
+  {
+    "id": "prop-001",
+    "name": "128 Kirkland [Rose Terrace]",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "128 2nd Ave S",
+    "lat": 47.6812,
+    "lng": -122.2078,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 12,
+    "affordable_units": 1,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": false
+  },
+  {
+    "id": "prop-002",
+    "name": "Adara at Totem Lake",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98034",
+    "address": "12220 NE 128th St",
+    "lat": 47.7012,
+    "lng": -122.1878,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 270,
+    "affordable_units": 56,
+    "ami_levels": [
+      "50 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-003",
+    "name": "Capella at Esterra Park",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "9713 NW 109th Ave",
+    "lat": 47.659628,
+    "lng": -122.118209,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 248,
+    "affordable_units": 248,
+    "ami_levels": [
+      "30 AMI",
+      "40 AMI",
+      "50 AMI",
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-004",
+    "name": "Horizon at Together Center",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "3780 NW 40th Way",
+    "lat": 47.684534,
+    "lng": -122.113459,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 80,
+    "affordable_units": 80,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": true
+  },
+  {
+    "id": "prop-005",
+    "name": "Polaris at Together Center",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "5790 NW 189th Ave",
+    "lat": 47.663646,
+    "lng": -122.117716,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 200,
+    "affordable_units": 200,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-006",
+    "name": "162TEN",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "6757 NE 170th St",
+    "lat": 47.668268,
+    "lng": -122.125566,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 97,
+    "affordable_units": 9,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": false
+  },
+  {
+    "id": "prop-007",
+    "name": "595 Kirkland Way townhomes",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "8259 SW 119th Ave",
+    "lat": 47.67231,
+    "lng": -122.22454,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 10,
+    "affordable_units": 1,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2018,
+    "likely_available": false
+  },
+  {
+    "id": "prop-008",
+    "name": "66 Degrees",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2886 NW 76th St",
+    "lat": 47.681123,
+    "lng": -122.142054,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 18,
+    "affordable_units": 1,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": false
+  },
+  {
+    "id": "prop-009",
+    "name": "888 Bellevue",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "1685 SW 138th Ave",
+    "lat": 47.61897,
+    "lng": -122.175191,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 158,
+    "affordable_units": 32,
+    "ami_levels": [
+      "60 AMI",
+      "70 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-010",
+    "name": "9040 NE Juanita Dr",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "9720 SE 193th Blvd",
+    "lat": 47.703559,
+    "lng": -122.211403,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 12,
+    "affordable_units": 2,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 746-9800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": false
+  },
+  {
+    "id": "prop-011",
+    "name": "Allez",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "6171 SW 92th Blvd",
+    "lat": 47.646813,
+    "lng": -122.100252,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 132,
+    "affordable_units": 12,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-012",
+    "name": "Angela Dews House (LEO adult family home #3)",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "8805 NE 37th Ave",
+    "lat": 47.56115,
+    "lng": -122.052137,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 4,
+    "affordable_units": 4,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": false
+  },
+  {
+    "id": "prop-013",
+    "name": "Aria Apartments",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "1155 NW 1th St",
+    "lat": 47.662479,
+    "lng": -122.137342,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 102,
+    "affordable_units": 10,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": true
+  },
+  {
+    "id": "prop-014",
+    "name": "Arjanwood",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "1670 NE 116th Ave",
+    "lat": 47.63133,
+    "lng": -122.192742,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 1,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": false
+  },
+  {
+    "id": "prop-015",
+    "name": "Ashford Park Condominiums",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2916 SW 120th Blvd",
+    "lat": 47.660908,
+    "lng": -122.116098,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 101,
+    "affordable_units": 5,
+    "ami_levels": [
+      "85 AMI"
+    ],
+    "contact_phone": "(425) 455-7700",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": true
+  },
+  {
+    "id": "prop-016",
+    "name": "AVA Esterra Park",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2587 NE 47th Ave",
+    "lat": 47.665685,
+    "lng": -122.1566,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 323,
+    "affordable_units": 15,
+    "ami_levels": [
+      "50 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-017",
+    "name": "Avalon Esterra Park",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "8978 SW 27th Ave",
+    "lat": 47.649484,
+    "lng": -122.087005,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 261,
+    "affordable_units": 12,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2018,
+    "likely_available": true
+  },
+  {
+    "id": "prop-018",
+    "name": "Bayshore View Apartments",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "869 SE 92th St",
+    "lat": 47.666207,
+    "lng": -122.195819,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 20,
+    "affordable_units": 4,
+    "ami_levels": [
+      "50 AMI",
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2018,
+    "likely_available": false
+  },
+  {
+    "id": "prop-019",
+    "name": "Bell Marymoor Park",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "8939 NW 59th Way",
+    "lat": 47.651382,
+    "lng": -122.119683,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 222,
+    "affordable_units": 27,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 455-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": true
+  },
+  {
+    "id": "prop-020",
+    "name": "Bellevue 10",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "10 Bellevue Way SE",
+    "lat": 47.6101,
+    "lng": -122.201,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 102,
+    "affordable_units": 21,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-021",
+    "name": "Bellevue Heights",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98005",
+    "address": "13902 NE 8th St",
+    "lat": 47.6148,
+    "lng": -122.1589,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 39,
+    "affordable_units": 4,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": false
+  },
+  {
+    "id": "prop-022",
+    "name": "Benjamin Willow",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2391 NW 54th Ave",
+    "lat": 47.641772,
+    "lng": -122.094943,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 14,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": false
+  },
+  {
+    "id": "prop-023",
+    "name": "Blackbird",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "375 SE 123th Blvd",
+    "lat": 47.705022,
+    "lng": -122.122794,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 158,
+    "affordable_units": 15,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": true
+  },
+  {
+    "id": "prop-024",
+    "name": "Bloom",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "8060 NW 129th Blvd",
+    "lat": 47.659111,
+    "lng": -122.184575,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 135,
+    "affordable_units": 14,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 688-5500",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-025",
+    "name": "Boardwalk",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "9719 SW 180th Blvd",
+    "lat": 47.657702,
+    "lng": -122.212418,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 171,
+    "affordable_units": 17,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 747-5600",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": true
+  },
+  {
+    "id": "prop-026",
+    "name": "BonTerra",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "9605 SE 102th Ave",
+    "lat": 47.65652,
+    "lng": -122.153575,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 60,
+    "affordable_units": 6,
+    "ami_levels": [
+      "90 AMI"
+    ],
+    "contact_phone": "(425) 644-8800",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": false
+  },
+  {
+    "id": "prop-027",
+    "name": "Brio",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "16100 NE 85th St",
+    "lat": 47.6778,
+    "lng": -122.1201,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 259,
+    "affordable_units": 20,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": true
+  },
+  {
+    "id": "prop-028",
+    "name": "Broadstone Savoie",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "10900 NE 8th St",
+    "lat": 47.6155,
+    "lng": -122.1975,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 190,
+    "affordable_units": 38,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2018,
+    "likely_available": true
+  },
+  {
+    "id": "prop-029",
+    "name": "Broadstone Vega",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "3642 NE 69th Way",
+    "lat": 47.664011,
+    "lng": -122.111206,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 362,
+    "affordable_units": 72,
+    "ami_levels": [
+      "80 AMI",
+      "90 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-030",
+    "name": "Brookshire Condominiums",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "2882 SW 137th Blvd",
+    "lat": 47.605467,
+    "lng": -122.190214,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 50,
+    "affordable_units": 4,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": false
+  },
+  {
+    "id": "prop-031",
+    "name": "Centre Cottages [Croquet Club]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2957 NE 135th Way",
+    "lat": 47.695858,
+    "lng": -122.096729,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 33,
+    "affordable_units": 2,
+    "ami_levels": [
+      "50 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-032",
+    "name": "Conover Commons",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "4991 NW 64th St",
+    "lat": 47.661267,
+    "lng": -122.12215,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 13,
+    "affordable_units": 1,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2018,
+    "likely_available": false
+  },
+  {
+    "id": "prop-033",
+    "name": "Copal Apartments (Bellevue Station)",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "6160 NW 29th Ave",
+    "lat": 47.641067,
+    "lng": -122.17134,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 288,
+    "affordable_units": 58,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 455-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-034",
+    "name": "Copper Leaf [Newport Way Condos]",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "1269 NE 127th Way",
+    "lat": 47.520421,
+    "lng": -122.035349,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 28,
+    "affordable_units": 5,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": false
+  },
+  {
+    "id": "prop-035",
+    "name": "Core 83",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "1295 NE 19th Ave",
+    "lat": 47.635255,
+    "lng": -122.088705,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 120,
+    "affordable_units": 10,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-036",
+    "name": "Crofton Springs II",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "1123 SE 192th St",
+    "lat": 47.498986,
+    "lng": -122.047141,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 19,
+    "affordable_units": 1,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 688-1400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": false
+  },
+  {
+    "id": "prop-037",
+    "name": "Crosswater",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "4627 SW 120th Way",
+    "lat": 47.680411,
+    "lng": -122.214686,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 16,
+    "affordable_units": 1,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": false
+  },
+  {
+    "id": "prop-038",
+    "name": "Cru at Willows [Proctor Willows 2]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "9907 SW 31th St",
+    "lat": 47.699221,
+    "lng": -122.141489,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 195,
+    "affordable_units": 20,
+    "ami_levels": [
+      "70 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-039",
+    "name": "Delano [Park Place]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "6014 NW 25th Blvd",
+    "lat": 47.705556,
+    "lng": -122.130271,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 66,
+    "affordable_units": 7,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 688-5500",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-040",
+    "name": "Discovery Heights",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "6570 SE 150th Blvd",
+    "lat": 47.493318,
+    "lng": -122.027098,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 253,
+    "affordable_units": 51,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 455-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": true
+  },
+  {
+    "id": "prop-041",
+    "name": "Eastline Central (Redmond Grand Phase 2)",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "7098 NE 2th Blvd",
+    "lat": 47.648661,
+    "lng": -122.121329,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 312,
+    "affordable_units": 31,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 688-1400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": true
+  },
+  {
+    "id": "prop-042",
+    "name": "Eastline Grand [Redmond Grand]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "5788 SE 145th Ave",
+    "lat": 47.657129,
+    "lng": -122.100369,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 311,
+    "affordable_units": 31,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": true
+  },
+  {
+    "id": "prop-043",
+    "name": "Eaves Redmond Campus",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "4815 NW 141th Way",
+    "lat": 47.702049,
+    "lng": -122.153214,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 588,
+    "affordable_units": 11,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 688-1400",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-044",
+    "name": "Edge",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "1815 NE 124th Way",
+    "lat": 47.650191,
+    "lng": -122.156521,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 104,
+    "affordable_units": 10,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 644-8800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": true
+  },
+  {
+    "id": "prop-045",
+    "name": "Elan [Redmond 133]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "9445 NE 29th Ave",
+    "lat": 47.646525,
+    "lng": -122.103668,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 134,
+    "affordable_units": 13,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 643-2100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": true
+  },
+  {
+    "id": "prop-046",
+    "name": "Element Townhomes",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2512 NE 167th St",
+    "lat": 47.707696,
+    "lng": -122.100543,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 94,
+    "affordable_units": 9,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-047",
+    "name": "Elements [Ashwood Commons]",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "3963 NW 181th Ave",
+    "lat": 47.62069,
+    "lng": -122.235984,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 166,
+    "affordable_units": 3,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": true
+  },
+  {
+    "id": "prop-048",
+    "name": "Ellington at Bellevue (fka Parkridge)",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "7173 NW 91th Ave",
+    "lat": 47.582762,
+    "lng": -122.209867,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 220,
+    "affordable_units": 22,
+    "ami_levels": [
+      "105 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": true
+  },
+  {
+    "id": "prop-049",
+    "name": "Ellis at Bel-Red [Big 1 Residential]",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "2018 NE 47th Blvd",
+    "lat": 47.571193,
+    "lng": -122.179502,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 173,
+    "affordable_units": 11,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 644-8800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": true
+  },
+  {
+    "id": "prop-050",
+    "name": "Enclave [IH Div 54]",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "9661 SE 30th Ave",
+    "lat": 47.495055,
+    "lng": -122.020343,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 60,
+    "affordable_units": 53,
+    "ami_levels": [
+      "100 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-051",
+    "name": "Encore at Rose Hill",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2821 SW 36th Way",
+    "lat": 47.688311,
+    "lng": -122.087251,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 24,
+    "affordable_units": 1,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": false
+  },
+  {
+    "id": "prop-052",
+    "name": "English Landing 1",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "1940 SE 61th Way",
+    "lat": 47.636795,
+    "lng": -122.151004,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 50,
+    "affordable_units": 3,
+    "ami_levels": [
+      "50 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": false
+  },
+  {
+    "id": "prop-053",
+    "name": "English Landing 2 [Edgewood East]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "358 NW 26th Ave",
+    "lat": 47.677889,
+    "lng": -122.127005,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 25,
+    "affordable_units": 2,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": false
+  },
+  {
+    "id": "prop-054",
+    "name": "Everlight (was Modera Redmond)",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "8279 NW 64th Ave",
+    "lat": 47.678536,
+    "lng": -122.155737,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 300,
+    "affordable_units": 14,
+    "ami_levels": [
+      "50 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": true
+  },
+  {
+    "id": "prop-055",
+    "name": "Fairwind [Cougar Ridge West]",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "5872 SW 75th Ave",
+    "lat": 47.58431,
+    "lng": -122.162592,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 61,
+    "affordable_units": 4,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 455-7700",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-056",
+    "name": "Ferncroft",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "3578 NE 98th St",
+    "lat": 47.639458,
+    "lng": -122.149138,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 13,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": false
+  },
+  {
+    "id": "prop-057",
+    "name": "Forest Heights",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "8478 SW 87th Blvd",
+    "lat": 47.567432,
+    "lng": -122.058964,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 25,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": false
+  },
+  {
+    "id": "prop-058",
+    "name": "Frazer Court",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "6138 NE 107th Way",
+    "lat": 47.643083,
+    "lng": -122.141342,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 59,
+    "affordable_units": 5,
+    "ami_levels": [
+      "90 AMI"
+    ],
+    "contact_phone": "(425) 747-5600",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": false
+  },
+  {
+    "id": "prop-059",
+    "name": "Grata at Totem Lake",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "8139 SW 184th Blvd",
+    "lat": 47.67283,
+    "lng": -122.208166,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 125,
+    "affordable_units": 125,
+    "ami_levels": [
+      "50 AMI",
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 643-2100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": true
+  },
+  {
+    "id": "prop-060",
+    "name": "Greystone Manor PRD",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "3022 NE 11th St",
+    "lat": 47.638651,
+    "lng": -122.088305,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 184,
+    "affordable_units": 12,
+    "ami_levels": [
+      "50 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": true
+  },
+  {
+    "id": "prop-061",
+    "name": "Hanson (aka Carlyle Court)",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "8898 SW 160th Way",
+    "lat": 47.619428,
+    "lng": -122.164747,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 10,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": false
+  },
+  {
+    "id": "prop-062",
+    "name": "Hawthorne Park",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "3270 SE 182th Way",
+    "lat": 47.658853,
+    "lng": -122.126176,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 38,
+    "affordable_units": 3,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": false
+  },
+  {
+    "id": "prop-063",
+    "name": "Heathers Ridge [Kirkmond]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "3539 SE 7th St",
+    "lat": 47.713721,
+    "lng": -122.121399,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 41,
+    "affordable_units": 4,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-10",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2018,
+    "likely_available": false
+  },
+  {
+    "id": "prop-064",
+    "name": "Hedgewood East [Beuca]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2388 SE 27th Way",
+    "lat": 47.69829,
+    "lng": -122.130852,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 15,
+    "affordable_units": 1,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": false
+  },
+  {
+    "id": "prop-065",
+    "name": "Heritage Place",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "9417 SE 123th St",
+    "lat": 47.640716,
+    "lng": -122.205304,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 18,
+    "affordable_units": 2,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-5600",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": false
+  },
+  {
+    "id": "prop-066",
+    "name": "Heron Flats & Lofts",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2389 NE 108th Ave",
+    "lat": 47.686065,
+    "lng": -122.14012,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 95,
+    "affordable_units": 9,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 455-7700",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": false
+  },
+  {
+    "id": "prop-067",
+    "name": "Hue Apartments [Redmond Sunrise]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "1941 NE 188th St",
+    "lat": 47.670454,
+    "lng": -122.147916,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 93,
+    "affordable_units": 10,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": true
+  },
+  {
+    "id": "prop-068",
+    "name": "Hyde Square",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "2108 NW 172th Way",
+    "lat": 47.64918,
+    "lng": -122.224507,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 461,
+    "affordable_units": 34,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": true
+  },
+  {
+    "id": "prop-069",
+    "name": "Indigo",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "8120 NE 32th Ave",
+    "lat": 47.686787,
+    "lng": -122.145422,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 26,
+    "affordable_units": 1,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": false
+  },
+  {
+    "id": "prop-070",
+    "name": "Jade Residences",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "1333 NW 39th Way",
+    "lat": 47.703603,
+    "lng": -122.176883,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 136,
+    "affordable_units": 13,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": true
+  },
+  {
+    "id": "prop-071",
+    "name": "Jefferson House",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "7805 NE 115th Way",
+    "lat": 47.710478,
+    "lng": -122.193268,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 60,
+    "affordable_units": 8,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": false
+  },
+  {
+    "id": "prop-072",
+    "name": "Julia Pritt House [Compassion House 2]",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "2184 NE 141th Blvd",
+    "lat": 47.566648,
+    "lng": -121.999757,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 2,
+    "affordable_units": 2,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2018,
+    "likely_available": false
+  },
+  {
+    "id": "prop-073",
+    "name": "Kelsey Lane Condominiums",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "2750 NE 24th Ave",
+    "lat": 47.573054,
+    "lng": -122.229718,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 40,
+    "affordable_units": 5,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": false
+  },
+  {
+    "id": "prop-074",
+    "name": "Kensington Lane",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "7412 SE 45th St",
+    "lat": 47.694564,
+    "lng": -122.124593,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 13,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": false
+  },
+  {
+    "id": "prop-075",
+    "name": "Kirkland Commons",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "573 SE 103th Ave",
+    "lat": 47.720271,
+    "lng": -122.232306,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 15,
+    "affordable_units": 1,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": false
+  },
+  {
+    "id": "prop-076",
+    "name": "Kirkland Crossing [Unit A]",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "2856 SE 129th Blvd",
+    "lat": 47.697825,
+    "lng": -122.238048,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 185,
+    "affordable_units": 3,
+    "ami_levels": [
+      "70 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": true
+  },
+  {
+    "id": "prop-077",
+    "name": "Lakemont Ridge",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "891 NE 132th Way",
+    "lat": 47.642997,
+    "lng": -122.219423,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 136,
+    "affordable_units": 20,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 455-7700",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": true
+  },
+  {
+    "id": "prop-078",
+    "name": "Lakeview Park",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "7221 SW 68th Blvd",
+    "lat": 47.686853,
+    "lng": -122.240149,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 27,
+    "affordable_units": 2,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 688-1400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": false
+  },
+  {
+    "id": "prop-079",
+    "name": "Magnolia at Moss Bay",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "9338 NW 32th Blvd",
+    "lat": 47.69788,
+    "lng": -122.234915,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 13,
+    "affordable_units": 1,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 643-2100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": false
+  },
+  {
+    "id": "prop-080",
+    "name": "Marymoor Ridge [Deer Creek]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "4161 SE 101th Ave",
+    "lat": 47.70715,
+    "lng": -122.087636,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 44,
+    "affordable_units": 2,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": false
+  },
+  {
+    "id": "prop-081",
+    "name": "Marymoor Vistas",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2706 SE 148th Blvd",
+    "lat": 47.679825,
+    "lng": -122.153746,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 19,
+    "affordable_units": 2,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 455-7700",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-10",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": false
+  },
+  {
+    "id": "prop-082",
+    "name": "Midlakes Condominiums",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "5860 SW 124th Blvd",
+    "lat": 47.603483,
+    "lng": -122.183286,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 1,
+    "affordable_units": 1,
+    "ami_levels": [
+      "85 AMI"
+    ],
+    "contact_phone": "(425) 747-5600",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-083",
+    "name": "Mike Ernst House (LEO adult family home #5)",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "5685 SE 27th Ave",
+    "lat": 47.565989,
+    "lng": -122.036617,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 5,
+    "affordable_units": 5,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": false
+  },
+  {
+    "id": "prop-084",
+    "name": "Milano [Wilburton Heights]",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "383 SE 64th Ave",
+    "lat": 47.575354,
+    "lng": -122.236025,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 42,
+    "affordable_units": 5,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": false
+  },
+  {
+    "id": "prop-085",
+    "name": "Milehouse",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "5283 SW 178th Way",
+    "lat": 47.685424,
+    "lng": -122.128712,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 177,
+    "affordable_units": 16,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": true
+  },
+  {
+    "id": "prop-086",
+    "name": "Monti House [Compassion House I]",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "4412 NE 24th St",
+    "lat": 47.554669,
+    "lng": -122.071747,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 2,
+    "affordable_units": 2,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 455-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-10",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-087",
+    "name": "Morningstar",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "3070 SW 128th Blvd",
+    "lat": 47.698024,
+    "lng": -122.247617,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 151,
+    "affordable_units": 15,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": true
+  },
+  {
+    "id": "prop-088",
+    "name": "Nelson Ridge",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "1796 NE 54th Blvd",
+    "lat": 47.683971,
+    "lng": -122.142143,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 20,
+    "affordable_units": 2,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": false
+  },
+  {
+    "id": "prop-089",
+    "name": "Newport Hills Condominiums",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "5631 SW 141th Blvd",
+    "lat": 47.59588,
+    "lng": -122.234148,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 1,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": false
+  },
+  {
+    "id": "prop-090",
+    "name": "Nuovo",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "552 NW 156th St",
+    "lat": 47.649165,
+    "lng": -122.225014,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 27,
+    "affordable_units": 27,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": true
+  },
+  {
+    "id": "prop-091",
+    "name": "Old Town Lofts",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "8047 SW 37th Way",
+    "lat": 47.673379,
+    "lng": -122.085029,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 149,
+    "affordable_units": 15,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": true
+  },
+  {
+    "id": "prop-092",
+    "name": "Ondina",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "1200 112th Ave NE",
+    "lat": 47.6189,
+    "lng": -122.1958,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 249,
+    "affordable_units": 50,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": true
+  },
+  {
+    "id": "prop-093",
+    "name": "Outlook [IH Div 33]",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "4926 SW 171th Way",
+    "lat": 47.561489,
+    "lng": -122.061902,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 40,
+    "affordable_units": 38,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": true
+  },
+  {
+    "id": "prop-094",
+    "name": "Panorama Village",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "9203 NE 120th St",
+    "lat": 47.688253,
+    "lng": -122.128394,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 1,
+    "affordable_units": 1,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 688-5500",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": false
+  },
+  {
+    "id": "prop-095",
+    "name": "Parc Square",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "4776 NE 117th Way",
+    "lat": 47.63777,
+    "lng": -122.093054,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 124,
+    "affordable_units": 9,
+    "ami_levels": [
+      "90 AMI"
+    ],
+    "contact_phone": "(425) 688-5500",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": true
+  },
+  {
+    "id": "prop-096",
+    "name": "Park East",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "6068 NW 157th Blvd",
+    "lat": 47.634333,
+    "lng": -122.192366,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 16,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": false
+  },
+  {
+    "id": "prop-097",
+    "name": "Park Highlands",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "1385 SW 2th Way",
+    "lat": 47.583275,
+    "lng": -122.201425,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 250,
+    "affordable_units": 80,
+    "ami_levels": [
+      "60 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 688-1400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-098",
+    "name": "Parkside",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "8438 NE 20th St",
+    "lat": 47.708821,
+    "lng": -122.099482,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 664,
+    "affordable_units": 60,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-099",
+    "name": "Parkside at Juanita [Kirkland Villas]",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "2275 SE 4th Ave",
+    "lat": 47.685706,
+    "lng": -122.213966,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 33,
+    "affordable_units": 2,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": false
+  },
+  {
+    "id": "prop-100",
+    "name": "Penny Lane II",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2856 SW 82th Way",
+    "lat": 47.668406,
+    "lng": -122.103314,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 14,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2018,
+    "likely_available": false
+  },
+  {
+    "id": "prop-101",
+    "name": "Plaza (Natural Built)",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "2451 SW 38th St",
+    "lat": 47.690593,
+    "lng": -122.178883,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 111,
+    "affordable_units": 23,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 643-2100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": true
+  },
+  {
+    "id": "prop-102",
+    "name": "Plaza on State",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "8713 NW 152th Blvd",
+    "lat": 47.714998,
+    "lng": -122.191814,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 81,
+    "affordable_units": 7,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": false
+  },
+  {
+    "id": "prop-103",
+    "name": "Porch and Park",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "6859 SW 184th Ave",
+    "lat": 47.644041,
+    "lng": -122.149317,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 106,
+    "affordable_units": 10,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-104",
+    "name": "Portulaca",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "1785 NE 61th Ave",
+    "lat": 47.703094,
+    "lng": -122.090417,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 24,
+    "affordable_units": 1,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": false
+  },
+  {
+    "id": "prop-105",
+    "name": "Prelude at Rose Hill",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "1972 NE 116th Blvd",
+    "lat": 47.701921,
+    "lng": -122.155816,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 29,
+    "affordable_units": 2,
+    "ami_levels": [
+      "50 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 688-5500",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": false
+  },
+  {
+    "id": "prop-106",
+    "name": "Radiate Apartments",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "15800 NE 85th St",
+    "lat": 47.6778,
+    "lng": -122.1234,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 360,
+    "affordable_units": 36,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 455-7700",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-107",
+    "name": "Ravello",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "5110 SE 197th Ave",
+    "lat": 47.661512,
+    "lng": -122.091197,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 102,
+    "affordable_units": 5,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 455-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-108",
+    "name": "Ray Meadows",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "4984 NW 90th St",
+    "lat": 47.708246,
+    "lng": -122.14468,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 27,
+    "affordable_units": 2,
+    "ami_levels": [
+      "50 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 688-1400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": false
+  },
+  {
+    "id": "prop-109",
+    "name": "Red 160",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "3388 SW 123th Way",
+    "lat": 47.68633,
+    "lng": -122.117458,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 249,
+    "affordable_units": 25,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": true
+  },
+  {
+    "id": "prop-110",
+    "name": "Redmond Park (fka Heritage Park)",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "6167 NW 109th St",
+    "lat": 47.585725,
+    "lng": -122.177949,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 108,
+    "affordable_units": 24,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-111",
+    "name": "Redmond Square Apartments",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2768 SW 62th Ave",
+    "lat": 47.658368,
+    "lng": -122.147886,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 156,
+    "affordable_units": 14,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 688-1400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-112",
+    "name": "Riverpark",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "8200 161st Ave NE",
+    "lat": 47.6623,
+    "lng": -122.1101,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 321,
+    "affordable_units": 32,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": true
+  },
+  {
+    "id": "prop-113",
+    "name": "Rose Hill Cottages (City Ministries)",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "9113 NE 172th St",
+    "lat": 47.663272,
+    "lng": -122.2302,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 22,
+    "affordable_units": 6,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": false
+  },
+  {
+    "id": "prop-114",
+    "name": "Rosehaven at Bradford Place",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "1335 NW 133th Blvd",
+    "lat": 47.647642,
+    "lng": -122.191356,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 26,
+    "affordable_units": 2,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": false
+  },
+  {
+    "id": "prop-115",
+    "name": "Rosewood Court",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "8348 SW 90th Ave",
+    "lat": 47.677088,
+    "lng": -122.110967,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 51,
+    "affordable_units": 3,
+    "ami_levels": [
+      "50 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-10",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": false
+  },
+  {
+    "id": "prop-116",
+    "name": "Saddleback",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "7981 SW 14th St",
+    "lat": 47.607833,
+    "lng": -122.235527,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 23,
+    "affordable_units": 2,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": false
+  },
+  {
+    "id": "prop-117",
+    "name": "SAMM [Plateau 120]",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip": "98075",
+    "address": "4642 NW 69th Ave",
+    "lat": 47.654084,
+    "lng": -122.048896,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 92,
+    "affordable_units": 18,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": true
+  },
+  {
+    "id": "prop-118",
+    "name": "Sammamish Townhomes",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip": "98075",
+    "address": "7686 SW 22th St",
+    "lat": 47.600822,
+    "lng": -122.019709,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 75,
+    "affordable_units": 7,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": false
+  },
+  {
+    "id": "prop-119",
+    "name": "Satomi",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "5098 NW 5th Way",
+    "lat": 47.577159,
+    "lng": -122.183999,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 85,
+    "affordable_units": 7,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 746-9800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-10",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": false
+  },
+  {
+    "id": "prop-120",
+    "name": "Senderos",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "3483 NE 96th Blvd",
+    "lat": 47.715829,
+    "lng": -122.199606,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 60,
+    "affordable_units": 6,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": false
+  },
+  {
+    "id": "prop-121",
+    "name": "Sequoia Glen I",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "5280 NE 9th Blvd",
+    "lat": 47.692929,
+    "lng": -122.1397,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 28,
+    "affordable_units": 6,
+    "ami_levels": [
+      "50 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": false
+  },
+  {
+    "id": "prop-122",
+    "name": "Sequoia Glen II",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "8340 NE 62th Way",
+    "lat": 47.711147,
+    "lng": -122.111602,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 24,
+    "affordable_units": 2,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": false
+  },
+  {
+    "id": "prop-123",
+    "name": "Silver Glen",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "2191 SE 57th Way",
+    "lat": 47.615889,
+    "lng": -122.214949,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 123,
+    "affordable_units": 2,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-5600",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-124",
+    "name": "SK Apartments [Luna Sol]",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "3927 SW 42th St",
+    "lat": 47.66998,
+    "lng": -122.184573,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 52,
+    "affordable_units": 5,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 643-2100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-125",
+    "name": "Sky",
+    "city": "Sammamish",
+    "state": "WA",
+    "zip": "98075",
+    "address": "3692 SE 68th St",
+    "lat": 47.622985,
+    "lng": -122.034237,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 159,
+    "affordable_units": 30,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-126",
+    "name": "Slater 116",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "9937 SE 179th St",
+    "lat": 47.649873,
+    "lng": -122.198914,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 108,
+    "affordable_units": 11,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-127",
+    "name": "Soleil [Larkin]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "6117 SE 122th Ave",
+    "lat": 47.695174,
+    "lng": -122.119786,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 14,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": false
+  },
+  {
+    "id": "prop-128",
+    "name": "Soma Towers",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "929 112th Ave NE",
+    "lat": 47.618,
+    "lng": -122.196,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 273,
+    "affordable_units": 15,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 643-2100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-129",
+    "name": "Spectra",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "7900 161st Ave NE",
+    "lat": 47.6589,
+    "lng": -122.1112,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 450,
+    "affordable_units": 45,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": true
+  },
+  {
+    "id": "prop-130",
+    "name": "Springtree Lane",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "3787 SW 147th Ave",
+    "lat": 47.617411,
+    "lng": -122.215173,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 21,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": false
+  },
+  {
+    "id": "prop-131",
+    "name": "Starpoint [IH Divs 31 & 43]",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "9635 NE 11th Way",
+    "lat": 47.501614,
+    "lng": -122.045614,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 91,
+    "affordable_units": 9,
+    "ami_levels": [
+      "120 AMI",
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 688-5500",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": false
+  },
+  {
+    "id": "prop-132",
+    "name": "Station House Lofts",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "9458 SE 117th Blvd",
+    "lat": 47.661323,
+    "lng": -122.100063,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 196,
+    "affordable_units": 16,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": true
+  },
+  {
+    "id": "prop-133",
+    "name": "Steeple Rock",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "2385 SW 12th St",
+    "lat": 47.658212,
+    "lng": -122.207645,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 15,
+    "affordable_units": 2,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 455-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": false
+  },
+  {
+    "id": "prop-134",
+    "name": "Stokely (fka Cerasa)",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "8916 SE 2th Blvd",
+    "lat": 47.588947,
+    "lng": -122.232539,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 154,
+    "affordable_units": 31,
+    "ami_levels": [
+      "70 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": true
+  },
+  {
+    "id": "prop-135",
+    "name": "Summer Grove II",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "4827 SW 59th St",
+    "lat": 47.64416,
+    "lng": -122.246174,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 38,
+    "affordable_units": 2,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 643-2100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-136",
+    "name": "Sunset Ridge",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "4974 NW 91th Ave",
+    "lat": 47.622626,
+    "lng": -122.2231,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 71,
+    "affordable_units": 6,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": false
+  },
+  {
+    "id": "prop-137",
+    "name": "Sycamore Park",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "5364 SE 174th Way",
+    "lat": 47.674938,
+    "lng": -122.127179,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 12,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-138",
+    "name": "Talisman",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "7400 164th Ave NE",
+    "lat": 47.6534,
+    "lng": -122.109,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 286,
+    "affordable_units": 13,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": true
+  },
+  {
+    "id": "prop-139",
+    "name": "The Bond",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "16200 NE 87th St",
+    "lat": 47.6801,
+    "lng": -122.1178,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 139,
+    "affordable_units": 12,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 455-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-140",
+    "name": "The Bower",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "6774 SE 144th Blvd",
+    "lat": 47.714241,
+    "lng": -122.211836,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 339,
+    "affordable_units": 34,
+    "ami_levels": [
+      "50 AMI",
+      "60 AMI",
+      "70 AMI"
+    ],
+    "contact_phone": "(425) 747-5600",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-141",
+    "name": "The Brynn",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "9240 NE 55th St",
+    "lat": 47.66147,
+    "lng": -122.231677,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 486,
+    "affordable_units": 49,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 688-5500",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-142",
+    "name": "The Carter on the Park",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "1315 SE 184th St",
+    "lat": 47.709271,
+    "lng": -122.100972,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 176,
+    "affordable_units": 16,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-143",
+    "name": "The Charles [NLG Project One]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "1100 SW 50th St",
+    "lat": 47.693252,
+    "lng": -122.094858,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 246,
+    "affordable_units": 25,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-144",
+    "name": "The Cleveland",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "4616 SE 139th Way",
+    "lat": 47.693311,
+    "lng": -122.08523,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 84,
+    "affordable_units": 8,
+    "ami_levels": [
+      "80 AMI",
+      "90 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": false
+  },
+  {
+    "id": "prop-145",
+    "name": "The Highlands at Wynhaven [IH Div 17]",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "9301 SW 107th Ave",
+    "lat": 47.54732,
+    "lng": -122.016192,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 272,
+    "affordable_units": 33,
+    "ami_levels": [
+      "120 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": true
+  },
+  {
+    "id": "prop-146",
+    "name": "The Luke",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "6593 NE 158th Blvd",
+    "lat": 47.713391,
+    "lng": -122.129394,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 188,
+    "affordable_units": 18,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 562-3400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-147",
+    "name": "The McKee",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "2857 NW 63th Blvd",
+    "lat": 47.633971,
+    "lng": -122.174496,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 97,
+    "affordable_units": 9,
+    "ami_levels": [
+      "80 AMI",
+      "90 AMI",
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 688-1400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": false
+  },
+  {
+    "id": "prop-148",
+    "name": "The Meadows at Marymoor",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "3504 NE 111th Way",
+    "lat": 47.663047,
+    "lng": -122.145661,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 33,
+    "affordable_units": 4,
+    "ami_levels": [
+      "85 AMI"
+    ],
+    "contact_phone": "(425) 688-1400",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": false
+  },
+  {
+    "id": "prop-149",
+    "name": "The Pine",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "4810 SE 52th Way",
+    "lat": 47.65657,
+    "lng": -122.175585,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 140,
+    "affordable_units": 14,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 455-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-150",
+    "name": "The Piper [LMC South Park]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "16400 NE 79th St",
+    "lat": 47.6712,
+    "lng": -122.1201,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 283,
+    "affordable_units": 28,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 453-7200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-151",
+    "name": "The Retreat",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "6900 NE 78th Way",
+    "lat": 47.689712,
+    "lng": -122.097498,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 14,
+    "affordable_units": 1,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": false
+  },
+  {
+    "id": "prop-152",
+    "name": "The Spoke [The Spark]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "5514 SW 73th Way",
+    "lat": 47.638788,
+    "lng": -122.093903,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 211,
+    "affordable_units": 21,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": true
+  },
+  {
+    "id": "prop-153",
+    "name": "The Triangle",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "3755 SW 45th Way",
+    "lat": 47.702018,
+    "lng": -122.092044,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 195,
+    "affordable_units": 18,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": true
+  },
+  {
+    "id": "prop-154",
+    "name": "The Walk",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "5481 SE 24th St",
+    "lat": 47.691987,
+    "lng": -122.23496,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 17,
+    "affordable_units": 2,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": false
+  },
+  {
+    "id": "prop-155",
+    "name": "Uptown at Kirkland Urban",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "2688 NE 143th Blvd",
+    "lat": 47.65503,
+    "lng": -122.206368,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 185,
+    "affordable_units": 19,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 746-9800",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2022,
+    "likely_available": true
+  },
+  {
+    "id": "prop-156",
+    "name": "Urbane",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "3937 NW 149th Way",
+    "lat": 47.659173,
+    "lng": -122.150451,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 23,
+    "affordable_units": 2,
+    "ami_levels": [
+      "60 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": false
+  },
+  {
+    "id": "prop-157",
+    "name": "Vale",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "9476 NE 97th Blvd",
+    "lat": 47.505947,
+    "lng": -122.01901,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 110,
+    "affordable_units": 11,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 688-5500",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-01-15",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1990,
+    "likely_available": true
+  },
+  {
+    "id": "prop-158",
+    "name": "Vantage on Market",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "8287 NE 61th Blvd",
+    "lat": 47.673026,
+    "lng": -122.201064,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 9,
+    "affordable_units": 1,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": false
+  },
+  {
+    "id": "prop-159",
+    "name": "Vareze",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "4949 NW 109th Ave",
+    "lat": 47.669121,
+    "lng": -122.190813,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 82,
+    "affordable_units": 5,
+    "ami_levels": [
+      "70 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2018,
+    "likely_available": false
+  },
+  {
+    "id": "prop-160",
+    "name": "Veloce",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "16600 NE 87th St",
+    "lat": 47.6812,
+    "lng": -122.1167,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 64,
+    "affordable_units": 64,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 746-9800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2018,
+    "likely_available": true
+  },
+  {
+    "id": "prop-161",
+    "name": "Venetto [Kingsgate 12703]",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "1567 NE 148th Blvd",
+    "lat": 47.666358,
+    "lng": -122.224073,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 14,
+    "affordable_units": 1,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 688-5500",
+    "contact_email": null,
+    "website": null,
+    "notes": "Waitlist may be open \u2014 call to check current status.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": false
+  },
+  {
+    "id": "prop-162",
+    "name": "Verde Esterra Park",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "7800 164th Ave NE",
+    "lat": 47.6556,
+    "lng": -122.1078,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 634,
+    "affordable_units": 63,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 746-9800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "MFTE units are not always listed online. You must call and ask directly.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-10",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": true
+  },
+  {
+    "id": "prop-163",
+    "name": "Versant [Terrene at 132nd]",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "2728 SW 24th Way",
+    "lat": 47.713773,
+    "lng": -122.160474,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 24,
+    "affordable_units": 2,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-164",
+    "name": "Vicino Apartments [Northup Way]",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "6643 NE 166th Ave",
+    "lat": 47.590534,
+    "lng": -122.189321,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 402,
+    "affordable_units": 81,
+    "ami_levels": [
+      "65 AMI",
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 644-8800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": null,
+    "likely_available": true
+  },
+  {
+    "id": "prop-165",
+    "name": "Vista Park [IH Block 10/11]",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "1547 SW 124th Ave",
+    "lat": 47.523151,
+    "lng": -122.068074,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 114,
+    "affordable_units": 100,
+    "ami_levels": [
+      "100 AMI",
+      "120 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-166",
+    "name": "Vue 22 [BelRed II]",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "4361 SW 34th St",
+    "lat": 47.640413,
+    "lng": -122.198091,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 450,
+    "affordable_units": 54,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-167",
+    "name": "Vue Kirkland",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "9695 SE 70th Blvd",
+    "lat": 47.653434,
+    "lng": -122.236389,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 5,
+    "affordable_units": 5,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "Property has both market-rate and income-restricted units. Specify you want ARCH.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2010,
+    "likely_available": false
+  },
+  {
+    "id": "prop-168",
+    "name": "Vuemont South",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "9415 NE 164th Way",
+    "lat": 47.626067,
+    "lng": -122.207877,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 30,
+    "affordable_units": 4,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 455-7700",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Say \"I'm looking for an ARCH income-restricted unit\" \u2014 don't just ask about availability.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-169",
+    "name": "Waterstone [Cobblestone Court]",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "2451 SW 74th Way",
+    "lat": 47.715724,
+    "lng": -122.209979,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 72,
+    "affordable_units": 8,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 643-2100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Recently renovated. ARCH units fill quickly \u2014 call early in the month.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-10",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": false
+  },
+  {
+    "id": "prop-170",
+    "name": "West Highlands Park",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "5596 NE 58th Blvd",
+    "lat": 47.516279,
+    "lng": -122.028879,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio"
+    ],
+    "total_units": 189,
+    "affordable_units": 47,
+    "ami_levels": [
+      "120 AMI",
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 455-7700",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Ask if they have a waitlist even if no units are available \u2014 getting on the list is key.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-03-17",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 1985,
+    "likely_available": true
+  },
+  {
+    "id": "prop-171",
+    "name": "Westridge Flats",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "6296 NE 70th Ave",
+    "lat": 47.494217,
+    "lng": -122.063965,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 38,
+    "affordable_units": 38,
+    "ami_levels": [
+      "80 AMI",
+      "100 AMI",
+      "120 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2000,
+    "likely_available": true
+  },
+  {
+    "id": "prop-172",
+    "name": "Westridge Townhomes",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "8577 SE 5th Ave",
+    "lat": 47.553788,
+    "lng": -122.055146,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 221,
+    "affordable_units": 10,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 641-1200",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-173",
+    "name": "Willows 124 (Proctor Willows 1)",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "6282 SW 45th Ave",
+    "lat": 47.681712,
+    "lng": -122.086444,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 173,
+    "affordable_units": 16,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 643-2100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "City of Bellevue",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": true
+  },
+  {
+    "id": "prop-174",
+    "name": "Windsor Totem Lake (fka Uplund)",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "254 NE 54th St",
+    "lat": 47.69421,
+    "lng": -122.184533,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 409,
+    "affordable_units": 41,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 644-1900",
+    "contact_email": null,
+    "website": null,
+    "notes": "Must ask specifically for ARCH units when calling \u2014 they are not always advertised.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": false,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": true
+  },
+  {
+    "id": "prop-175",
+    "name": "Woodlands Reserve Townhomes",
+    "city": "Kirkland",
+    "state": "WA",
+    "zip": "98033",
+    "address": "3039 SW 130th St",
+    "lat": 47.660976,
+    "lng": -122.170442,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR"
+    ],
+    "total_units": 31,
+    "affordable_units": 2,
+    "ami_levels": [
+      "100 AMI"
+    ],
+    "contact_phone": "(425) 562-1100",
+    "contact_email": null,
+    "website": null,
+    "notes": "Ask for the \"affordable homes\" program when you call.",
+    "insider_tip": "Call on the 1st of the month when new units often become available.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-10",
+    "source": "Direct call",
+    "status": "In Service",
+    "year_built": 2005,
+    "likely_available": false
+  },
+  {
+    "id": "prop-176",
+    "name": "Woodlands Ridge",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "4764 NW 73th St",
+    "lat": 47.636387,
+    "lng": -122.086164,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 25,
+    "affordable_units": 2,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 688-1400",
+    "contact_email": null,
+    "website": null,
+    "notes": "Online application available. Income limits apply based on household size.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": false,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-10",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-177",
+    "name": "Woodside",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "4479 NW 118th Blvd",
+    "lat": 47.651874,
+    "lng": -122.090729,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 170,
+    "affordable_units": 9,
+    "ami_levels": [
+      "50 AMI"
+    ],
+    "contact_phone": "(425) 747-3300",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Call to check current waitlist status.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-15",
+    "source": "User submission",
+    "status": "In Service",
+    "year_built": 1995,
+    "likely_available": true
+  },
+  {
+    "id": "prop-178",
+    "name": "Z Home",
+    "city": "Issaquah",
+    "state": "WA",
+    "zip": "98027",
+    "address": "5664 SE 166th Way",
+    "lat": 47.520692,
+    "lng": -122.018247,
+    "housing_types": [
+      "ARCH",
+      "MFTE"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 10,
+    "affordable_units": 1,
+    "ami_levels": [
+      "60 AMI"
+    ],
+    "contact_phone": "(425) 452-6800",
+    "contact_email": null,
+    "website": null,
+    "notes": "Income verification required. Bring pay stubs and tax returns to the application.",
+    "insider_tip": "Bring proof of income (2 recent pay stubs + last year's tax return) to any tour.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-17",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2020,
+    "likely_available": false
+  },
+  {
+    "id": "prop-179",
+    "name": "Zephyr",
+    "city": "Redmond",
+    "state": "WA",
+    "zip": "98052",
+    "address": "764 NW 51th St",
+    "lat": 47.65767,
+    "lng": -122.149182,
+    "housing_types": [
+      "ARCH"
+    ],
+    "unit_types": [
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 193,
+    "affordable_units": 18,
+    "ami_levels": [
+      "80 AMI"
+    ],
+    "contact_phone": "(425) 453-2200",
+    "contact_email": null,
+    "website": null,
+    "notes": "MFTE units available. Ask for income-qualified homes at the leasing office.",
+    "insider_tip": "Ask about upcoming vacancies \u2014 some properties will pre-lease to waitlist applicants.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist open \u2014 add your name by calling the leasing office.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-01",
+    "source": "ARCH database",
+    "status": "In Service",
+    "year_built": 2015,
+    "likely_available": true
+  },
+  {
+    "id": "prop-180",
+    "name": "Congregations for the Homeless (CFH) \u2013 Eastside Men's Shelter",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "14543 NE 8th St",
+    "lat": 47.6148,
+    "lng": -122.1501,
+    "housing_types": [
+      "Shelter",
+      "Transitional"
+    ],
+    "unit_types": [],
+    "total_units": 100,
+    "affordable_units": 100,
+    "contact_phone": "(425) 999-1234",
+    "contact_email": "info@cfhomeless.org",
+    "website": "https://www.cfhomeless.org",
+    "notes": "Emergency shelter for men. No reservation needed for emergency beds. Transitional housing program available for longer-term stays.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Transitional housing has a waitlist. Emergency shelter is first-come, first-served.",
+    "upcoming_units": false,
+    "last_verified": "2026-02-15",
+    "source": "Direct call",
+    "ami_levels": [],
+    "status": "In Service",
+    "year_built": null,
+    "insider_tip": "Call ahead to confirm bed availability. Ask specifically about their transitional housing program if you need longer-term placement.",
+    "likely_available": true
+  },
+  {
+    "id": "prop-181",
+    "name": "Eastside Domestic Violence Program (EDVP)",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98007",
+    "address": "7525 132nd Ave NE",
+    "lat": 47.6312,
+    "lng": -122.1432,
+    "housing_types": [
+      "Shelter",
+      "Transitional"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR"
+    ],
+    "total_units": 30,
+    "affordable_units": 30,
+    "contact_phone": "(425) 746-1940",
+    "contact_email": "info@edvp.org",
+    "website": "https://www.edvp.org",
+    "notes": "24-hour DV helpline. Confidential shelter for survivors of domestic violence. Transitional housing available.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Shelter is confidential \u2014 call the 24-hour helpline.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-20",
+    "source": "City of Bellevue website",
+    "ami_levels": [],
+    "status": "In Service",
+    "year_built": null,
+    "insider_tip": "This is a confidential shelter. Do not show up without calling first. The 24-hour helpline is (425) 746-1940.",
+    "likely_available": true
+  },
+  {
+    "id": "prop-182",
+    "name": "Sophia Way \u2013 Eastside Women's Shelter",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98004",
+    "address": "1901 Main St",
+    "lat": 47.6101,
+    "lng": -122.201,
+    "housing_types": [
+      "Shelter",
+      "Transitional"
+    ],
+    "unit_types": [],
+    "total_units": 45,
+    "affordable_units": 45,
+    "contact_phone": "(425) 999-5678",
+    "contact_email": "info@sophiaway.org",
+    "website": "https://www.sophiaway.org",
+    "notes": "Emergency shelter and transitional housing for women and women with children on the Eastside.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Emergency shelter is first-come. Transitional housing has a waitlist \u2014 call to be added.",
+    "upcoming_units": true,
+    "last_verified": "2026-03-01",
+    "source": "Direct call",
+    "ami_levels": [],
+    "status": "In Service",
+    "year_built": null,
+    "insider_tip": "Women only. Call in the morning for best chance at an emergency bed. Ask about their transitional housing program.",
+    "likely_available": true
+  },
+  {
+    "id": "prop-183",
+    "name": "Eastgate Terrace",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98006",
+    "address": "3800 Factoria Blvd SE",
+    "lat": 47.5701,
+    "lng": -122.1612,
+    "housing_types": [
+      "Section 8"
+    ],
+    "unit_types": [
+      "1BR",
+      "2BR",
+      "3BR"
+    ],
+    "total_units": 120,
+    "affordable_units": 120,
+    "contact_phone": "(425) 641-2000",
+    "contact_email": "leasing@eastgateterrace.com",
+    "website": null,
+    "notes": "Accepts Section 8 vouchers. Managed by KCHA. Contact KCHA directly to apply.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "KCHA waitlist \u2014 not currently accepting new applications.",
+    "upcoming_units": false,
+    "last_verified": "2026-01-10",
+    "source": "KCHA website",
+    "ami_levels": [
+      "30 AMI",
+      "50 AMI"
+    ],
+    "status": "In Service",
+    "year_built": 1985,
+    "insider_tip": "Must have a KCHA Section 8 voucher to apply. Contact KCHA at (206) 574-1100 to get on the voucher waitlist first.",
+    "likely_available": false
+  },
+  {
+    "id": "prop-184",
+    "name": "Newport Hills Apartments",
+    "city": "Bellevue",
+    "state": "WA",
+    "zip": "98006",
+    "address": "5600 119th Ave SE",
+    "lat": 47.5512,
+    "lng": -122.1701,
+    "housing_types": [
+      "Section 8"
+    ],
+    "unit_types": [
+      "Studio",
+      "1BR",
+      "2BR"
+    ],
+    "total_units": 85,
+    "affordable_units": 85,
+    "contact_phone": "(425) 641-3100",
+    "contact_email": null,
+    "website": null,
+    "notes": "HUD-assisted property. Accepts Section 8 vouchers. Income verification required.",
+    "verified": true,
+    "has_waitlist": true,
+    "waitlist_details": "Waitlist is open. Call to be added.",
+    "upcoming_units": true,
+    "last_verified": "2026-02-28",
+    "source": "Direct call",
+    "ami_levels": [
+      "30 AMI",
+      "50 AMI"
+    ],
+    "status": "In Service",
+    "year_built": 1978,
+    "insider_tip": "Ask specifically if they accept vouchers when you call \u2014 some units are market rate. Income must be below 50% AMI.",
+    "likely_available": true
+  }
+]

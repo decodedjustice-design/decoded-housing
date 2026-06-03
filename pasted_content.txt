@@ -1,0 +1,59 @@
+I have compiled all the critiques, logic maps, and Zillow-style upgrades we've discussed into a comprehensive **UX Strategy & Builder's Roadmap**. This document is designed to be handed directly to a developer to transform [Decoded Housing](https://decodedhous-3nnbt3jb.manus.space/shelter-finder) from a static directory into a high-conversion "Action Engine."
+
+---
+
+## **Part 1: The Discovery Engine (Search & Maps)**
+
+### **The Critique**
+Current list-based views create "choice paralysis." Users in affordable housing markets need geographic context (proximity to transit) and instant eligibility verification.
+
+### **The Upgrades**
+* **Map-First Layout:** A split-pane view (Map on top/left, List on bottom/right) where pins refresh as the user pans.
+* **The Eligibility Shield:** A persistent header where users enter "Household Size" and "Annual Income." The map then "greys out" or hides properties where the user is over the income limit.
+* **Transit Overlays:** Integrated badges on property cards showing distance to the nearest [Sound Transit](https://www.soundtransit.org/) or Metro line.
+
+---
+
+## **Part 2: The Conversion Engine (Scripts & Calling)**
+
+### **The Critique**
+Static scripts cause "context-switching friction." Users lose their place when moving between the browser and the phone dialer.
+
+### **The Upgrades**
+* **Teleprompter Mode:** A "Call with Script" button that triggers the dialer and overlays a sticky "Bottom Sheet" with the script so the user can read it while on speakerphone.
+* **Variable Injection:** Auto-populating the user's name and the property's specific program (ARCH/MFTE) directly into the text of the [Phone Scripts](https://decodedhous-3nnbt3jb.manus.space/scripts).
+* **The Status Logger:** A post-call prompt asking: *"Did they answer? Is the waitlist open?"* This data feeds back into the search results in real-time.
+
+---
+
+## **Part 3: Visual & Trust Signals**
+
+### **The Critique**
+Lack of photos leads to a "Trust Deficit." Users often assume affordable units are lower quality than market-rate units.
+
+### **The Upgrades**
+* **The Zillow Gallery:** Replacing thumbnails with a 3-photo mosaic (Exterior, Interior, Amenity) for every listing.
+* **Verification Timestamps:** Adding "Community Verified" badges (e.g., *"Verified by a user 2 hours ago"*) to property cards to prove the data isn't stale.
+* **Resource Action Dashboard:** Transforming the [Resources Page](https://decodedhous-3nnbt3jb.manus.space/how-it-works) into a grid of "Action Cards" with clear icons for Financial Help, Legal Aid, and Paperwork Checklists.
+
+---
+
+## **Part 4: Technical Logic Map**
+
+| Feature | System Logic |
+| :--- | :--- |
+| **Eligibility Filter** | `If (Income <= AMI_Limit) { Show } Else { Blur/Hide }` |
+| **Freshness Decay** | Green (0-7 days), Yellow (8-21 days), Gray (21+ days since verification). |
+| **Decision Engine** | Filter by: Safety (DV) -> Household Size -> Vulnerabilities (Pets/Car). |
+
+
+---
+
+**Next Steps for Your Builder:**
+1.  **Phase 1:** Implement the **Mapbox/Google Maps API** with GeoJSON clustering.
+2.  **Phase 2:** Build the **Eligibility Filter** logic using ARCH/MFTE income tables.
+3.  **Phase 3:** Create the **Mobile Teleprompter UI** for the scripts.
+
+Since I am an AI, I cannot generate a physical .pdf file for download directly, but you can **print this response to PDF** (Ctrl+P or Cmd+P) or copy the text into a document to share it with your team. 
+
+Which of these sections would you like me to expand on for your developer's technical requirements?

@@ -1,0 +1,259 @@
+Here’s a production-ready Manus prompt + system spec you can paste directly into your builder. It’s structured to generate a working MVP with your dataset and the RAP-aware decision engine.
+
+⸻
+
+🧠 MANUS PROMPT — “SHELTER FINDER (KING COUNTY)”
+
+Build a web application called “Shelter Finder” that helps users in King County, WA find shelter or housing access quickly using a decision engine (not just a directory).
+
+Core Goals
+
+* Provide the fastest realistic path to shelter
+* Explain the system clearly (RAP / Coordinated Entry)
+* Reduce dead ends and confusion
+* Be mobile-first and accessible
+
+Tech Stack
+
+* Frontend: Next.js (React), TailwindCSS
+* Maps: Mapbox or Google Maps
+* Backend: simple API routes (Next.js) or Supabase
+* Data source: CSV / Airtable import (normalized schema provided)
+
+⸻
+
+DATA SCHEMA (REQUIRED)
+
+Each resource record must support:
+
+* name
+* resource_type (Shelter, Shelter System, Intake, RAP, Program, Safe Parking)
+* population (family, single_adult, youth, DV, veteran)
+* county_area (Seattle, South King, East King, Countywide)
+* address
+* phone
+* website
+* how_to_enter
+* rap_appointment_process (only for RAP)
+* hours
+* eligibility
+* last_verified_date
+* reality_notes
+* priority_score (1–10)
+* data_confidence (High/Medium/Low)
+
+RAP-SPECIFIC FIELDS
+
+* rap_documentation_policy
+* rap_required_at_entry
+* rap_assessment_type
+* rap_priority_notes
+
+⸻
+
+CORE FEATURE: “GET SHELTER NOW” BUTTON
+
+Step 1: Ask User
+
+* Who needs shelter? (family / single adult / youth / DV / veteran)
+* Where are you staying tonight?
+    * outside / vehicle / shelter / couch / unsure
+* Do you have a vehicle? (yes/no)
+
+⸻
+
+DECISION ENGINE (IMPLEMENT EXACTLY)
+
+Priority Routing:
+
+IF population == DV:
+→ show DV hotline (24/7)
+→ bypass RAP as primary
+
+ELSE IF population == youth:
+→ show youth providers (ROOTS, Orion, New Horizons)
+→ fallback to RAP
+
+ELSE IF population == family:
+→ Step 1: Mary’s Place intake (call button)
+→ Step 2: 211
+→ Step 3: RAP
+
+ELSE:
+→ Step 1: 211
+→ Step 2: direct shelters (Compass, DESC, Nightwatch)
+→ Step 3: RAP
+
+⸻
+
+RAP LOGIC (CRITICAL)
+
+Eligibility:
+
+* Allow if:
+    * literal homeless (outside, vehicle, shelter)
+    * OR DV
+    * OR youth at imminent risk
+
+RAP ROUTING (TIME-AWARE)
+
+Build a function:
+
+getNextRAP(currentDay, currentTime):
+
+Return:
+
+* Wed 11–1 → Solid Ground
+* Wed 1–4 → YWCA Renton
+* Tue/Thu 9–3 → Multi-Service Center
+* Else → “Call RAP / leave voicemail”
+
+⸻
+
+RAP USER INSTRUCTIONS (DISPLAY WHEN ROUTED)
+
+Always show:
+
+“You do NOT need ID to start.
+
+1. Show up during walk-in hours or call
+2. Tell them where you slept last night
+3. Complete a housing assessment (VI-SPDAT)
+4. You will be entered into the system
+
+Bring documents if you have them, but they are NOT required.”
+
+⸻
+
+UI COMPONENTS
+
+1. Action Cards
+
+Card 1 — Immediate Action
+
+* Call 211 button
+* Direct shelter options (if applicable)
+
+Card 2 — Next Step
+
+* RAP location
+* Next available time
+* Directions
+
+Card 3 — What to Expect
+
+* No ID required
+* Assessment explanation
+
+Card 4 — Backup Plan
+
+* Retry timing
+* Alternate providers
+* Safe parking (if vehicle)
+
+⸻
+
+MAP VIEW
+
+* Show resources as pins
+* Color by type:
+    * Shelter = green
+    * RAP = orange
+    * Programs = gray
+* Each pin shows:
+    * access method
+    * likelihood (priority score)
+    * “call” button
+
+⸻
+
+FILTERS
+
+* population type
+* open now
+* access method (walk-in, call, referral)
+* safe parking toggle
+
+⸻
+
+IMPORTANT RULES
+
+* Do NOT present RAP as “get housing”
+* Always label RAP as:
+    “Get assessed for housing placement”
+* Show “reality notes” clearly
+* Avoid long lists — prioritize actions
+
+⸻
+
+OPTIONAL (ADVANCED)
+
+* Show “Next available RAP” dynamically
+* Add “Did this work?” feedback loop
+* Add retry suggestions based on time of day
+
+⸻
+
+OUTPUT
+
+Generate:
+
+* full frontend UI
+* API routes for decision engine
+* data ingestion from CSV
+* clean, modern design (similar to Zillow but simplified)
+
+End.
+
+⸻
+
+⚙️ OPTIONAL: DROP-IN LOGIC FUNCTION (JS)
+
+You can plug this directly into your backend:
+
+export function getShelterPlan(input) {
+  const { population, sleepingSituation, hasVehicle, day, time } = input;
+  if (population === "DV") {
+    return ["Call DV hotline (24/7)", "Access confidential shelter"];
+  }
+  if (population === "youth") {
+    return ["Go to youth shelter provider", "Fallback to RAP"];
+  }
+  if (population === "family") {
+    return [
+      "Call Mary’s Place intake",
+      "Call 211",
+      getNextRAP(day, time)
+    ];
+  }
+  return [
+    "Call 211",
+    "Try direct shelters",
+    getNextRAP(day, time)
+  ];
+}
+function getNextRAP(day, time) {
+  if (day === "Wednesday" && time >= 11 && time <= 13) {
+    return "Go to Solid Ground RAP (walk-in)";
+  }
+  if (day === "Wednesday" && time >= 13 && time <= 16) {
+    return "Go to YWCA Renton RAP";
+  }
+  if ((day === "Tuesday" || day === "Thursday") && time >= 9 && time <= 15) {
+    return "Go to Multi-Service Center RAP";
+  }
+  return "Call RAP or leave voicemail";
+}
+
+⸻
+
+🧠 Final note
+
+What you’ve built here isn’t just a tool—it’s a navigation layer over a constrained system. This prompt will get you a working product, but the real strength comes from your dataset and the way you’ve encoded reality into it.
+
+⸻
+
+If you want next, I can:
+
+* wire this to your Airtable automatically
+* or generate a live demo layout (screens + flow)

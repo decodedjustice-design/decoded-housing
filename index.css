@@ -1,0 +1,221 @@
+/* 
+ * DECODED HOUSING — Editorial Civic Design System
+ * Design Movement: Editorial Civic (public-interest journalism meets civic utility)
+ * Primary: Deep forest green (#1B4332)
+ * Accent: Warm amber (#D97706)
+ * Background: Off-white linen (#FAFAF7)
+ * Typography: Playfair Display (display) + DM Sans (body) + JetBrains Mono (data)
+ */
+
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Custom brand tokens */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+}
+
+:root {
+  --radius: 0.5rem;
+
+  /* Brand colors */
+  --forest-green: #1B4332;
+  --forest-green-light: #2D6A4F;
+  --forest-green-pale: #D8F3DC;
+  --amber: #D97706;
+  --amber-light: #F59E0B;
+  --amber-pale: #FEF3C7;
+  --linen: #FAFAF7;
+  --linen-dark: #F0EFE9;
+
+  /* Semantic tokens */
+  --background: oklch(0.988 0.003 90);
+  --foreground: oklch(0.18 0.025 155);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.025 155);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.025 155);
+  --primary: oklch(0.32 0.085 155);
+  --primary-foreground: oklch(0.97 0.01 90);
+  --secondary: oklch(0.96 0.008 90);
+  --secondary-foreground: oklch(0.32 0.085 155);
+  --muted: oklch(0.95 0.005 90);
+  --muted-foreground: oklch(0.52 0.02 155);
+  --accent: oklch(0.65 0.15 60);
+  --accent-foreground: oklch(0.15 0.02 60);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.9 0.008 90);
+  --input: oklch(0.92 0.006 90);
+  --ring: oklch(0.32 0.085 155);
+  --chart-1: oklch(0.32 0.085 155);
+  --chart-2: oklch(0.65 0.15 60);
+  --chart-3: oklch(0.55 0.12 250);
+  --chart-4: oklch(0.55 0.12 310);
+  --chart-5: oklch(0.55 0.12 10);
+  --sidebar: oklch(0.32 0.085 155);
+  --sidebar-foreground: oklch(0.97 0.01 90);
+  --sidebar-primary: oklch(0.65 0.15 60);
+  --sidebar-primary-foreground: oklch(0.15 0.02 60);
+  --sidebar-accent: oklch(0.25 0.065 155);
+  --sidebar-accent-foreground: oklch(0.97 0.01 90);
+  --sidebar-border: oklch(0.25 0.065 155);
+  --sidebar-ring: oklch(0.65 0.15 60);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background-color: #FAFAF7;
+  }
+  h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+  }
+
+  /* Housing type badge colors */
+  .badge-arch {
+    background-color: #D8F3DC;
+    color: #1B4332;
+    border: 1px solid #95D5A3;
+  }
+  .badge-mfte {
+    background-color: #FEF3C7;
+    color: #92400E;
+    border: 1px solid #FCD34D;
+  }
+  .badge-section8 {
+    background-color: #DBEAFE;
+    color: #1E3A8A;
+    border: 1px solid #93C5FD;
+  }
+  .badge-transitional {
+    background-color: #EDE9FE;
+    color: #4C1D95;
+    border: 1px solid #C4B5FD;
+  }
+  .badge-shelter {
+    background-color: #FFE4E6;
+    color: #9F1239;
+    border: 1px solid #FCA5A5;
+  }
+
+  /* Insider note callout */
+  .insider-note {
+    background-color: #FFFBEB;
+    border-left: 3px solid #D97706;
+    border-radius: 0 0.375rem 0.375rem 0;
+  }
+
+  /* Verified stamp */
+  .verified-badge {
+    background-color: #D8F3DC;
+    color: #1B4332;
+    border: 1.5px solid #52B788;
+  }
+
+  /* Property card hover */
+  .property-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .property-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(27, 67, 50, 0.12);
+  }
+
+  /* Font utilities */
+  .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  .font-body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+  }
+  .font-data {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+  }
+}

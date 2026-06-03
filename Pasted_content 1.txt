@@ -1,0 +1,205 @@
+Build a fully functional web platform called “Decoded Housing” that helps users find affordable housing, specifically:
+
+- ARCH housing
+- MFTE units
+- Section 8–accepting apartments
+- Transitional housing
+- Shelters
+
+The platform should function similarly to Apartments.com or Zillow, but focused entirely on income-restricted and hidden housing inventory.
+
+---
+
+## CORE GOAL
+
+Create a searchable, filterable housing database that allows users to:
+
+- Search by city (starting with Bellevue, WA)
+- Filter by housing type (ARCH, MFTE, Section 8, Transitional, Shelter)
+- View property-level listings (not just available units)
+- Access contact information and application instructions
+- See insider notes (e.g., “must ask for ARCH,” “waitlist only”)
+
+---
+
+## DATA INTEGRATION
+
+Use Airtable as the backend database.
+
+Import and structure the Bellevue ARCH/MFTE dataset from the provided spreadsheet.
+
+Create the following Airtable tables:
+
+### 1. Properties Table
+Fields:
+- Property Name
+- City
+- Address
+- Housing Types (multi-select: ARCH, MFTE, Section 8, Transitional, Shelter)
+- Unit Types (Studio, 1BR, 2BR, etc.)
+- Year Built (if available)
+- Total Units
+- Affordable Units (if available)
+- Contact Email
+- Contact Phone
+- Website URL
+- Notes (free text)
+- Verified Status (Yes/No)
+- Last Contacted Date
+
+---
+
+### 2. Availability Intelligence Table
+Fields:
+- Property (linked)
+- Has Waitlist (Yes/No)
+- Waitlist Details
+- Upcoming Units (Yes/No)
+- Last Verified
+- Source (user submission, direct call, etc.)
+
+---
+
+### 3. User Submissions Table
+Fields:
+- Property
+- User Notes
+- Date Submitted
+- Contact Outcome (no response / waitlist / available / denied)
+- Optional: User Email (for follow-up)
+
+---
+
+## FRONTEND REQUIREMENTS
+
+Design a clean, modern interface inspired by Zillow/Apartments.com:
+
+### Homepage
+- Search bar: “Enter city or ZIP”
+- Quick filters: ARCH, MFTE, Section 8, Transitional, Shelter
+- CTA: “Find Housing That’s Actually Available”
+
+---
+
+### Search Results Page
+- Grid + map layout
+- Property cards showing:
+  - Name
+  - Location
+  - Housing types (badges)
+  - Notes preview
+- Filters sidebar:
+  - City
+  - Housing type
+  - Bedrooms
+  - Verified only toggle
+
+---
+
+### Property Detail Page
+Include:
+- Full property info
+- Housing types available
+- Contact info
+- “How to Apply” instructions
+- Insider notes (IMPORTANT)
+- Availability signals (waitlist, upcoming units)
+- User-submitted updates
+
+---
+
+### Scripts Section
+A dedicated page with exact scripts users can copy:
+
+Example:
+
+“Hi, I’m looking for an ARCH income-restricted unit. Do you currently have any available or a waitlist I can join?”
+
+Include explanation of why this works.
+
+---
+
+### “How It Works” Page
+Explain:
+- Why affordable units are hidden
+- Difference between ARCH and MFTE
+- Why contacting directly is required
+
+---
+
+## SMART FEATURES (IMPORTANT)
+
+- Tag properties as “Likely to Have Availability” based on:
+  - Size of property
+  - Recency of updates
+  - User activity
+
+- Highlight:
+  - Recently verified properties
+  - Properties with active waitlists
+
+---
+
+## MAP FUNCTIONALITY
+
+Include an interactive map:
+- Pins for each property
+- Color-coded by housing type
+- Clickable to open property preview
+
+---
+
+## USER EXPERIENCE
+
+- Mobile-first design
+- Fast loading
+- Simple navigation
+- No login required initially
+
+---
+
+## FUTURE FEATURES (structure for later)
+
+- User accounts
+- Saved properties
+- Alerts for availability
+- Email notifications
+
+---
+
+## DESIGN STYLE
+
+- Clean, minimal, trustworthy
+- White background with soft neutral tones
+- Card-based layout
+- Avoid clutter
+
+---
+
+## INITIAL DATA FOCUS
+
+Start with:
+- Bellevue, WA
+- Expandable to Redmond, Issaquah, Kirkland
+
+---
+
+## BRAND TONE
+
+- Clear
+- Honest
+- Direct
+- “This is how it actually works”
+
+Avoid corporate or legal language.
+
+---
+
+## OUTPUT
+
+Deliver:
+1. Fully functional web app
+2. Airtable-connected backend
+3. Seeded database with Bellevue properties
+4. Clean UI similar to Zillow/Apartments.com
+5. Ready for deployment

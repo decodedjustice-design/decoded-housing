@@ -1,0 +1,51 @@
+group,program_name,category,population_served,priority_score,access_speed,barrier_level,referral_required,time_sensitivity,service_level,entry_type,contact_details,how_to_enter,rap_appointment_process,website,address,county_area,eligibility,hours,last_verified_date,pet_policy,notes
+
+Emergency,Severe Weather Shelter Activation,Emergency activation,All populations,10,immediate,low,no,high,emergency,activation,"KCRHA alerts","Check activation page",Activation-based,https://kcrha.org/severe-weather-shelter/,"King County WA",Countywide,"Anyone needing shelter during activation","Activation dependent","2026-04-23","varies","Top priority when active; real-time system"
+
+Families,King County Emergency Family Shelter Intake Line,Family intake,Families with children,10,immediate,low,no,high,navigation,call,"(206) 245-1026","Call for same-day screening","Daily call-in system",https://ccwa.doh.wa.gov,"King County WA",Countywide,"Families with children; literal homelessness","Daily 8:30am–11:30pm","2026-04-23","case-by-case","Primary family shelter access"
+
+Families,Mary's Place Shelter Network,Family shelter,Families with children,10,same_day,low,no,high,emergency,call,"(206) 245-1026","Call intake line","Daily screening via intake line",https://www.marysplaceseattle.org/,"King County WA",Countywide,"Families with children","Daily intake","2026-04-23","pets allowed","Largest family shelter provider"
+
+Seattle,Operation Nightwatch Shelter Access,Emergency support,Single adults,9,immediate,low,no,high,emergency,walk-in,"(206) 323-4359","Drop-in evenings","not applicable",https://www.seattlenightwatch.org/,"302 14th Ave S Seattle WA",Seattle,"Adults experiencing homelessness","Evenings","2026-04-23","not listed","Meals + transport; low barrier"
+
+Seattle,ROOTS Young Adult Shelter,Emergency shelter,Youth 18-25,9,immediate,low,no,high,emergency,walk-in,"(206) 632-1635","Arrive 8pm–8:30pm","Nightly intake window",http://rootsinfo.org,"4541 19th Ave NE Seattle WA",Seattle,"Youth 18-25","Night intake","2026-04-23","pets allowed","Critical youth access"
+
+Countywide,LifeWire DV Shelter Access,Domestic violence services,All genders,10,immediate,low,no,high,emergency,call,"(425) 746-1940","Call hotline","24/7 access",http://lifewire.org,"King County WA",Countywide,"DV survivors","24/7","2026-04-23","confidential","Confidential shelter access"
+
+South King,DAWN DV Shelter,Domestic violence shelter,Adults and families,10,immediate,low,no,high,emergency,call,"(425) 656-7867","Call intake","24/7",http://dawnrising.org,"Kent WA",South King,"DV survivors","24/7","2026-04-23","confidential","DV shelter + advocacy"
+
+Countywide,Safe Place Youth Hotline,Youth hotline,Youth,10,immediate,low,no,high,navigation,call,"1-800-422-8336","Call or text","24/7",https://www.spl.org/programs-and-services/teens/safe-place,"King County WA",Countywide,"Youth in crisis","24/7","2026-04-23","not applicable","Immediate youth access"
+
+Seattle,Seattle Union Gospel Mission Men's Shelter,Emergency shelter,Men 18+,8,same_day,medium,no,high,emergency,walk-in,"(206) 622-5177","First-come intake","not applicable",http://ugm.org,"318 2nd Ave Ext S Seattle WA",Seattle,"Men 18+; ID required","Program-based","2026-04-23","no pets","Structured 90-day program"
+
+Seattle,New Horizons Shelter,Emergency shelter,Youth up to 25,8,same_day,low,no,high,emergency,walk-in,"(206) 374-0866","Call or drop-in","Day/night access",http://nhmin.org,"2709 3rd Ave Seattle WA",Seattle,"Youth up to 25","Day + night","2026-04-23","not listed","Mixed access youth shelter"
+
+Seattle,YouthCare South Seattle Shelter,Emergency shelter,Youth 18-24,8,same_day,low,no,high,emergency,walk-in,"(206) 331-2363","Night intake","Evening entry",http://youthcare.org,"9416 Rainier Ave S Seattle WA",Seattle,"Youth 18-24","8pm–8:30am","2026-04-23","pets allowed","Full-service youth shelter"
+
+Seattle,Bread of Life Mission Shelter,Emergency shelter,Men 18+,7,same_day,low,no,medium,emergency,walk-in,"(206) 682-3579","Walk-in","not applicable",http://breadoflifemission.org,"97 S Main St Seattle WA",Seattle,"Men 18+","Daily","2026-04-23","not listed","Basic shelter + meals"
+
+East King,Sophia Way Shelter,Emergency shelter,Women,7,delayed,medium,yes,high,emergency,call,"(425) 598-2608","Call intake cycles","Limited openings",http://sophiaway.org,"Bellevue WA",East King,"Women","24/7 shelter","2026-04-23","not listed","Intake opens periodically"
+
+Seattle,YWCA Pathways for Women,Emergency shelter,Women and mothers,7,same_day,medium,yes,medium,transitional,call,"(425) 774-9843 x226","Call intake","Program intake",http://ywcaworks.org,"Lynnwood WA",North King,"Women with children","Program-based","2026-04-23","not listed","45-day structured shelter"
+
+Seattle,SHARE/WHEEL Shelter Screenings,Intake,Singles 18+,6,delayed,medium,no,high,navigation,scheduled,"(206) 448-7889","Attend screening","Scheduled screening",http://sharewheel.org,"1902 2nd Ave Seattle WA",Seattle,"Adults 18+; sobriety required","Scheduled","2026-04-23","service animals only","Gateway system"
+
+East King,PorchLight Shelter,Emergency shelter,Men,5,delayed,high,no,medium,emergency,screened,"(425) 698-1295","Screening required","not applicable",http://porchlightcares.org,"Bellevue WA",East King,"Men; ID + sobriety required","Varies","2026-04-23","not listed","High barrier shelter"
+
+South King,Hospitality House Shelter,Emergency shelter,Women,4,delayed,high,yes,low,transitional,call,"(206) 242-1860","Phone screening","not applicable",http://hospitalityhousesouthking.org,"Burien WA",South King,"Women; restrictions apply","Program-based","2026-04-23","no pets","Not low barrier"
+
+South King,Anchor Shelter System Federal Way,Emergency shelter,Adults and families,8,same_day,medium,sometimes,medium,emergency,referral,"(253) 893-7895","Call or referral","not applicable",http://ccsww.org,"Federal Way WA",South King,"Program eligibility","24/7","2026-04-23","not listed","Full-service shelter system"
+
+East King,Friends of Youth Services,Shelter + services,Youth and families,6,delayed,medium,sometimes,medium,supportive,referral,"(425) 869-6490","Call intake","not applicable",http://friendsofyouth.org,"Kirkland WA",East King,"Youth and families","Varies","2026-04-23","not listed","Full youth support"
+
+Seattle,Solid Ground North Seattle RAP,Regional Access Point,All populations,6,delayed,low,no,high,navigation,scheduled,"(206) 694-6833","Leave voicemail or attend walk-in","Walk-in Wed 11am–1pm; voicemail otherwise",http://solid-ground.org,"Seattle WA",Seattle,"Literal homelessness required","Limited walk-in","2026-04-23","not applicable","Coordinated Entry access"
+
+Seattle,Catholic Community Services RAP,Regional Access Point,All populations,6,delayed,low,no,high,navigation,appointment,"(206) 328-5900","Call or appointment","By appointment or limited drop-in",https://kcrha.org,"Seattle WA",Seattle,"Literal homelessness","By appointment","2026-04-23","not applicable","CEA entry point"
+
+East King,YWCA Renton RAP,Regional Access Point,All populations,6,delayed,low,no,high,navigation,scheduled,"(425) 523-1377","Walk-in or call","Wed 1pm–4pm walk-in",https://kcrha.org,"Renton WA",East King,"Literal homelessness","Weekly","2026-04-23","not applicable","CEA entry"
+
+South King,Multi-Service Center RAP,Regional Access Point,All populations,6,delayed,low,no,high,navigation,scheduled,"RAP@mschelps.org","Walk-in","Tue/Thu 9am–3pm",https://kcrha.org,"Federal Way WA",South King,"Literal homelessness","Scheduled","2026-04-23","not applicable","CEA entry"
+
+East King,Lake Washington UMC RAP,Regional Access Point,All populations,6,delayed,low,no,high,navigation,scheduled,"(206) 328-5900","Walk-in or message","Wed 9am–12pm",https://kcrha.org,"Kirkland WA",East King,"Literal homelessness","Weekly","2026-04-23","not applicable","CEA entry"
+
+Countywide,Safe Parking Programs,Safe parking,Vehicle dwellers,8,same_day,low,sometimes,medium,emergency,referral,"211 or provider","Referral system","Varies by site",https://kcrha.org,"King County WA",Countywide,"Must be living in vehicle","Overnight","2026-04-23","case-by-case","Critical alternative shelter type"
