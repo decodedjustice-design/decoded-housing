@@ -17,6 +17,7 @@ import { Route as SearchRouteImport } from './routes/search'
 import { Route as SavedSheltersRouteImport } from './routes/saved-shelters'
 import { Route as SavedRouteImport } from './routes/saved'
 import { Route as StableHousingNavigatorRouteImport } from './routes/stable-housing-navigator'
+import { Route as PropertiesRouteImport } from './routes/properties'
 import { Route as PhoneScriptsRouteImport } from './routes/phone-scripts'
 import { Route as OurStoryRouteImport } from './routes/our-story'
 import { Route as HousingShelterRouteImport } from './routes/housing-shelter'
@@ -88,6 +89,11 @@ const SavedRoute = SavedRouteImport.update({
 const StableHousingNavigatorRoute = StableHousingNavigatorRouteImport.update({
   id: '/stable-housing-navigator',
   path: '/stable-housing-navigator',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PropertiesRoute = PropertiesRouteImport.update({
+  id: '/properties',
+  path: '/properties',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PhoneScriptsRoute = PhoneScriptsRouteImport.update({
@@ -268,6 +274,7 @@ export interface FileRoutesByFullPath {
   '/housing': typeof HousingRouteWithChildren
   '/housing-shelter': typeof HousingShelterRoute
   '/our-story': typeof OurStoryRoute
+  '/properties': typeof PropertiesRoute
   '/phone-scripts': typeof PhoneScriptsRoute
   '/saved': typeof SavedRoute
   '/saved-shelters': typeof SavedSheltersRoute
@@ -310,6 +317,7 @@ export interface FileRoutesByTo {
   '/housing': typeof HousingRouteWithChildren
   '/housing-shelter': typeof HousingShelterRoute
   '/our-story': typeof OurStoryRoute
+  '/properties': typeof PropertiesRoute
   '/phone-scripts': typeof PhoneScriptsRoute
   '/saved': typeof SavedRoute
   '/saved-shelters': typeof SavedSheltersRoute
@@ -353,6 +361,7 @@ export interface FileRoutesById {
   '/housing': typeof HousingRouteWithChildren
   '/housing-shelter': typeof HousingShelterRoute
   '/our-story': typeof OurStoryRoute
+  '/properties': typeof PropertiesRoute
   '/phone-scripts': typeof PhoneScriptsRoute
   '/saved': typeof SavedRoute
   '/saved-shelters': typeof SavedSheltersRoute
@@ -397,6 +406,7 @@ export interface FileRouteTypes {
     | '/housing'
     | '/housing-shelter'
     | '/our-story'
+    | '/properties'
     | '/phone-scripts'
     | '/saved'
     | '/saved-shelters'
@@ -439,6 +449,7 @@ export interface FileRouteTypes {
     | '/housing'
     | '/housing-shelter'
     | '/our-story'
+    | '/properties'
     | '/phone-scripts'
     | '/saved'
     | '/saved-shelters'
@@ -481,6 +492,7 @@ export interface FileRouteTypes {
     | '/housing'
     | '/housing-shelter'
     | '/our-story'
+    | '/properties'
     | '/phone-scripts'
     | '/saved'
     | '/saved-shelters'
@@ -524,6 +536,7 @@ export interface RootRouteChildren {
   HousingRoute: typeof HousingRouteWithChildren
   HousingShelterRoute: typeof HousingShelterRoute
   OurStoryRoute: typeof OurStoryRoute
+  PropertiesRoute: typeof PropertiesRoute
   PhoneScriptsRoute: typeof PhoneScriptsRoute
   SavedRoute: typeof SavedRoute
   SavedSheltersRoute: typeof SavedSheltersRoute
@@ -591,6 +604,13 @@ declare module '@tanstack/react-router' {
       path: '/stable-housing-navigator'
       fullPath: '/stable-housing-navigator'
       preLoaderRoute: typeof StableHousingNavigatorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/properties': {
+      id: '/properties'
+      path: '/properties'
+      fullPath: '/properties'
+      preLoaderRoute: typeof PropertiesRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/phone-scripts': {
@@ -911,6 +931,7 @@ const rootRouteChildren: RootRouteChildren = {
   HousingRoute: HousingRouteWithChildren,
   HousingShelterRoute: HousingShelterRoute,
   OurStoryRoute: OurStoryRoute,
+  PropertiesRoute: PropertiesRoute,
   PhoneScriptsRoute: PhoneScriptsRoute,
   SavedRoute: SavedRoute,
   SavedSheltersRoute: SavedSheltersRoute,

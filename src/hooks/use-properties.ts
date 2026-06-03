@@ -105,12 +105,38 @@ export function useProperties(filters: PropertyFilters) {
   const [rawData, setRawData] = useState<Property[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [source, setSource] = useState<"supabase" | "static" | "loading">("loading");
 
   useEffect(() => {
     let cancelled = false;
 
     async function fetchProperties() {
       setError(null);
+      setSource("loading");
+      const env = import.meta.env as Record<string, string | undefined>;
+      const SUPABASE_URL = env.VITE_SUPABASE_URL || env.SUPABASE_URL;
+      const SUPABASE_PUBLISHABLE_KEY = env.VITE_SUPABASE_PUBLISHABLE_KEY || env.SUPABASE_PUBLISHABLE_KEY;
+
+      if (!SUPABASE_URL || !SUPABASE_PUBLISHABLE_KEY) {
+        console.info("[housing] Supabase env missing; loading static property source");
+        try {
+          const fallbackRows = await loadStaticFallback();
+          if (cancelled) return;
+          setRawData(fallbackRows);
+          setSource("static");
+          setError("Supabase environment variables are not configured, so the static property file is being used.");
+          setLoading(false);
+          return;
+        } catch (fallbackError) {
+          console.error("[housing] Static property source failed", fallbackError);
+          setError("Unable to load properties. Please try again later.");
+          setRawData([]);
+          setSource("static");
+          setLoading(false);
+          return;
+        }
+      }
+
       console.info("[housing] Loading canonical property source: supabase.properties");
 
       const { data: rows, error: dbError } = await supabase.from("properties").select("*");
@@ -123,12 +149,14 @@ export function useProperties(filters: PropertyFilters) {
           if (cancelled) return;
           console.info("[housing] Fallback property source loaded", { count: fallbackRows.length });
           setRawData(fallbackRows);
+          setSource("static");
           setLoading(false);
           return;
         } catch (fallbackError) {
           console.error("[housing] Fallback property source failed", fallbackError);
           setError("Unable to load properties. Please try again later.");
           setRawData([]);
+          setSource("static");
           setLoading(false);
           return;
         }
@@ -137,6 +165,7 @@ export function useProperties(filters: PropertyFilters) {
       const normalized = (rows ?? []) as Property[];
       console.info("[housing] Supabase property source loaded", { count: normalized.length });
       setRawData(normalized);
+      setSource("supabase");
       setLoading(false);
     }
 
@@ -148,5 +177,5 @@ export function useProperties(filters: PropertyFilters) {
 
   const data = useMemo(() => applyFilters(rawData, filters), [rawData, filters]);
 
-  return { data, loading, error, totalLoaded: rawData.length };
+  return { data, loading, error, totalLoaded: rawData.length, source };
 }
