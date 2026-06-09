@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "format": "prettier --write .",
-    "enrich:property-images": "node scripts/enrich-property-images.mjs"
+    "enrich:property-images": "node scripts/enrich-property-images.mjs",
+    "validate:housing-import": "node scripts/validate-housing-import-template.mjs"
   },
   "dependencies": {
     "@cloudflare/vite-plugin": "^1.25.5",

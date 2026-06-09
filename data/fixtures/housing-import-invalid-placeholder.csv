@@ -1,0 +1,2 @@
+external_property_id,property_name,address_line1,address_line2,city,state,postal_code,county,program_type,waitlist_status,availability_status,verification_status,source_url,source_label,phone,website,eligibility_summary,bedroom_sizes,ami_levels,accessibility_notes,application_method,notes_public,unexpected_column
+1.23E+08,Placeholder Homes,123 Example Street,,Exampleville,WA,00000,Example County,unsupported_program,maybe,soon,verified,,,,,,Studio,50%,,online,staff only intake note,extra
